@@ -315,6 +315,7 @@ footer {
 
   /*changes reflects on screen with a width of 720px and below*/
   nav {
+    background-color: #1495cc;
     padding: 1.5rem 1rem;
   }
 
