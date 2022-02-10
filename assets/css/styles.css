@@ -20,10 +20,11 @@
 
 
 /* Variables end */
+
+
 /* .landin-page {
     background-image: url("../images/computer-01.jpg");
 } */
-
 
 html {
     scroll-behavior: smooth;
@@ -68,9 +69,11 @@ nav {
     background-color: #0ac0e9;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
+
 .header {
     color: #0ac0e9;
 }
+
 nav a {
     color: #F5F5F5;
     transition: var(--transition);
@@ -319,22 +322,25 @@ footer {
     height: 3rem;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-  }
-  
-  html {
+}
+
+html {
     font-size: 100%;
-  }
-  body {
+}
+
+body {
     background-color: #000000;
     font-family: Arial, sans-serif;
     color: #ffffff;
     line-height: 1.5;
-  }
-  
-  .hero { 
-    position: relative; 
+}
+
+.hero {
+    position: relative;
     height: 64vh;
     width: 100%;
     display: flex;
@@ -343,28 +349,23 @@ footer {
     background-image: url('../images/computer-01.jpg');
     background-size: cover;
     opacity: 0.75;
+}
 
-  }
-  
-  h1 {
+h1 {
     position: relative;
-    color: #ffffff;  
+    color: #ffffff;
     line-height: 0.9;
     text-align: center;
-  }
-  
-
-
+}
 
 @media screen and (max-width: 720px) {
-
     /*changes reflects on screen with a width of 720px and below*/
     nav {
         background-color: #1495cc;
         padding: 1.5rem 1rem;
     }
     .hero {
-        background-image: url("/assets/images/computer-03.jpg");
+        background-image: url("../images/computer-03.jpg");
     }
     nav ul {
         position: fixed;
@@ -377,65 +378,51 @@ footer {
         transform: translateX(120%);
         transition: transform 0.5s ease-in;
     }
-
     nav ul li {
         margin: 8px;
     }
-
     .burger-menu {
         display: block;
     }
-
     nav ul.show {
         transform: translateX(0);
     }
-
     nav a {
         color: var(--primary-color);
     }
-
     .hero {
         margin-top: -4rem;
         flex-direction: column;
         gap: 8.5em;
     }
-
     .hero img {
         height: 27.5rem;
         width: 27.5rem;
     }
-
     .bio {
         margin-top: -7rem;
         width: 20.5rem;
     }
-
     .more-about {
         margin-top: 2rem;
         padding: 1rem 3.5rem;
     }
-
     .more-about h2 {
         text-align: center;
     }
-
     .more-about p {
         text-align: justify;
     }
-
     .icon {
         width: 5.875rem;
         height: 5.25rem;
     }
-
     .projects-container {
         flex-direction: column;
     }
-
     .project-container {
         width: 20.875rem;
     }
-
     .contact-form-container {
         max-width: 23.75rem;
     }
@@ -446,26 +433,21 @@ footer {
         padding: 0;
     }
     .hero {
-        background-image: url("/assets/images/computer-03.jpg");
+        background-image: url("../images/computer-03.jpg");
     }
-
     .hero img {
         height: 29.5rem;
         width: 24rem;
     }
-
     .bio {
         width: 18.3rem;
     }
-
     .project-container {
         width: 17.875rem;
     }
-
     .contact-form-container {
         max-width: 17.75rem;
     }
-
     .img-container {
         /* height: 66%; */
         width: 103%;
