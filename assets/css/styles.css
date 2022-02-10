@@ -363,7 +363,9 @@ footer {
         background-color: #1495cc;
         padding: 1.5rem 1rem;
     }
-
+    .hero {
+        background-image: url("/assets/images/computer-03.jpg");
+    }
     nav ul {
         position: fixed;
         background-color: var(--bg-color);
