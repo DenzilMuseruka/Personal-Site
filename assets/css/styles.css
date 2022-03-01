@@ -17,6 +17,8 @@
     --line-height: 1.7rem;
     --transition: 0.3s;
 }
+
+
 /*
 ==========================
 Template: Modern - Architecture & Interior design Template
@@ -24,6 +26,7 @@ Author: thememejestic team
 Version: 2.0  
 ==========================
 */
+
 
 /*=======================================
   || CSS TABLE CONTENT ||  
@@ -572,6 +575,7 @@ Version: 2.0
 ======================================
 */
 
+
 /*======================================
 1. GENERAL 
 ======================================*/
@@ -643,6 +647,7 @@ table {
     background-color: transparent;
     width: 100%;
 }
+
 table thead th {
     color: #333;
 }
@@ -672,15 +677,19 @@ table {
 .overflow-hide {
     overflow: hidden;
 }
+
 .overflow-auto {
     overflow: auto;
 }
+
 .clear {
     clear: both;
 }
+
 .pull-none {
     float: none;
 }
+
 ::selection {
     background: #484848;
     color: #fff;
@@ -702,6 +711,7 @@ table {
     }
 }
 
+
 /*======================================
 2. HEADING & TITLE 
 ======================================*/
@@ -714,6 +724,7 @@ h5,
 h6 {
     margin-bottom: 24px;
 }
+
 h1 a,
 h2 a,
 h3 a,
@@ -722,6 +733,7 @@ h5 a,
 h6 a {
     color: #000;
 }
+
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -786,12 +798,15 @@ h6 {
 .display-inline {
     display: inline;
 }
+
 .display-inline-block {
     display: inline-block;
 }
+
 .display-block {
     display: block;
 }
+
 
 /*======================================
 3. TEXT & PARAGRAPH 
@@ -801,49 +816,63 @@ p {
     line-height: 24px;
     margin-bottom: 24px;
 }
+
 strong {
     font-weight: 600;
 }
 
+
 /*-------------------------------------
 	1. text align
 ------------------------------------ */
+
 .text-left {
     text-align: left;
 }
+
 .text-center {
     text-align: center;
 }
+
 .text-right {
     text-align: right;
 }
+
 .text-justify {
     text-align: justify;
 }
 
+
 /*-------------------------------------
 	2. text vertical align
 ------------------------------------ */
+
 .v-align-t {
     vertical-align: top;
 }
+
 .v-align-m {
     vertical-align: middle;
 }
+
 .v-align-b {
     vertical-align: bottom;
 }
 
+
 /*-------------------------------------
 	3. text no line brack
 ------------------------------------ */
+
 .text-nowrap {
     white-space: nowrap;
 }
 
+
 /*-------------------------------------
 	4. text transform
 ------------------------------------ */
+
 .text-lowercase {
     text-transform: lowercase;
 }
@@ -856,126 +885,161 @@ strong {
     text-transform: capitalize;
 }
 
+
 /*-------------------------------------
 	5. text size
 ------------------------------------ */
+
 .font-12 {
     font-size: 12px;
     line-height: 18px;
 }
+
 .font-14 {
     font-size: 14px;
     line-height: 20px;
 }
+
 .font-16 {
     font-size: 16px;
     line-height: 22px;
 }
+
 .font-18 {
     font-size: 18px;
     line-height: 24px;
 }
+
 .font-20 {
     font-size: 20px;
     line-height: 26px;
 }
+
 .font-22 {
     font-size: 22px;
     line-height: 28px;
 }
+
 .font-24 {
     font-size: 24px;
     line-height: 30px;
 }
+
 .font-26 {
     font-size: 26px;
     line-height: 32px;
 }
+
 .font-28 {
     font-size: 28px;
     line-height: 34px;
 }
+
 .font-30 {
     font-size: 30px;
     line-height: 36px;
 }
+
 .font-32 {
     font-size: 32px;
     line-height: 38px;
 }
+
 .font-34 {
     font-size: 34px;
     line-height: 40px;
 }
+
 .font-36 {
     font-size: 36px;
     line-height: 42px;
 }
+
 .font-38 {
     font-size: 38px;
     line-height: 44px;
 }
+
 .font-40 {
     font-size: 40px;
     line-height: 46px;
 }
+
 .font-50 {
     font-size: 50px;
     line-height: 56px;
 }
+
 .font-60 {
     font-size: 60px;
     line-height: 66px;
 }
+
 .font-70 {
     font-size: 70px;
     line-height: 76px;
 }
+
 .font-80 {
     font-size: 80 px;
     line-height: 86px;
 }
 
+
 /*-------------------------------------
 	6. text bold
 ------------------------------------ */
+
 .font-weight-300 {
     font-weight: 300;
 }
+
 .font-weight-400 {
     font-weight: 400;
 }
+
 .font-weight-500 {
     font-weight: 500;
 }
+
 .font-weight-600 {
     font-weight: 600;
 }
+
 .font-weight-700 {
     font-weight: 700;
 }
+
 .font-weight-800 {
     font-weight: 800;
 }
+
 .font-weight-900 {
     font-weight: 900;
 }
 
+
 /*-------------------------------------
 	7. Letter Spacing
 ------------------------------------ */
+
 .letter-spacing-2 {
     letter-spacing: 2px;
 }
+
 .letter-spacing-3 {
     letter-spacing: 3px;
 }
+
 .letter-spacing-4 {
     letter-spacing: 4px;
 }
+
 .letter-spacing-5 {
     letter-spacing: 5px;
 }
+
+
 /*======================================
 4. LISTING STYLES 
 ======================================*/
@@ -986,6 +1050,7 @@ ol {
     list-style-position: outside;
     padding: 0;
 }
+
 ul,
 ol {
     margin-bottom: 24px;
@@ -1000,9 +1065,11 @@ dl {
     margin-left: 0;
     margin-bottom: 30px;
 }
+
 dl dd {
     margin-bottom: 10px;
 }
+
 .list-simple li {
     margin-bottom: 10px;
 }
@@ -1070,52 +1137,68 @@ dl dd {
 .list-circle li:before {
     content: "\f111";
 }
+
 .list-angle-right li:before {
     content: "\f105";
 }
+
 .list-arrow li:before {
     content: "\f0da";
 }
+
 .list-check li:before {
     content: "\f00c";
 }
+
 .list-checked li:before {
     content: "\f046";
 }
+
 .list-check-circle li:before {
     content: "\f058";
 }
+
 .list-chevron-circle li:before {
     content: "\f138";
 }
+
 .list-arrow-circle li:before {
     content: "\f0a9";
 }
+
 .list-times-circle li:before {
     content: "\f057";
 }
 
+
 /*-------------------------------------
 	1. listing before icon color css
 -------------------------------------*/
+
 ul.primary li:before {
     color: #ffbc13;
 }
+
 ul.secondry li:before {
     color: #77c04b;
 }
+
 ul.black li:before {
     color: #000;
 }
+
 ul.white li:before {
     color: #fff;
 }
+
 ul.orange li:before {
     color: #ff6600;
 }
+
 ul.green li:before {
     color: #00cc00;
 }
+
 ul.red li:before {
     color: #ff3737;
 }
@@ -1127,20 +1210,24 @@ ol.no-margin {
     list-style: none;
 }
 
+
 /*-------------------------------------
 	2. listing before numbers
 -------------------------------------*/
+
 ol.list-num-count {
     counter-reset: li;
     padding-left: 0;
 }
-ol.list-num-count > li {
+
+ol.list-num-count>li {
     position: relative;
     margin: 0 0 6px 30px;
     padding: 4px 8px;
     list-style: none;
 }
-ol.list-num-count > li:before {
+
+ol.list-num-count>li:before {
     content: counter(li, decimal);
     counter-increment: li;
     position: absolute;
@@ -1155,871 +1242,1134 @@ ol.list-num-count > li:before {
     text-align: center;
     font-size: 12px;
 }
-ol.list-num-count.lower-alpha > li:before {
+
+ol.list-num-count.lower-alpha>li:before {
     content: counter(li, lower-alpha);
 }
-ol.list-num-count.upper-alpha > li:before {
+
+ol.list-num-count.upper-alpha>li:before {
     content: counter(li, upper-alpha);
 }
-ol.list-num-count.list-outline > li:before {
+
+ol.list-num-count.list-outline>li:before {
     border: 1px solid #000;
     background-color: transparent;
     color: #000;
 }
-ol.list-num-count.list-outline-none > li:before {
+
+ol.list-num-count.list-outline-none>li:before {
     background-color: transparent;
     color: #000;
 }
+
 
 /*======================================
 5. BOX SPACING (Padding & Margin)
 ======================================*/
 
+
 /*-------------------------------------
 	1.1 padding (around)
 -------------------------------------*/
+
 .p-a0 {
     padding: 0;
 }
+
 .p-a5 {
     padding: 5px;
 }
+
 .p-a10 {
     padding: 10px;
 }
+
 .p-a15 {
     padding: 15px;
 }
+
 .p-a20 {
     padding: 20px;
 }
+
 .p-a25 {
     padding: 25px;
 }
+
 .p-a30 {
     padding: 30px;
 }
+
 .p-a40 {
     padding: 40px;
 }
+
 .p-a50 {
     padding: 50px;
 }
+
 .p-a60 {
     padding: 60px;
 }
+
 .p-a70 {
     padding: 70px;
 }
+
 .p-a80 {
     padding: 80px;
 }
+
 .p-a90 {
     padding: 90px;
 }
+
 .p-a100 {
     padding: 100px;
 }
+
 .p-a110 {
     padding: 110px;
 }
+
 .p-a120 {
     padding: 120px;
 }
+
 .p-a130 {
     padding: 130px;
 }
+
 .p-a140 {
     padding: 140px;
 }
+
 .p-a150 {
     padding: 150px;
 }
 
+
 /*-------------------------------------
 	1.2 Padding (top)
 -------------------------------------*/
+
 .p-t0 {
     padding-top: 0;
 }
+
 .p-t5 {
     padding-top: 5px;
 }
+
 .p-t10 {
     padding-top: 10px;
 }
+
 .p-t15 {
     padding-top: 15px;
 }
+
 .p-t20 {
     padding-top: 20px;
 }
+
 .p-t30 {
     padding-top: 30px;
 }
+
 .p-t40 {
     padding-top: 40px;
 }
+
 .p-t50 {
     padding-top: 50px;
 }
+
 .p-t60 {
     padding-top: 60px;
 }
+
 .p-t70 {
     padding-top: 70px;
 }
+
 .p-t80 {
     padding-top: 80px;
 }
+
 .p-t90 {
     padding-top: 90px;
 }
+
 .p-t100 {
     padding-top: 100px;
 }
+
 .p-t110 {
     padding-top: 110px;
 }
+
 .p-t120 {
     padding-top: 120px;
 }
+
 .p-t130 {
     padding-top: 130px;
 }
+
 .p-t140 {
     padding-top: 140px;
 }
+
 .p-t150 {
     padding-top: 150px;
 }
 
+
 /*-------------------------------------
     1.3 Padding (bottom)
 -------------------------------------*/
+
 .p-b0 {
     padding-bottom: 0;
 }
+
 .p-b5 {
     padding-bottom: 5px;
 }
+
 .p-b10 {
     padding-bottom: 10px;
 }
+
 .p-b15 {
     padding-bottom: 15px;
 }
+
 .p-b20 {
     padding-bottom: 20px;
 }
+
 .p-b30 {
     padding-bottom: 30px;
 }
+
 .p-b40 {
     padding-bottom: 40px;
 }
+
 .p-b50 {
     padding-bottom: 50px;
 }
+
 .p-b60 {
     padding-bottom: 60px;
 }
+
 .p-b70 {
     padding-bottom: 70px;
 }
+
 .p-b80 {
     padding-bottom: 80px;
 }
+
 .p-b90 {
     padding-bottom: 90px;
 }
+
 .p-b100 {
     padding-bottom: 100px;
 }
+
 .p-b110 {
     padding-bottom: 110px;
 }
+
 .p-b120 {
     padding-bottom: 120px;
 }
+
 .p-b130 {
     padding-bottom: 130px;
 }
+
 .p-b140 {
     padding-bottom: 140px;
 }
+
 .p-b150 {
     padding-bottom: 150px;
 }
 
+
 /*-------------------------------------
 	1.4 Padding (left)
 -------------------------------------*/
+
 .p-l0 {
     padding-left: 0;
 }
+
 .p-l5 {
     padding-left: 5px;
 }
+
 .p-l10 {
     padding-left: 10px;
 }
+
 .p-l15 {
     padding-left: 15px;
 }
+
 .p-l20 {
     padding-left: 20px;
 }
+
 .p-l30 {
     padding-left: 30px;
 }
+
 .p-l40 {
     padding-left: 40px;
 }
+
 .p-l50 {
     padding-left: 50px;
 }
+
 .p-l60 {
     padding-left: 60px;
 }
+
 .p-l70 {
     padding-left: 70px;
 }
+
 .p-l80 {
     padding-left: 80px;
 }
+
 .p-l90 {
     padding-left: 90px;
 }
+
 .p-l100 {
     padding-left: 100px;
 }
+
 .p-l110 {
     padding-left: 110px;
 }
+
 .p-l120 {
     padding-left: 120px;
 }
+
 .p-l130 {
     padding-left: 130px;
 }
+
 .p-l140 {
     padding-left: 140px;
 }
+
 .p-l150 {
     padding-left: 150px;
 }
 
+
 /*-------------------------------------
 	1.5 Padding (right)
 -------------------------------------*/
+
 .p-r0 {
     padding-right: 0;
 }
+
 .p-r5 {
     padding-right: 5px;
 }
+
 .p-r10 {
     padding-right: 10px;
 }
+
 .p-r15 {
     padding-right: 15px;
 }
+
 .p-r20 {
     padding-right: 20px;
 }
+
 .p-r30 {
     padding-right: 30px;
 }
+
 .p-r40 {
     padding-right: 40px;
 }
+
 .p-r50 {
     padding-right: 50px;
 }
+
 .p-r60 {
     padding-right: 60px;
 }
+
 .p-r70 {
     padding-right: 70px;
 }
+
 .p-r80 {
     padding-right: 80px;
 }
+
 .p-r90 {
     padding-right: 90px;
 }
+
 .p-r100 {
     padding-right: 100px;
 }
+
 .p-r110 {
     padding-right: 110px;
 }
+
 .p-r120 {
     padding-right: 120px;
 }
+
 .p-r130 {
     padding-right: 130px;
 }
+
 .p-r140 {
     padding-right: 140px;
 }
+
 .p-r150 {
     padding-right: 150px;
 }
 
+
 /*-------------------------------------
 	1.6 Padding (left right)
 -------------------------------------*/
+
 .p-lr0 {
     padding-left: 0;
     padding-right: 0;
 }
+
 .p-lr5 {
     padding-left: 5px;
     padding-right: 5px;
 }
+
 .p-lr10 {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .p-lr15 {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .p-lr20 {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .p-lr30 {
     padding-left: 30px;
     padding-right: 30px;
 }
+
 .p-lr40 {
     padding-left: 40px;
     padding-right: 40px;
 }
+
 .p-lr50 {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .p-lr60 {
     padding-left: 60px;
     padding-right: 60px;
 }
+
 .p-lr70 {
     padding-left: 70px;
     padding-right: 70px;
 }
+
 .p-lr80 {
     padding-left: 80px;
     padding-right: 80px;
 }
+
 .p-lr90 {
     padding-left: 90px;
     padding-right: 90px;
 }
+
 .p-lr100 {
     padding-left: 100px;
     padding-right: 100px;
 }
+
 .p-lr120 {
     padding-left: 120px;
     padding-right: 120px;
 }
+
 .p-lr150 {
     padding-left: 150px;
     padding-right: 150px;
 }
 
+
 /*-------------------------------------
 	1.7 Padding (top bottom)
 -------------------------------------*/
+
 .p-tb0 {
     padding-bottom: 0;
     padding-top: 0;
 }
+
 .p-tb5 {
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
 .p-tb10 {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
 .p-tb15 {
     padding-bottom: 15px;
     padding-top: 15px;
 }
+
 .p-tb20 {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
 .p-tb30 {
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
 .p-tb40 {
     padding-bottom: 40px;
     padding-top: 40px;
 }
+
 .p-tb50 {
     padding-bottom: 50px;
     padding-top: 50px;
 }
+
 .p-tb60 {
     padding-bottom: 60px;
     padding-top: 60px;
 }
+
 .p-tb70 {
     padding-bottom: 70px;
     padding-top: 70px;
 }
+
 .p-tb80 {
     padding-bottom: 80px;
     padding-top: 80px;
 }
+
 .p-tb90 {
     padding-bottom: 90px;
     padding-top: 90px;
 }
+
 .p-tb100 {
     padding-bottom: 100px;
     padding-top: 100px;
 }
+
 .p-tb120 {
     padding-bottom: 120px;
     padding-top: 120px;
 }
+
 .p-tb150 {
     padding-bottom: 150px;
     padding-top: 150px;
 }
 
+
 /*-------------------------------------
 	2.1 margin (around)
 -------------------------------------*/
+
 .m-a-1 {
     margin: -1px;
 }
+
 .m-a0 {
     margin: 0;
 }
+
 .m-a5 {
     margin: 5px;
 }
+
 .m-a10 {
     margin: 10px;
 }
+
 .m-a15 {
     margin: 15px;
 }
+
 .m-a20 {
     margin: 20px;
 }
+
 .m-a30 {
     margin: 30px;
 }
+
 .m-a40 {
     margin: 40px;
 }
+
 .m-a50 {
     margin: 50px;
 }
+
 .m-a60 {
     margin: 60px;
 }
+
 .m-a70 {
     margin: 70px;
 }
+
 .m-a80 {
     margin: 80px;
 }
+
 .m-a90 {
     margin: 90px;
 }
+
 .m-a100 {
     margin: 100px;
 }
+
 .m-a110 {
     margin: 110px;
 }
+
 .m-a120 {
     margin: 120px;
 }
+
 .m-a130 {
     margin: 130px;
 }
+
 .m-a140 {
     margin: 140px;
 }
+
 .m-a150 {
     margin: 150px;
 }
 
+
 /*-------------------------------------
 	2.2 marging (top)
 -------------------------------------*/
+
 .m-t0 {
     margin-top: 0;
 }
+
 .m-t5 {
     margin-top: 5px;
 }
+
 .m-t10 {
     margin-top: 10px;
 }
+
 .m-t15 {
     margin-top: 15px;
 }
+
 .m-t20 {
     margin-top: 20px;
 }
+
 .m-t30 {
     margin-top: 30px;
 }
+
 .m-t40 {
     margin-top: 40px;
 }
+
 .m-t50 {
     margin-top: 50px;
 }
+
 .m-t60 {
     margin-top: 60px;
 }
+
 .m-t70 {
     margin-top: 70px;
 }
+
 .m-t80 {
     margin-top: 80px;
 }
+
 .m-t90 {
     margin-top: 90px;
 }
+
 .m-t100 {
     margin-top: 100px;
 }
+
 .m-t110 {
     margin-top: 110px;
 }
+
 .m-t120 {
     margin-top: 120px;
 }
+
 .m-t130 {
     margin-top: 130px;
 }
+
 .m-t140 {
     margin-top: 140px;
 }
+
 .m-t150 {
     margin-top: 150px;
 }
 
+
 /*-------------------------------------
 	2.3 marging (bottom)
 -------------------------------------*/
+
 .m-b0 {
     margin-bottom: 0;
 }
+
 .m-b5 {
     margin-bottom: 5px;
 }
+
 .m-b10 {
     margin-bottom: 10px;
 }
+
 .m-b15 {
     margin-bottom: 15px;
 }
+
 .m-b20 {
     margin-bottom: 20px;
 }
+
 .m-b30 {
     margin-bottom: 30px;
 }
+
 .m-b40 {
     margin-bottom: 40px;
 }
+
 .m-b50 {
     margin-bottom: 50px;
 }
+
 .m-b60 {
     margin-bottom: 60px;
 }
+
 .m-b70 {
     margin-bottom: 70px;
 }
+
 .m-b80 {
     margin-bottom: 80px;
 }
+
 .m-b90 {
     margin-bottom: 90px;
 }
+
 .m-b100 {
     margin-bottom: 100px;
 }
+
 .m-b110 {
     margin-bottom: 110px;
 }
+
 .m-b120 {
     margin-bottom: 120px;
 }
+
 .m-b130 {
     margin-bottom: 130px;
 }
+
 .m-b140 {
     margin-bottom: 140px;
 }
+
 .m-b150 {
     margin-bottom: 150px;
 }
 
+
 /*-------------------------------------
 	2.4 marging (left)
 -------------------------------------*/
+
 .m-l0 {
     margin-left: 0;
 }
+
 .m-l5 {
     margin-left: 5px;
 }
+
 .m-l10 {
     margin-left: 10px;
 }
+
 .m-l15 {
     margin-left: 15px;
 }
+
 .m-l20 {
     margin-left: 20px;
 }
+
 .m-l30 {
     margin-left: 30px;
 }
+
 .m-l40 {
     margin-left: 40px;
 }
+
 .m-l50 {
     margin-left: 50px;
 }
+
 .m-l60 {
     margin-left: 60px;
 }
+
 .m-l70 {
     margin-left: 70px;
 }
+
 .m-l80 {
     margin-left: 80px;
 }
+
 .m-l90 {
     margin-left: 90px;
 }
+
 .m-l100 {
     margin-left: 100px;
 }
+
 .m-l110 {
     margin-left: 110px;
 }
+
 .m-l120 {
     margin-left: 120px;
 }
+
 .m-l130 {
     margin-left: 130px;
 }
+
 .m-l140 {
     margin-left: 140px;
 }
+
 .m-l150 {
     margin-left: 150px;
 }
 
+
 /*-------------------------------------
 	2.5 marging (right)
 -------------------------------------*/
+
 .m-r0 {
     margin-right: 0;
 }
+
 .m-r5 {
     margin-right: 5px;
 }
+
 .m-r10 {
     margin-right: 10px;
 }
+
 .m-r15 {
     margin-right: 15px;
 }
+
 .m-r20 {
     margin-right: 20px;
 }
+
 .m-r30 {
     margin-right: 30px;
 }
+
 .m-r40 {
     margin-right: 40px;
 }
+
 .m-r50 {
     margin-right: 50px;
 }
+
 .m-r60 {
     margin-right: 60px;
 }
+
 .m-r70 {
     margin-right: 70px;
 }
+
 .m-r80 {
     margin-right: 80px;
 }
+
 .m-r90 {
     margin-right: 90px;
 }
+
 .m-r100 {
     margin-right: 100px;
 }
+
 .m-r110 {
     margin-right: 110px;
 }
+
 .m-r120 {
     margin-right: 120px;
 }
+
 .m-r130 {
     margin-right: 130px;
 }
+
 .m-r140 {
     margin-right: 140px;
 }
+
 .m-r150 {
     margin-right: 150px;
 }
 
+
 /*-------------------------------------
 	2.6 marging (left right)
 -------------------------------------*/
+
 .m-lr0 {
     margin-left: 0;
     margin-right: 0;
 }
+
 .m-lr5 {
     margin-left: 5px;
     margin-right: 5px;
 }
+
 .m-lr10 {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .m-lr15 {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 .m-lr20 {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .m-lr30 {
     margin-left: 30px;
     margin-right: 30px;
 }
+
 .m-lr40 {
     margin-left: 40px;
     margin-right: 40px;
 }
+
 .m-lr50 {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .m-lr60 {
     margin-left: 60px;
     margin-right: 60px;
 }
+
 .m-lr70 {
     margin-left: 70px;
     margin-right: 70px;
 }
+
 .m-lr80 {
     margin-left: 80px;
     margin-right: 80px;
 }
+
 .m-lr90 {
     margin-left: 90px;
     margin-right: 90px;
 }
+
 .m-lr100 {
     margin-left: 100px;
     margin-right: 100px;
 }
+
 .m-lr120 {
     margin-left: 120px;
     margin-right: 120px;
 }
+
 .m-lr150 {
     margin-left: 150px;
     margin-right: 150px;
 }
 
+
 /*-------------------------------------
 	2.7 marging (top bottom)
 -------------------------------------*/
+
 .m-tb0 {
     margin-bottom: 0;
     margin-top: 0;
 }
+
 .m-tb5 {
     margin-bottom: 5px;
     margin-top: 5px;
 }
+
 .m-tb10 {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 .m-tb15 {
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
 .m-tb20 {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 .m-tb30 {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
 .m-tb40 {
     margin-bottom: 40px;
     margin-top: 40px;
 }
+
 .m-tb50 {
     margin-bottom: 50px;
     margin-top: 50px;
 }
+
 .m-tb60 {
     margin-bottom: 60px;
     margin-top: 60px;
 }
+
 .m-tb70 {
     margin-bottom: 70px;
     margin-top: 70px;
 }
+
 .m-tb80 {
     margin-bottom: 80px;
     margin-top: 80px;
 }
+
 .m-tb90 {
     margin-bottom: 90px;
     margin-top: 90px;
 }
+
 .m-tb100 {
     margin-bottom: 100px;
     margin-top: 100px;
 }
+
 .m-tb120 {
     margin-bottom: 120px;
     margin-top: 120px;
 }
+
 .m-tb150 {
     margin-bottom: 150px;
     margin-top: 150px;
 }
 
+
 /*-------------------------------------
 	2.8 colum gap less
 -------------------------------------*/
+
 .no-col-gap [class*="col-xs-"],
 .no-col-gap [class*="col-sm-"],
 .no-col-gap [class*="col-md-"],
@@ -2028,158 +2378,213 @@ ol.list-num-count.list-outline-none > li:before {
     padding-right: 0;
 }
 
+
 /*======================================
 6. POSITIONS ( absolute , relative , statice & z-index)
 ======================================*/
 
+
 /*-------------------------------------
 	1. position
 -------------------------------------*/
+
+
 /*1.1 relative*/
+
 .relative {
     position: relative;
 }
+
+
 /*1.2 absolute*/
+
 .absolute {
     position: absolute;
 }
+
+
 /*1.3 static*/
+
 .static {
     position: static;
 }
 
+
 /*-------------------------------------
 	2. z-index
 -------------------------------------*/
+
 .z-index1 {
     z-index: 1;
 }
+
 .z-index2 {
     z-index: 2;
 }
+
 .z-index3 {
     z-index: 3;
 }
+
 .z-index4 {
     z-index: 4;
 }
+
 .z-index5 {
     z-index: 5;
 }
+
 .z-index6 {
     z-index: 6;
 }
+
 .z-index7 {
     z-index: 7;
 }
+
 .z-index8 {
     z-index: 8;
 }
+
 .z-index9 {
     z-index: 9;
 }
+
 .z-index10 {
     z-index: 10;
 }
+
 .z-index100 {
     z-index: 100;
 }
+
 .z-index999 {
     z-index: 999;
 }
+
 
 /*======================================
 7. COLOR
 ======================================*/
 
+
 /*-------------------------------------
 	1. text
 -------------------------------------*/
+
 .text-white {
     color: #fff;
 }
+
 .text-primary {
     color: #000;
 }
+
 .text-secondry {
     color: #efefef;
 }
+
 .text-black {
     color: #000;
 }
+
 .text-gray {
     color: #f5f6f6;
 }
+
 .text-gray-dark {
     color: #d3d3d3;
 }
+
 .text-red {
     color: #99090a;
 }
+
 .text-green {
     color: #557131;
 }
+
 .text-yellow {
     color: #d5dd02;
 }
+
 .text-light-blue {
     color: #004f83;
 }
+
+
 /*-------------------------------------
 	2. background color
 -------------------------------------*/
+
 .bg-transparent {
     background-color: transparent;
 }
+
 .bg-primary {
     background-color: #000;
 }
+
 .bg-secondry {
     background-color: #efefef;
 }
+
 .bg-white {
     background-color: #fff;
 }
+
 .bg-black {
     background-color: #000;
 }
+
 .bg-black-light {
     background-color: #212121;
 }
+
 .bg-gray {
     background-color: #f6f7f8;
 }
+
 .bg-gray-light {
     background-color: #f1f1f1;
 }
+
 .bg-gray-dark {
     background-color: #d3d3d3;
 }
+
 .bg-red {
     background-color: #fb5455;
 }
+
 .bg-green {
     background-color: #a5de5c;
 }
+
 .bg-yellow {
     background-color: #fff000;
 }
+
 .bg-dark-blue {
     background-color: #161b23;
 }
+
 .bg-light-blue {
     background-color: #3097db;
 }
 
+
 /*-------------------------------------
 	3. background image
 -------------------------------------*/
+
 .bg-parallax {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 @media only screen and (max-width: 768px) {
     .bg-parallax {
         background-attachment: fixed !important;
@@ -2189,6 +2594,7 @@ ol.list-num-count.list-outline-none > li:before {
     }
 }
 
+
 /*======================================
 8. OVERLAY ( transparient box style  )
 ======================================*/
@@ -2196,6 +2602,7 @@ ol.list-num-count.list-outline-none > li:before {
 .overlay-wraper {
     position: relative;
 }
+
 .overlay-main {
     position: absolute;
     left: 0;
@@ -2208,27 +2615,35 @@ ol.list-num-count.list-outline-none > li:before {
 .opacity-01 {
     opacity: 0.1;
 }
+
 .opacity-02 {
     opacity: 0.2;
 }
+
 .opacity-03 {
     opacity: 0.3;
 }
+
 .opacity-04 {
     opacity: 0.4;
 }
+
 .opacity-05 {
     opacity: 0.5;
 }
+
 .opacity-06 {
     opacity: 0.6;
 }
+
 .opacity-07 {
     opacity: 0.7;
 }
+
 .opacity-08 {
     opacity: 0.8;
 }
+
 .opacity-09 {
     opacity: 0.9;
 }
@@ -2236,20 +2651,23 @@ ol.list-num-count.list-outline-none > li:before {
 .overlay-light .overlay-main {
     opacity: 0.3;
 }
+
 .overlay-dark .overlay-main {
     opacity: 0.9;
 }
 
-.overlay-wraper > .container,
-.overlay-wraper > .container-fluid,
-.overlay-wraper > .wt-icon-box-wraper,
-.overlay-wraper > .wt-left-part,
-.overlay-wraper > .wt-right-part {
+.overlay-wraper>.container,
+.overlay-wraper>.container-fluid,
+.overlay-wraper>.wt-icon-box-wraper,
+.overlay-wraper>.wt-left-part,
+.overlay-wraper>.wt-right-part {
     position: relative;
     z-index: 1;
 }
 
+
 /*left right part css*/
+
 .wt-left-part,
 .wt-right-part {
     width: 555px;
@@ -2282,7 +2700,10 @@ ol.list-num-count.list-outline-none > li:before {
         padding-right: 0px;
     }
 }
+
+
 /*use for box*/
+
 .overlay-bx {
     position: absolute;
     left: 0;
@@ -2294,6 +2715,7 @@ ol.list-num-count.list-outline-none > li:before {
     opacity: 0;
     visibility: hidden;
 }
+
 .overlay-icon {
     list-style: none;
     width: 160px;
@@ -2304,6 +2726,7 @@ ol.list-num-count.list-outline-none > li:before {
     margin: -20px -75px;
     z-index: 1 !important;
 }
+
 .overlay-icon a {
     display: inline-block;
     padding: 0;
@@ -2311,18 +2734,20 @@ ol.list-num-count.list-outline-none > li:before {
     border: 1px solid #fff;
     color: #fff;
 }
+
 .overlay-icon .wt-icon-box-xs {
     line-height: 40px;
 }
+
 .overlay-icon a:hover {
     color: #fff;
     background-color: #000;
     border: 1px solid transparent;
 }
 
-.overlay-bx:hover a > i,
-.wt-thum-bx:hover .overlay-bx a > i,
-.wt-box:hover .overlay-bx a > i {
+.overlay-bx:hover a>i,
+.wt-thum-bx:hover .overlay-bx a>i,
+.wt-box:hover .overlay-bx a>i {
     opacity: 1;
     visibility: visible;
     -webkit-transition: all 0.5s ease-in-out;
@@ -2341,9 +2766,11 @@ ol.list-num-count.list-outline-none > li:before {
     visibility: visible;
 }
 
+
 /*======================================
 9. BOXES CSS 
 ======================================*/
+
 .rounded-bx,
 .wt-box,
 .wt-icon-box,
@@ -2353,19 +2780,24 @@ ol.list-num-count.list-outline-none > li:before {
     position: relative;
 }
 
+
 /*-------------------------------------
 	1. box content
 -------------------------------------*/
+
 .wt-box {
     position: relative;
 }
+
 .wt-box.no-margin {
     margin-bottom: 0;
 }
 
+
 /*-------------------------------------
 	2. For icons with box
 -------------------------------------*/
+
 .wt-icon-box-xld,
 .wt-icon-box-xl,
 .wt-icon-box-lg,
@@ -2375,10 +2807,12 @@ ol.list-num-count.list-outline-none > li:before {
     display: inline-block;
     text-align: center;
 }
+
 .wt-icon-box-xld {
     width: 180px;
     height: 180px;
 }
+
 .wt-icon-box-xl {
     width: 150px;
     height: 150px;
@@ -2388,6 +2822,7 @@ ol.list-num-count.list-outline-none > li:before {
     width: 120px;
     height: 120px;
 }
+
 .wt-icon-box-md {
     width: 100px;
     height: 100px;
@@ -2413,6 +2848,7 @@ ol.list-num-count.list-outline-none > li:before {
     -moz-border-radius: 100%;
     border-radius: 100%;
 }
+
 .wt-icon-box-xld i,
 .wt-icon-box-xl i,
 .wt-icon-box-lg i,
@@ -2421,21 +2857,27 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-icon-box-xs i {
     vertical-align: middle;
 }
+
 .wt-icon-box-xld i {
     font-size: 100px;
 }
+
 .wt-icon-box-xl i {
     font-size: 80px;
 }
+
 .wt-icon-box-lg i {
     font-size: 60px;
 }
+
 .wt-icon-box-md i {
     font-size: 45px;
 }
+
 .wt-icon-box-sm i {
     font-size: 30px;
 }
+
 .wt-icon-box-xs i {
     font-size: 20px;
 }
@@ -2454,40 +2896,52 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-icon-box-xld img {
     height: 90px;
 }
+
 .wt-icon-box-xl img {
     height: 80px;
 }
+
 .wt-icon-box-lg img {
     height: 55px;
 }
+
 .wt-icon-box-md img {
     height: 40px;
 }
+
 .wt-icon-box-sm img {
     height: 30px;
 }
+
 .wt-icon-box-xs img {
     height: 20px;
 }
 
+
 /*-------------------------------------
 	3. Border
 -------------------------------------*/
+
 .bdr-white {
     border-color: #ffffff;
 }
+
 .bdr-black {
     border-color: #000000;
 }
+
 .bdr-primary {
     border-color: #ffbc13;
 }
+
 .bdr-gray {
     border-color: #dddddd;
 }
+
 .bdr-gray-light {
     border-color: #eeeeee;
 }
+
 .bdr-gray-dark {
     border-color: #333333;
 }
@@ -2499,6 +2953,7 @@ ol.list-num-count.list-outline-none > li:before {
 .bdr-5 {
     border-style: solid;
 }
+
 .bdr-dot-1,
 .bdr-dot-2,
 .bdr-dot-3,
@@ -2506,6 +2961,7 @@ ol.list-num-count.list-outline-none > li:before {
 .bdr-dot-5 {
     border-style: dotted;
 }
+
 .bdr-dash-1,
 .bdr-dash-2,
 .bdr-dash-3,
@@ -2513,25 +2969,32 @@ ol.list-num-count.list-outline-none > li:before {
 .bdr-dash-5 {
     border-style: dashed;
 }
+
 .bdr-1 {
     border-width: 1px;
 }
+
 .bdr-2 {
     border-width: 2px;
 }
+
 .bdr-3 {
     border-width: 3px;
 }
+
 .bdr-4 {
     border-width: 4px;
 }
+
 .bdr-5 {
     border-width: 5px;
 }
 
+
 /*-------------------------------------
 	4. For only icons
 -------------------------------------*/
+
 .icon-xld,
 .icon-xl,
 .icon-lg,
@@ -2541,6 +3004,7 @@ ol.list-num-count.list-outline-none > li:before {
     display: inline-block;
     text-align: center;
 }
+
 .icon-xld i,
 .icon-xl i,
 .icon-lg i,
@@ -2549,39 +3013,51 @@ ol.list-num-count.list-outline-none > li:before {
 .icon-xs i {
     vertical-align: middle;
 }
+
 .icon-xld {
     width: 120px;
 }
+
 .icon-xld i {
     font-size: 100px;
 }
+
 .icon-xl {
     width: 100px;
 }
+
 .icon-xl i {
     font-size: 80px;
 }
+
 .icon-lg {
     width: 80px;
 }
+
 .icon-lg i {
     font-size: 60px;
 }
+
 .icon-md {
     width: 60px;
 }
+
 .icon-md i {
     font-size: 45px;
 }
+
 .icon-sm {
     width: 40px;
 }
+
 .icon-sm i {
     font-size: 30px;
 }
+
 .icon-xs {
     width: 30px;
 }
+
 .icon-xs i {
     font-size: 20px;
 }
@@ -2600,25 +3076,32 @@ ol.list-num-count.list-outline-none > li:before {
 .icon-xld img {
     height: 90px;
 }
+
 .icon-xl img {
     height: 80px;
 }
+
 .icon-lg img {
     height: 70px;
 }
+
 .icon-md img {
     height: 50px;
 }
+
 .icon-sm img {
     height: 30px;
 }
+
 .icon-xs img {
     height: 20px;
 }
 
+
 /*-------------------------------------
 	5. place icon with box
 -------------------------------------*/
+
 .about-types .wt-icon-box-wraper {
     border-width: 0px 0px 0px 3px;
 }
@@ -2626,18 +3109,23 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-icon-box-wraper {
     position: relative;
 }
+
 .wt-icon-box-wraper .wt-tilte {
     margin-top: 0;
 }
+
 .wt-icon-box-wraper .after-titile-line {
     margin-bottom: 10px;
 }
+
 .wt-icon-box-wraper p:last-child {
     margin: 0px;
 }
+
 .icon-content {
     overflow: hidden;
 }
+
 .icon-content p {
     word-break: break-all;
 }
@@ -2650,6 +3138,7 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-icon-box-xs {
     display: table;
 }
+
 .wt-icon-box-xld .icon-cell,
 .wt-icon-box-xl .icon-cell,
 .wt-icon-box-lg .icon-cell,
@@ -2660,9 +3149,11 @@ ol.list-num-count.list-outline-none > li:before {
     vertical-align: middle;
 }
 
+
 /*-------------------------------------
 	6. icon box left align
 -------------------------------------*/
+
 .wt-icon-box-wraper.left .wt-icon-box-xld,
 .wt-icon-box-wraper.left .wt-icon-box-xl,
 .wt-icon-box-wraper.left .wt-icon-box-lg,
@@ -2672,6 +3163,7 @@ ol.list-num-count.list-outline-none > li:before {
     float: left;
     margin-right: 20px;
 }
+
 .wt-icon-box-wraper.left .icon-xld,
 .wt-icon-box-wraper.left .icon-xl,
 .wt-icon-box-wraper.left .icon-lg,
@@ -2682,12 +3174,15 @@ ol.list-num-count.list-outline-none > li:before {
     margin-right: 10px;
 }
 
+
 /*-------------------------------------
 	7. icon box right align
 -------------------------------------*/
+
 .wt-icon-box-wraper.right {
     text-align: right;
 }
+
 .wt-icon-box-wraper.right .wt-icon-box-xld,
 .wt-icon-box-wraper.right .wt-icon-box-xl,
 .wt-icon-box-wraper.right .wt-icon-box-lg,
@@ -2698,6 +3193,7 @@ ol.list-num-count.list-outline-none > li:before {
     display: table;
     margin-left: 20px;
 }
+
 .wt-icon-box-wraper.right .icon-xld,
 .wt-icon-box-wraper.right .icon-xl,
 .wt-icon-box-wraper.right .icon-lg,
@@ -2708,12 +3204,15 @@ ol.list-num-count.list-outline-none > li:before {
     margin-left: 10px;
 }
 
+
 /*-------------------------------------
 	8. icon box center align
 -------------------------------------*/
+
 .wt-icon-box-wraper.center {
     text-align: center;
 }
+
 .wt-icon-box-wraper.center .wt-icon-box-xld,
 .wt-icon-box-wraper.center .wt-icon-box-xl,
 .wt-icon-box-wraper.center .wt-icon-box-lg,
@@ -2745,18 +3244,23 @@ ol.list-num-count.list-outline-none > li:before {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 .wt-icon-box-wraper.bx-style-2.center .wt-icon-box-xl {
     margin-left: -75px;
 }
+
 .wt-icon-box-wraper.bx-style-2.center .wt-icon-box-lg {
     margin-left: -60px;
 }
+
 .wt-icon-box-wraper.bx-style-2.center .wt-icon-box-md {
     margin-left: -50px;
 }
+
 .wt-icon-box-wraper.bx-style-2.center .wt-icon-box-sm {
     margin-left: -40px;
 }
+
 .wt-icon-box-wraper.bx-style-2.center .wt-icon-box-xs {
     margin-left: -20px;
 }
@@ -2779,18 +3283,22 @@ ol.list-num-count.list-outline-none > li:before {
     transform: translateX(50%);
 }
 
+
 /*-------------------------------------
 	9. media with content box css
 -------------------------------------*/
+
 .wt-box,
 .wt-info,
 .wt-tilte,
 .wt-tilte-inner {
     position: relative;
 }
+
 .wt-tilte-inner {
     display: inline-block;
 }
+
 .wt-tilte-inner.skew-title:after {
     content: "";
     position: absolute;
@@ -2805,6 +3313,7 @@ ol.list-num-count.list-outline-none > li:before {
     -ms-transform: skewX(20deg);
     transform: skewX(20deg);
 }
+
 .wt-box[class*="border-"],
 .wt-info[class*="border-"],
 .wt-icon-box-wraper[class*="border-"] {
@@ -2819,22 +3328,27 @@ ol.list-num-count.list-outline-none > li:before {
     border-top: none;
 }
 
+
 /*-------------------------------------
 	10. for images
 -------------------------------------*/
+
 .wt-thum-bx,
 .wt-post-thum {
     background-color: #000;
 }
+
 .wt-thum-bx img,
 .wt-post-thum img {
     width: 100%;
     height: auto;
 }
 
+
 /*======================================
 10. IMAGES OVERLAY EFFECTS (overly animation on images)  
 ======================================*/
+
 .wt-img-overlay1:after,
 .wt-img-overlay1:before,
 .gradi-black:before,
@@ -2857,83 +3371,73 @@ ol.list-num-count.list-outline-none > li:before {
     transition: all 0.3s linear;
 }
 
+
 /*-------------------------------------
 	1. effect 1
 -------------------------------------*/
+
 .wt-img-overlay1:before {
     width: 100%;
     height: 100%;
     opacity: 0;
 }
+
 .wt-img-overlay1:hover:before,
 .wt-box:hover .wt-img-overlay1:before {
     opacity: 0.5;
 }
 
+
 /*-------------------------------------
 	2. Gradient-black
 -------------------------------------*/
+
 .gradi-black:before {
     width: 100%;
     height: 100%;
     opacity: 1;
-    background: -moz-linear-gradient(
-        top,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0.9) 90%,
-        rgba(0, 0, 0, 1) 100%
-    ); /* FF3.6-15 */
-    background: -webkit-linear-gradient(
-        top,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0.9) 90%,
-        rgba(0, 0, 0, 1) 100%
-    ); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0.9) 90%,
-        rgba(0, 0, 0, 1) 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient( top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
 }
+
+
 /*-------------------------------------
 	3. Gradient-white
 -------------------------------------*/
+
 .gradi-white:before {
     width: 100%;
     height: 100%;
     opacity: 1;
-    background: -moz-linear-gradient(
-        top,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(255, 255, 255, 0.9) 90%,
-        rgba(255, 255, 255, 1) 100%
-    ); /* FF3.6-15 */
-    background: -webkit-linear-gradient(
-        top,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(255, 255, 255, 0.9) 90%,
-        rgba(255, 255, 255, 1) 100%
-    ); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(255, 255, 255, 0.9) 90%,
-        rgba(255, 255, 255, 1) 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient( top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.9) 90%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.9) 90%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.9) 90%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
 }
+
 
 /*======================================
 11. shortcodeS 
 ======================================*/
 
+
 /*-------------------------------------
 	1. Buttons 
 --------------------------------------- */
 
+
 /* 1.1 theme default button */
+
 .btn {
     padding-top: 9px;
     padding-bottom: 9px;
@@ -2954,9 +3458,11 @@ ol.list-num-count.list-outline-none > li:before {
     margin-left: -1px;
     text-decoration: none !important;
 }
+
 .site-button {
     color: #fff;
 }
+
 .site-button-secondry {
     color: #000;
 }
@@ -2964,17 +3470,20 @@ ol.list-num-count.list-outline-none > li:before {
 .site-button {
     background-color: #000;
 }
+
 .site-button:active,
 .site-button:hover,
 .site-button:focus,
-.active > .site-button {
+.active>.site-button {
     background-color: #000;
     color: #fff;
 }
+
 .site-button:hover {
     background-color: #efefef;
     color: #000;
 }
+
 .site-button-secondry {
     background-color: #efefef;
 }
@@ -2982,7 +3491,7 @@ ol.list-num-count.list-outline-none > li:before {
 .site-button-secondry:active,
 .site-button-secondry:hover,
 .site-button-secondry:focus,
-.active > .site-button-secondry {
+.active>.site-button-secondry {
     background-color: #000;
     color: #fff;
 }
@@ -3002,61 +3511,77 @@ ol.list-num-count.list-outline-none > li:before {
     z-index: 10;
     font-size: 14px;
 }
+
 .video-play-btn:hover {
     background-color: #000;
     color: #fff;
     border: 1px solid transparent;
 }
+
 .video-play-btn i {
     margin-right: -5px;
 }
 
+
 /* 1.2 button text uppercase */
+
 .site-button.text-uppercase {
     text-transform: uppercase;
 }
 
+
 /* 1.3 button size */
+
 .button-sm {
     padding: 5px 10px;
     font-size: 12px;
 }
+
 .button-lg {
     padding: 20px 35px;
     font-size: 16px;
 }
+
 .button-xl {
     padding: 30px 50px;
     font-size: 24px;
 }
 
+
 /* 1.4 button rounded */
+
 .radius-no {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
 }
+
 .radius-sm {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
 }
+
 .radius-xl {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
 }
+
 .radius-bx {
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
 }
 
+
 /* 1.6 white */
+
 .site-button.white {
     background-color: #fff;
     color: #777;
 }
+
 .site-button.white:hover,
 .site-button.white:active,
 .site-button.white:focus {
@@ -3064,11 +3589,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #555;
 }
 
+
 /* 1.7 black */
+
 .site-button.black {
     background-color: #000;
     color: #fff;
 }
+
 .site-button.black:hover,
 .site-button.black:active,
 .site-button.black:focus {
@@ -3076,11 +3604,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.8 Gray */
+
 .site-button.gray {
     background-color: #666666;
     color: #fff;
 }
+
 .site-button.gray:hover,
 .site-button.gray:active,
 .site-button.gray:focus {
@@ -3088,11 +3619,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.9 pink */
+
 .site-button.pink {
     background-color: #e63f75;
     color: #fff;
 }
+
 .site-button.pink:hover,
 .site-button.pink:active,
 .site-button.pink:focus {
@@ -3100,11 +3634,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.10 Blue */
+
 .site-button.blue {
     background-color: #42b8d4;
     color: #fff;
 }
+
 .site-button.blue:hover,
 .site-button.blue:active,
 .site-button.blue:focus {
@@ -3112,11 +3649,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.11 Green */
+
 .site-button.green {
     background-color: #35b494;
     color: #fff;
 }
+
 .site-button.green:hover,
 .site-button.green:active,
 .site-button.green:focus {
@@ -3124,11 +3664,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.12 Orange */
+
 .site-button.orange {
     background-color: #e56713;
     color: #fff;
 }
+
 .site-button.orange:hover,
 .site-button.orange:active,
 .site-button.orange:focus {
@@ -3136,11 +3679,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.13 Red */
+
 .site-button.red {
     background-color: #d93223;
     color: #fff;
 }
+
 .site-button.red:hover,
 .site-button.red:active,
 .site-button.red:focus {
@@ -3148,11 +3694,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /*1.14 Brown */
+
 .site-button.brown {
     background-color: #69441f;
     color: #fff;
 }
+
 .site-button.brown:hover,
 .site-button.brown:active,
 .site-button.brown:focus {
@@ -3160,11 +3709,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.15 Yellow */
+
 .site-button.yellow {
     background-color: #ecc731;
     color: #fff;
 }
+
 .site-button.yellow:hover,
 .site-button.yellow:active,
 .site-button.yellow:focus {
@@ -3172,11 +3724,14 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.16 purple */
+
 .site-button.purple {
     background-color: #ae1af7;
     color: #fff;
 }
+
 .site-button.purple:hover,
 .site-button.purple:active,
 .site-button.purple:focus {
@@ -3184,7 +3739,9 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 1.17 Graphical */
+
 .site-button.graphical {
     color: #fff;
     text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
@@ -3193,13 +3750,16 @@ ol.list-num-count.list-outline-none > li:before {
     -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.3), 0 1px 3px -1px rgba(45, 60, 72, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.15);
 }
+
 .site-button.graphical:active {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25) inset;
     -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25) inset;
     -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25) inset;
 }
 
+
 /* 1.19 Outline */
+
 .site-button.outline {
     color: #888;
     background: none;
@@ -3208,330 +3768,421 @@ ol.list-num-count.list-outline-none > li:before {
     border-color: #eee;
 }
 
+
 /* 1.20 Outline white  */
+
 .site-button.outline.white {
     color: #e7e7e7;
     border-color: #e7e7e7;
 }
+
 .site-button.outline.white:hover {
     color: #666666;
 }
 
+
 /* 1.21 Outline black */
+
 .site-button.outline.black {
     color: #171717;
     border-color: #171717;
 }
 
+
 /* 1.22 Outline gray */
+
 .site-button.outline.gray {
     color: #666666;
     border-color: #666666;
 }
 
+
 /* 1.23 Outline pink */
+
 .site-button.outline.pink {
     color: #e63f75;
     border-color: #e63f75;
 }
 
+
 /* 1.24 Outline blue */
+
 .site-button.outline.blue {
     color: #42b8d4;
     border-color: #42b8d4;
 }
 
+
 /* 1.25 Outline green */
+
 .site-button.outline.green {
     color: #35b494;
     border-color: #35b494;
 }
 
+
 /* 1.26 Outline orange */
+
 .site-button.outline.orange {
     color: #e56713;
     border-color: #e56713;
 }
 
+
 /* 1.27 Outline red */
+
 .site-button.outline.red {
     color: #d93223;
     border-color: #d93223;
 }
 
+
 /* 1.28 Outline brown */
+
 .site-button.outline.brown {
     color: #69441f;
     border-color: #69441f;
 }
 
+
 /* 1.29 Outline yellow */
+
 .site-button.outline.yellow {
     color: #ffbc13;
     border-color: #ffbc13;
 }
 
+
 /* 1.30 Outline purple */
+
 .site-button.outline.purple {
     color: #ae1af7;
     border-color: #ae1af7;
 }
 
+
 /* 1.31 Outline hover */
+
 .site-button.outline:hover {
     border-color: rgba(0, 0, 0, 0);
     color: #fff;
 }
 
+
 /* 1.32 button text link */
+
 .site-button-link {
     display: inline-block;
     font-weight: 600;
 }
 
+
 /* 1.33 text link white */
+
 .site-button-link.white {
     color: #e7e7e7;
 }
+
 .site-button-link.white:hover,
 .site-button-link.white:active,
 .site-button-link.white:focus {
     color: #ccc;
 }
 
+
 /* 1.34 text link black */
+
 .site-button-link.black {
     color: #171717;
 }
+
 .site-button-link.black:hover,
 .site-button-link.black:active,
 .site-button-link.black:focus {
     color: #000;
 }
 
+
 /* 1.35 text link Gray */
+
 .site-button-link.gray {
     color: #666666;
 }
+
 .site-button-link.gray:hover,
 .site-button-link.gray:active,
 .site-button-link.gray:focus {
     color: #555555;
 }
 
+
 /* 1.36 text link pink */
+
 .site-button-link.pink {
     color: #e63f75;
 }
+
 .site-button-link.pink:hover,
 .site-button-link.pink:active,
 .site-button-link.pink:focus {
     color: #2ca2be;
 }
 
+
 /* 1.37 text link Blue */
+
 .site-button-link.blue {
     color: #42b8d4;
 }
+
 .site-button-link.blue:hover,
 .site-button-link.blue:active,
 .site-button-link.blue:focus {
     color: #2ca2be;
 }
 
+
 /* 1.38 text link Green */
+
 .site-button-link.green {
     color: #35b494;
 }
+
 .site-button-link.green:hover,
 .site-button-link.green:active,
 .site-button-link.green:focus {
     color: #26a585;
 }
 
+
 /* 1.39 text link Orange */
+
 .site-button-link.orange {
     color: #e56713;
 }
+
 .site-button-link.orange:hover,
 .site-button-link.orange:active,
 .site-button-link.orange:focus {
     color: #d55703;
 }
 
+
 /* 1.40 text link Red */
+
 .site-button-link.red {
     color: #d93223;
 }
+
 .site-button-link.red:hover,
 .site-button-link.red:active,
 .site-button-link.red:focus {
     color: #c51e0f;
 }
 
+
 /* 1.41 text link Brown */
+
 .site-button-link.brown {
     color: #69441f;
 }
+
 .site-button-link.brown:hover,
 .site-button-link.brown:active,
 .site-button-link.brown:focus {
     color: #5f3a15;
 }
 
+
 /* 1.42 text link Yellow */
+
 .site-button-link.yellow {
     color: #ecc731;
 }
+
 .site-button-link.yellow:hover,
 .site-button-link.yellow:active,
 .site-button-link.yellow:focus {
     color: #d4af19;
 }
 
+
 /* 1.43 text link purple */
+
 .site-button-link.purple {
     color: #ae1af7;
 }
+
 .site-button-link.purple:hover,
 .site-button-link.purple:active,
 .site-button-link.purple:focus {
     color: #9804e1;
 }
 
+
 /* 1.44 app strore */
+
 .site-button.button-app {
     text-align: left;
     padding: 15px 25px;
 }
+
 .site-button.button-app i {
     display: inline-block;
     font-size: 45px;
     float: left;
     margin-right: 15px;
 }
+
 .site-button.button-app strong {
     display: block;
     font-size: 16px;
 }
 
+
 /* 1.45 filter buttons css */
+
 .masonry-filter {
     display: table;
     margin-bottom: 0;
 }
-.masonry-filter > li {
+
+.masonry-filter>li {
     display: inline-block;
     margin-right: 30px;
     position: relative;
 }
 
-.masonry-filter > li a {
+.masonry-filter>li a {
     color: #000;
     font-size: 14px;
     font-weight: 500;
 }
 
-.masonry-filter > li.active a,
-.masonry-filter > li a:hover,
-.masonry-filter > li a:active,
-.masonry-filter > li a:focus {
+.masonry-filter>li.active a,
+.masonry-filter>li a:hover,
+.masonry-filter>li a:active,
+.masonry-filter>li a:focus {
     color: #a0a0a0;
 }
 
 @media only screen and (max-width: 600px) {
-    .masonry-filter > li {
+    .masonry-filter>li {
         margin-bottom: 10px;
     }
-    .masonry-filter > li a {
+    .masonry-filter>li a {
         font-size: 14px !important;
     }
 }
+
+
 /* 1.45(1) Masonry filter alignment [Left-Right-Center] */
-.filter-wrap.right > .masonry-filter {
+
+.filter-wrap.right>.masonry-filter {
     float: right;
 }
+
 @media only screen and (max-width: 991px) {
-    .filter-wrap.right > .masonry-filter {
+    .filter-wrap.right>.masonry-filter {
         float: none;
     }
 }
-.filter-wrap.center > .masonry-filter {
+
+.filter-wrap.center>.masonry-filter {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 /* 1.45(2) Masonry filter link style */
-.masonry-filter.link-style > li a {
+
+.masonry-filter.link-style>li a {
     font-size: 15px;
 }
-.masonry-filter.link-style > li:after {
+
+.masonry-filter.link-style>li:after {
     content: "/";
     position: relative;
     right: -18px;
     opacity: 0.3;
 }
-.masonry-filter.link-style.white > li:after {
+
+.masonry-filter.link-style.white>li:after {
     color: #fff;
 }
-.masonry-filter.link-style > li:last-child:after {
+
+.masonry-filter.link-style>li:last-child:after {
     display: none;
 }
-.masonry-filter.link-style.white > li.active a,
-.masonry-filter.link-style.white > li a:hover,
-.masonry-filter.link-style.white > li a:active,
-.masonry-filter.link-style.white > li a:focus {
+
+.masonry-filter.link-style.white>li.active a,
+.masonry-filter.link-style.white>li a:hover,
+.masonry-filter.link-style.white>li a:active,
+.masonry-filter.link-style.white>li a:focus {
     color: #f7c20a;
 }
-.masonry-filter.has-bg > li a {
+
+.masonry-filter.has-bg>li a {
     color: #fff;
 }
-.masonry-filter.link-style.has-bg > li.active a,
-.masonry-filter.link-style.has-bg > li:hover a,
-.masonry-filter.link-style.has-bg > li:active a,
-.masonry-filter.link-style.has-bg > li:focus a {
+
+.masonry-filter.link-style.has-bg>li.active a,
+.masonry-filter.link-style.has-bg>li:hover a,
+.masonry-filter.link-style.has-bg>li:active a,
+.masonry-filter.link-style.has-bg>li:focus a {
     color: #ffbc13;
 }
 
+
 /* 1.45(3) Masonry filter button style */
-.masonry-filter.button-style > li {
+
+.masonry-filter.button-style>li {
     margin-right: 10px;
 }
+
 @media only screen and (max-width: 767px) {
-    .masonry-filter.button-style > li {
+    .masonry-filter.button-style>li {
         margin-bottom: 10px;
     }
 }
-.masonry-filter.button-style > li a {
+
+.masonry-filter.button-style>li a {
     background-color: #666666;
     color: #fff;
     padding: 10px 20px;
     font-weight: 600;
     display: inline-block;
 }
-.masonry-filter.button-style > li.active a,
-.masonry-filter.button-style > li a:hover,
-.masonry-filter.button-style > li a:active,
-.masonry-filter.button-style > li a:focus {
-    background-color: #000;
-    color: #fff;
-}
-.masonry-filter.button-style.has-bg > li a {
-    background-color: #fff;
-    color: #666;
-}
-.masonry-filter.button-style.has-bg > li.active a,
-.masonry-filter.button-style.has-bg > li a:hover,
-.masonry-filter.button-style.has-bg > li a:active,
-.masonry-filter.button-style.has-bg > li a:focus {
+
+.masonry-filter.button-style>li.active a,
+.masonry-filter.button-style>li a:hover,
+.masonry-filter.button-style>li a:active,
+.masonry-filter.button-style>li a:focus {
     background-color: #000;
     color: #fff;
 }
 
+.masonry-filter.button-style.has-bg>li a {
+    background-color: #fff;
+    color: #666;
+}
+
+.masonry-filter.button-style.has-bg>li.active a,
+.masonry-filter.button-style.has-bg>li a:hover,
+.masonry-filter.button-style.has-bg>li a:active,
+.masonry-filter.button-style.has-bg>li a:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+
 /* 1.45(4) Masonry filter button outline style */
-.masonry-filter.outline-style > li {
+
+.masonry-filter.outline-style>li {
     margin-right: 10px;
 }
-.masonry-filter.outline-style > li a {
+
+.masonry-filter.outline-style>li a {
     border-width: 2px;
     border-style: solid;
     border-color: #666666;
@@ -3540,27 +4191,30 @@ ol.list-num-count.list-outline-none > li:before {
     font-weight: 600;
     display: inline-block;
 }
-.masonry-filter.outline-style.rounded-corner > li a {
+
+.masonry-filter.outline-style.rounded-corner>li a {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
 }
 
-.masonry-filter.outline-style > li.active a,
-.masonry-filter.outline-style > li a:hover,
-.masonry-filter.outline-style > li a:active,
-.masonry-filter.outline-style > li a:focus {
+.masonry-filter.outline-style>li.active a,
+.masonry-filter.outline-style>li a:hover,
+.masonry-filter.outline-style>li a:active,
+.masonry-filter.outline-style>li a:focus {
     border-color: #000;
     color: #000;
 }
-.masonry-filter.outline-style.has-bg > li a {
+
+.masonry-filter.outline-style.has-bg>li a {
     border-color: #fff;
     color: #fff;
 }
-.masonry-filter.outline-style.has-bg > li.active a,
-.masonry-filter.outline-style.has-bg > li a:hover,
-.masonry-filter.outline-style.has-bg > li a:active,
-.masonry-filter.outline-style.has-bg > li a:focus {
+
+.masonry-filter.outline-style.has-bg>li.active a,
+.masonry-filter.outline-style.has-bg>li a:hover,
+.masonry-filter.outline-style.has-bg>li a:active,
+.masonry-filter.outline-style.has-bg>li a:focus {
     border-color: #000;
     color: #000;
 }
@@ -3571,7 +4225,9 @@ ol.list-num-count.list-outline-none > li:before {
     }
 }
 
+
 /* 1.45(5) half effect button outline style */
+
 .btn-half {
     cursor: pointer;
     background-color: #000;
@@ -3623,6 +4279,7 @@ ol.list-num-count.list-outline-none > li:before {
     left: 0;
     right: auto;
 }
+
 .btn-half:after {
     bottom: 0;
     right: 0;
@@ -3632,11 +4289,13 @@ ol.list-num-count.list-outline-none > li:before {
 .btn-half.site-button:hover {
     background-color: #000;
 }
+
 .btn-half:hover:before {
     width: 100%;
     right: 0;
     left: auto;
 }
+
 .btn-half:hover:after {
     width: 100%;
     left: 0;
@@ -3646,23 +4305,31 @@ ol.list-num-count.list-outline-none > li:before {
 .btn-half:hover span {
     color: #fff;
 }
+
 .btn-half:hover em {
     background: #fff;
     transform: scaleX(1);
 }
+
+
 /*-------------------------------------
 	2. Title separators 
 -------------------------------------*/
+
 .wt-separator-outer {
     overflow: hidden;
 }
+
+
 /*Separator defualt*/
+
 .wt-separator {
     display: inline-block;
     height: 3px;
     width: 50px;
     position: relative;
 }
+
 .wt-separator .separator-left,
 .wt-separator .separator-right {
     position: absolute;
@@ -3671,18 +4338,26 @@ ol.list-num-count.list-outline-none > li:before {
     height: 2px;
     margin-top: -1px;
 }
+
 .wt-separator .separator-left {
     left: -80px;
 }
+
 .wt-separator .separator-right {
     right: -80px;
 }
+
+
 /*Separator liner*/
+
 .wt-separator.style-liner {
     width: 20px;
     height: 4px;
 }
+
+
 /*Separator square*/
+
 .wt-separator.style-square {
     width: 10px;
     height: 10px;
@@ -3691,15 +4366,19 @@ ol.list-num-count.list-outline-none > li:before {
     border-style: solid;
     border-color: #2d3239;
 }
+
 .wt-separator.style-square .separator-left,
 .wt-separator.style-square .separator-right {
     height: 3px;
 }
+
 .wt-separator.style-square.has-bg {
     border-color: #fff;
 }
 
+
 /*Separator icon*/
+
 .wt-separator.style-icon {
     width: 30px;
     height: 30px;
@@ -3708,23 +4387,29 @@ ol.list-num-count.list-outline-none > li:before {
     font-size: 18px;
 }
 
+
 /*-------------------------------------
 	3. Deviders 
 -------------------------------------*/
+
 .wt-divider {
     height: 1px;
     position: relative;
     margin: 30px 0;
 }
+
 .wt-divider.divider-2px {
     height: 2px;
 }
+
 .wt-divider.divider-3px {
     height: 3px;
 }
+
 .wt-divider.divider-4px {
     height: 4px;
 }
+
 .wt-divider i {
     position: absolute;
     width: 30px;
@@ -3743,24 +4428,30 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-divider.icon-left {
     margin-left: 40px;
 }
+
 .wt-divider.icon-left i {
     left: -40px;
 }
+
 .wt-divider.icon-right {
     margin-right: 40px;
 }
+
 .wt-divider.icon-right i {
     left: auto;
     right: -40px;
 }
+
 .wt-divider.icon-center i {
     left: 50%;
     margin-left: -5px;
 }
 
+
 /*-------------------------------------
 	4. TABS 
 -------------------------------------*/
+
 .wt-tabs:after {
     visibility: hidden;
     display: block;
@@ -3769,19 +4460,25 @@ ol.list-num-count.list-outline-none > li:before {
     clear: both;
     height: 0;
 }
+
 @media only screen and (max-width: 767px) {
-    .wt-tabs .nav-tabs > li {
+    .wt-tabs .nav-tabs>li {
         float: none;
     }
 }
+
 .wt-tabs p:last-child {
     margin-bottom: 0;
 }
+
+
 /*4.1 tabs style 1 [ default ] */
+
 .wt-tabs .tab-pane {
     padding: 20px 0;
 }
-.wt-tabs .nav-tabs > li > a {
+
+.wt-tabs .nav-tabs>li>a {
     color: #000;
     font-size: 12px;
     padding: 15px;
@@ -3789,82 +4486,102 @@ ol.list-num-count.list-outline-none > li:before {
     text-transform: uppercase;
     border: 0px;
 }
-.wt-tabs .nav-tabs > li.active > a,
-.wt-tabs .nav-tabs > li.active > a:focus,
-.wt-tabs .nav-tabs > li.active > a:hover {
+
+.wt-tabs .nav-tabs>li.active>a,
+.wt-tabs .nav-tabs>li.active>a:focus,
+.wt-tabs .nav-tabs>li.active>a:hover {
     background-color: #fff;
     border-bottom: 1px solid #000;
     color: #000;
 }
-.wt-tabs .nav > li > a:focus,
-.wt-tabs .nav > li > a:hover {
+
+.wt-tabs .nav>li>a:focus,
+.wt-tabs .nav>li>a:hover {
     background-color: transparent;
     border: 0px;
 }
+
 .wt-tabs .nav li a:hover {
     border: 0px;
 }
 
-.wt-tabs .nav-tabs > li > a i {
+.wt-tabs .nav-tabs>li>a i {
     margin-right: 5px;
 }
-.wt-tabs.tabs-default.has-bg .nav-tabs > li > a {
+
+.wt-tabs.tabs-default.has-bg .nav-tabs>li>a {
     color: #fff;
 }
-.wt-tabs.tabs-default.has-bg .nav-tabs > li.active > a,
-.wt-tabs.tabs-default.has-bg .nav-tabs > li.active > a:focus,
-.wt-tabs.tabs-default.has-bg .nav-tabs > li.active > a:hover {
+
+.wt-tabs.tabs-default.has-bg .nav-tabs>li.active>a,
+.wt-tabs.tabs-default.has-bg .nav-tabs>li.active>a:focus,
+.wt-tabs.tabs-default.has-bg .nav-tabs>li.active>a:hover {
     color: #000;
     border-color: #ddd #ddd #fff;
 }
+
 .wt-tabs.tabs-default.has-bg .tab-pane {
     color: #fff;
 }
+
+
 /* tabs nav center */
-.wt-tabs.nav-center > .nav-tabs {
+
+.wt-tabs.nav-center>.nav-tabs {
     display: table;
     margin-left: auto;
     margin-right: auto;
 }
 
+
 /*4.2 tabs bg  [ tabs background ] */
-.wt-tabs.bg-tabs .nav-tabs > li > a {
+
+.wt-tabs.bg-tabs .nav-tabs>li>a {
     background-color: #f0f0f0;
     border: 0px;
     margin-right: -1px;
 }
-.wt-tabs.bg-tabs .nav-tabs > li.active > a {
+
+.wt-tabs.bg-tabs .nav-tabs>li.active>a {
     border-bottom: 0px;
     background-color: #000;
     color: #fff;
 }
+
 .wt-tabs.bg-tabs.has-bg .tab-pane {
     color: #fff;
 }
 
+
 /*4.3 tabs bg  [ tabs background ] */
-.wt-tabs.vertical.bg-tabs .nav-tabs > li > a {
+
+.wt-tabs.vertical.bg-tabs .nav-tabs>li>a {
     border: 1px solid transparent;
 }
-.wt-tabs.vertical.bg-tabs .nav-tabs > li.active > a {
+
+.wt-tabs.vertical.bg-tabs .nav-tabs>li.active>a {
     border-right: 1px solid transparent;
     border-bottom: 1px solid transparent;
     background-color: #000;
     color: #fff;
 }
 
-.wt-tabs.vertical.right.bg-tabs .nav-tabs > li > a {
+.wt-tabs.vertical.right.bg-tabs .nav-tabs>li>a {
     border: 1px solid #ddd;
 }
-.wt-tabs.vertical.right.bg-tabs .nav-tabs > li.active > a {
+
+.wt-tabs.vertical.right.bg-tabs .nav-tabs>li.active>a {
     border-left: 1px solid transparent;
 }
 
+
 /*4.4 tabs bg & top border  [ tabs background & top border in active ] */
-.wt-tabs.border-top .nav-tabs > li.active > a {
+
+.wt-tabs.border-top .nav-tabs>li.active>a {
     color: #1a1a1a;
 }
-.wt-tabs.border-top .nav-tabs > li.active > a:after {
+
+.wt-tabs.border-top .nav-tabs>li.active>a:after {
     content: "";
     position: absolute;
     top: -1px;
@@ -3873,21 +4590,26 @@ ol.list-num-count.list-outline-none > li:before {
     height: 3px;
     background-color: #000;
 }
-.wt-tabs.border-top.vertical .nav-tabs > li.active > a:after {
+
+.wt-tabs.border-top.vertical .nav-tabs>li.active>a:after {
     top: 0px;
     left: -1px;
     width: 3px;
     height: 100%;
 }
 
+
 /*4.4 tabs style 2 [ content with border outer ] */
+
 .wt-tabs.border .tab-pane {
     padding: 10px;
     border: 1px solid #ddd;
     margin-top: -1px;
 }
 
+
 /*4.5 tabs style 3  [ left-nav ] */
+
 .wt-tabs.vertical .nav-tabs {
     float: left;
     width: 170px;
@@ -3910,10 +4632,12 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-tabs.vertical .tab-pane {
     padding: 10px 0 10px 20px;
 }
+
 .wt-tabs.vertical .nav-tabs li {
     float: none;
     margin-right: 0px;
 }
+
 .wt-tabs.vertical .nav-tabs li a {
     margin-right: 0;
     border-right: none;
@@ -3928,54 +4652,68 @@ ol.list-num-count.list-outline-none > li:before {
     border-bottom: 1px solid #000;
     background-color: #fff;
 }
+
 .wt-tabs.vertical .tab-content {
     border-left: 0px;
     margin-left: 169px;
 }
 
+
 /*4.6 tabs style 4  [ left-nav & content with border ] */
+
 .wt-tabs.vertical.border .tab-pane {
     padding: 20px;
     margin-left: -1px;
 }
 
+
 /*4.7 tabs style 5  [ right-nav ] */
+
 .wt-tabs.vertical.right .nav-tabs {
     border-left: 1px solid #ddd;
     border-right: none;
     float: right;
 }
+
 .wt-tabs.vertical.right .nav-tabs li {
     margin-right: 0;
     margin-left: -1px;
 }
+
 .wt-tabs.vertical.right .nav-tabs li a {
     border-right: 1px solid transparent;
     border-left: none;
 }
+
 .wt-tabs.vertical.right .nav-tabs li.active a {
     border-right: 1px solid #ddd;
     border-left: none;
 }
+
 .wt-tabs.vertical.right .tab-content {
     border-left: none;
     border-right: 1px solid #ddd;
     margin-right: 169px;
     margin-left: 0;
 }
+
 .wt-tabs.vertical.right .tab-pane {
     padding: 10px 20px 10px 0;
 }
 
+
 /*4.8 tabs style 6  [ right-nav & content with border ]*/
+
 .wt-tabs.vertical.right.border .tab-pane {
     padding: 20px;
     margin-right: -1px;
 }
 
+
 /*-------------------------------------
 	5. Accordians 
 -------------------------------------*/
+
 .wt-accordion .wt-panel {
     background-color: transparent;
     border: none;
@@ -3991,15 +4729,18 @@ ol.list-num-count.list-outline-none > li:before {
 .acod-head {
     position: relative;
 }
+
 .acod-title {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .acod-title a {
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
+
 .acod-head .fa {
     margin-right: 5px;
 }
@@ -4010,17 +4751,21 @@ ol.list-num-count.list-outline-none > li:before {
     letter-spacing: 1px;
     font-size: 12px;
 }
+
 .acod-head a,
 .acod-head a:hover,
 .acod-head a:active,
 .acod-head a:focus {
     color: #000;
 }
+
 .acod-body {
     color: #000;
 }
 
+
 /*Accodian open close indicator css*/
+
 .acod-head .indicator {
     padding: 15px;
     color: #ababab;
@@ -4028,9 +4773,11 @@ ol.list-num-count.list-outline-none > li:before {
     right: 0;
     top: 0;
 }
+
 .acod-head .indicator .fa {
     position: relative;
 }
+
 .acod-head .indicator .fa:after,
 .acod-head .indicator .fa:before {
     position: absolute;
@@ -4063,6 +4810,7 @@ ol.list-num-count.list-outline-none > li:before {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
 }
+
 .acod-head.acc-actives .indicator .fa,
 .acod-head [aria-expanded="true"] .indicator .fa {
     -moz-transform: rotate(45deg);
@@ -4073,13 +4821,17 @@ ol.list-num-count.list-outline-none > li:before {
     right: 4px;
 }
 
+
 /* 1. Accordion defult */
+
 .acc-default .acod-title a {
     padding: 5px 0;
 }
+
 .acc-default .acod-head .indicator {
     padding: 0;
 }
+
 .acc-default.acc-has-bg .acod-head a,
 .acc-default.acc-has-bg .acod-head a:hover,
 .acc-default.acc-has-bg .acod-head a:active,
@@ -4089,10 +4841,13 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 2. Accordion outline */
+
 .acc-outline .acod-title a {
     border: 1px solid #ddd;
 }
+
 .acc-outline.acc-has-bg .acod-head a,
 .acc-outline.acc-has-bg .acod-head a:hover,
 .acc-outline.acc-has-bg .acod-head a:active,
@@ -4102,63 +4857,85 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
 }
 
+
 /* 3. Accordion bg gray */
+
 .acc-bg-gray a {
     background-color: #f5f5f5;
 }
+
 .acc-bg-gray .acod-head .indicator {
     color: #777;
 }
+
 .acc-bg-gray.acc-has-bg .acod-body {
     color: #fff;
 }
+
+
 /* 4. Accordion bg primary */
+
 .acc-bg-primary a {
     background-color: #000;
 }
+
 .acc-bg-primary .acod-head a,
 .acc-bg-primary .acod-head a:hover,
 .acc-bg-primary .acod-head a:active,
 .acc-bg-primary .acod-head a:focus {
     color: #fff;
 }
+
 .acc-bg-primary .acod-head .indicator {
     color: #fff;
 }
+
 .acc-bg-primary.acc-has-bg .acod-body {
     color: #fff;
 }
+
+
 /* 5. Accordion bg dark */
+
 .acc-bg-dark a {
     background-color: #000;
 }
+
 .acc-bg-dark .acod-head a,
 .acc-bg-dark .acod-head a:hover,
 .acc-bg-dark .acod-head a:active,
 .acc-bg-dark .acod-head a:focus {
     color: #fff;
 }
+
 .acc-bg-dark .acod-head .indicator {
     color: #fff;
 }
+
 .acc-bg-dark.acc-has-bg .acod-body {
     color: #fff;
 }
 
+
 /*-------------------------------------
 	6. Carousels
 -------------------------------------*/
+
+
 /* 6.1 Client carousel 1*/
+
 .ow-client-logo {
     display: table;
     width: 100%;
 }
+
 .client-logo {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
     padding: 10px;
 }
+
 .owl-carousel .ow-client-logo img {
     max-height: 100%;
     width: auto;
@@ -4171,9 +4948,11 @@ ol.list-num-count.list-outline-none > li:before {
     width: auto !important;
 }
 
+
 /*-------------------------------------
 	7. Testimonials 
 -------------------------------------*/
+
 .testimonial-pic {
     background: #fff;
     width: 100px;
@@ -4182,22 +4961,26 @@ ol.list-num-count.list-outline-none > li:before {
     display: inline-block;
     border: 5px solid #fff;
 }
+
 .testimonial-pic.radius {
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
 }
+
 .testimonial-pic.radius img {
     width: 100%;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
 }
+
 .testimonial-pic.shadow {
     -webkit-box-shadow: 2px 3px 6px -3px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 2px 3px 6px -3px rgba(0, 0, 0, 0.35);
     box-shadow: 2px 3px 6px -3px rgba(0, 0, 0, 0.35);
 }
+
 .quote-left,
 .quote-right {
     position: relative;
@@ -4215,18 +4998,22 @@ ol.list-num-count.list-outline-none > li:before {
     content: "\f10d";
     left: 0;
 }
+
 .quote-right:after {
     content: "\f10e";
     left: auto;
     right: 0;
 }
+
 .testimonial-text {
     padding: 15px;
     position: relative;
 }
+
 .testimonial-text p:last-child {
     margin: 0;
 }
+
 .testimonial-detail {
     padding: 5px;
 }
@@ -4235,19 +5022,25 @@ ol.list-num-count.list-outline-none > li:before {
 .testimonial-position {
     display: block;
 }
+
 .testimonial-position {
     font-style: italic;
 }
+
 .testimonial-text p {
     margin: 0;
 }
 
+
 /*7.1 testimonial with background image*/
+
 .testimonial-bg {
     color: #fff;
 }
 
+
 /*7.2 testimonial 6*/
+
 .testimonial-6,
 .testimonial-grid-6 {
     position: relative;
@@ -4256,6 +5049,7 @@ ol.list-num-count.list-outline-none > li:before {
 .testimonial-6 {
     padding: 4px 4px 4px 4px;
 }
+
 .testimonial-6 .testimonial-text,
 .testimonial-grid-6 .testimonial-text {
     padding: 30px;
@@ -4263,6 +5057,7 @@ ol.list-num-count.list-outline-none > li:before {
     -webkit-box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
     box-shadow: 3px 3px 5px 0 rgb(0, 0, 0, 0.1);
 }
+
 .testimonial-6 .testimonial-pic,
 .testimonial-grid-6 .testimonial-pic {
     width: 80px;
@@ -4270,6 +5065,7 @@ ol.list-num-count.list-outline-none > li:before {
     position: relative;
     border: 0px;
 }
+
 .testimonial-6 .testimonial-pic:after,
 .testimonial-6 .testimonial-pic:before,
 .testimonial-grid-6 .testimonial-pic:after,
@@ -4278,6 +5074,7 @@ ol.list-num-count.list-outline-none > li:before {
     position: absolute;
     background-color: #000;
 }
+
 .testimonial-6 .testimonial-pic:after,
 .testimonial-grid-6 .testimonial-pic:after {
     left: -3px;
@@ -4285,6 +5082,7 @@ ol.list-num-count.list-outline-none > li:before {
     width: 3px;
     height: 30px;
 }
+
 .testimonial-6 .testimonial-pic:before,
 .testimonial-grid-6 .testimonial-pic:before {
     left: 0px;
@@ -4299,6 +5097,7 @@ ol.list-num-count.list-outline-none > li:before {
 .testimonial-grid-6 .testimonial-position {
     display: block;
 }
+
 .testimonial-6 .fa-quote-left,
 .testimonial-grid-6 .fa-quote-left {
     font-size: 18px;
@@ -4327,7 +5126,9 @@ ol.list-num-count.list-outline-none > li:before {
     padding-right: 0px;
 }
 
+
 /* testimonial 6 owl-dots*/
+
 .testimonial-home.owl-carousel .owl-dots .owl-dot span {
     height: 10px;
     width: 20px;
@@ -4339,6 +5140,7 @@ ol.list-num-count.list-outline-none > li:before {
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
 }
+
 .testimonial-home.owl-carousel .owl-dots .owl-dot.active span {
     border: none;
     background-color: #000 !important;
@@ -4349,60 +5151,74 @@ ol.list-num-count.list-outline-none > li:before {
     transition: all 0.5s linear;
 }
 
+
 /*-------------------------------------
 	8. Pricing table
  -------------------------------------*/
+
 .pricingtable-inner {
     text-align: center;
 }
+
 .pricingtable-price {
     padding: 10px;
     background-color: #ffbc13;
 }
+
 .pricingtable-bx {
     font-size: 70px;
     font-family: Arial;
     color: #666666;
     color: #1a1a1a;
 }
+
 .pricingtable-type {
     font-size: 20px;
     text-transform: uppercase;
     font-size: 24px;
     color: #fff;
 }
+
 .pricingtable-type:before {
     content: "/";
     margin-right: 3px;
 }
+
 .pricingtable-title {
     background-color: #1a1a1a;
     padding: 20px;
     text-transform: uppercase;
 }
+
 .pricingtable-title * {
     margin: 0;
     color: #fff;
 }
+
 .pricingtable-features {
     margin: 0;
     padding: 0;
     list-style: none;
     border: 1px solid #e9e9e9;
 }
+
 .pricingtable-features li {
     padding: 12px;
     border-bottom: 1px solid #e9e9e9;
 }
+
 .pricingtable-features li i {
     margin: 0 3px;
 }
+
 .pricingtable-features li:nth-child(even) {
     background-color: #f4f7f8;
 }
+
 .pricingtable-features li:last-child {
     border-bottom: none;
 }
+
 .pricingtable-footer {
     margin-top: -1px;
     padding: 20px;
@@ -4417,15 +5233,19 @@ ol.list-num-count.list-outline-none > li:before {
     position: relative;
     z-index: 99;
 }
+
 .pricingtable-highlight .pricingtable-price {
     padding: 20px 10px;
 }
+
 .pricingtable-highlight .pricingtable-footer {
     padding: 30px 20px;
 }
+
 .no-col-gap .pricingtable-wrapper {
     margin-left: -1px;
 }
+
 @media only screen and (max-width: 420px) {
     .pricingtable-bx {
         font-size: 40px;
@@ -4435,19 +5255,23 @@ ol.list-num-count.list-outline-none > li:before {
     }
 }
 
+
 /*8.2 pricing table style 4*/
 
 .pricing-table-style-4 .pricingtable-inner {
     position: relative;
     overflow: hidden;
 }
+
 .pricing-table-style-4 .pricingtable-inner.radius {
     -webkit-border-radius: 40px 40px 40px 40px;
     border-radius: 40px 40px 40px 40px;
 }
+
 .pricing-table-style-4 .pricingtable-bx {
     font-size: 50px;
 }
+
 .pricing-table-style-4 .pricingtable-type {
     font-size: 14px;
     font-style: italic;
@@ -4455,30 +5279,38 @@ ol.list-num-count.list-outline-none > li:before {
     font-family: "Crete Round", serif;
     text-transform: none;
 }
+
 .pricing-table-style-4 .pricingtable-type:before {
     content: "";
 }
+
 .pricing-table-style-4 .pricingtable-inner-overlay {
     position: relative;
     z-index: 1;
 }
+
 .pricing-table-style-4 .pricingtable-inner-overlay .overlay-main {
     z-index: -1;
 }
+
 .pricing-table-style-4 .pricingtable-title {
     background-color: inherit;
     color: #fff;
     padding: 20px 0px 0px 0px;
 }
+
 .pricing-table-style-4 .pricingtable-title * {
     color: #fff;
 }
+
 .pricing-table-style-4 .pricingtable-bx {
     color: #fff;
 }
+
 .pricing-table-style-4 .pricingtable-price {
     padding: 10px 10px;
 }
+
 .pricing-table-style-4 .pricingtable-highlight .pricingtable-price {
     padding: 20px 10px;
 }
@@ -4486,6 +5318,7 @@ ol.list-num-count.list-outline-none > li:before {
 .pricing-table-style-4 .pricingtable-price {
     background-color: inherit;
 }
+
 .pricing-table-style-4 .pricingtable-price span {
     display: block;
 }
@@ -4493,60 +5326,75 @@ ol.list-num-count.list-outline-none > li:before {
 .pricing-table-style-4 .pricingtable-features li:nth-child(2n) {
     background-color: inherit;
 }
+
 .pricing-table-style-4 .pricingtable-footer {
     background-color: inherit;
 }
+
 .pricing-table-style-4 .pricingtable-features {
     border: none;
     padding-top: 20px;
 }
+
 .pricing-table-style-4 .pricingtable-features li {
     border-bottom: 0px;
 }
 
+
 /*-------------------------------------
 	9. Alert box 
 -------------------------------------*/
+
 .alert.alert-sm {
     padding: 5px 15px;
     font-size: 12px;
 }
+
 .alert.alert-lg {
     padding: 25px 15px;
     font-size: 16px;
 }
+
 .alert.alert-xl {
     padding: 35px 15px;
     font-size: 18px;
 }
+
 .alert[class*="alert-"] i {
     margin-right: 8px;
 }
+
 .alert.no-radius {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
 }
+
 .alert.no-bg {
     background-color: transparent;
     border-width: 2px;
 }
+
 .alert[class*="alert-"] ul {
     padding-left: 25px;
     margin-top: 10px;
 }
+
 .alert[class*="alert-"] ul li:before {
     color: #a94442;
 }
 
+
 /*-------------------------------------
 	10. Image effects 
 -------------------------------------*/
+
 .wt-img-effect {
     position: relative;
     overflow: hidden;
     display: block;
 }
+
 .wt-img-effect img {
     display: block;
     margin: 0;
@@ -4561,20 +5409,25 @@ ol.list-num-count.list-outline-none > li:before {
     -o-transition: all 0.25s;
 }
 
+
 /* 10.1 image-opacity */
+
 .wt-img-effect.opacity img:hover {
     opacity: 0.8;
     -moz-opacity: 0.8;
     -webkit-opacity: 0.8;
 }
 
+
 /*10.2 image-zoom */
+
 .wt-img-effect.zoom-slow img {
     transition: all 10s;
     -moz-transition: all 10s;
     -webkit-transition: all 10s;
     -o-transition: all 10s;
 }
+
 .wt-img-effect.zoom-slow:hover img {
     -moz-transform: scale(2);
     -webkit-transform: scale(2);
@@ -4583,7 +5436,9 @@ ol.list-num-count.list-outline-none > li:before {
     transform: scale(2);
 }
 
+
 /*10.3 image-zoom-slow */
+
 .wt-img-effect.zoom:hover img {
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
@@ -4592,7 +5447,9 @@ ol.list-num-count.list-outline-none > li:before {
     transform: scale(1.5);
 }
 
+
 /*10.4 image-shrink */
+
 .wt-img-effect.shrink:hover img {
     transform: scale(0.8);
     -ms-transform: scale(0.8);
@@ -4601,7 +5458,9 @@ ol.list-num-count.list-outline-none > li:before {
     -moz-transform: scale(0.8);
 }
 
+
 /*10.5 image-side-pan */
+
 .wt-img-effect.side-pan:hover img {
     margin-left: -9%;
     transform: scale(1.2);
@@ -4611,7 +5470,9 @@ ol.list-num-count.list-outline-none > li:before {
     -moz-transform: scale(1.2);
 }
 
+
 /*10.6 image-vertical-pan */
+
 .wt-img-effect.vertical-pan:hover img {
     margin-top: -10%;
     transform: scale(1.2);
@@ -4621,32 +5482,41 @@ ol.list-num-count.list-outline-none > li:before {
     -moz-transform: scale(1.2);
 }
 
+
 /*10.7 image-fade-in */
+
 .wt-img-effect.fade-in {
     background: #000;
 }
+
 .wt-img-effect.fade-in img {
     opacity: 0.65;
     -moz-opacity: 0.65;
     -webkit-opacity: 0.65;
 }
+
 .wt-img-effect.fade-in:hover img {
     opacity: 1;
     -moz-opacity: 1;
     -webkit-opacity: 1;
 }
 
+
 /*10.8 image-fade-out */
+
 .wt-img-effect.fade-out {
     background: #000;
 }
+
 .wt-img-effect.fade-out:hover img {
     opacity: 0.7;
     -moz-opacity: 0.7;
     -webkit-opacity: 0.7;
 }
 
+
 /*10.9 image-rotate */
+
 .wt-img-effect.rotate:hover img {
     -moz-transform: scale(1.5) rotate(-20deg);
     -webkit-transform: scale(1.5) rotate(-20deg);
@@ -4655,23 +5525,29 @@ ol.list-num-count.list-outline-none > li:before {
     transform: scale(1.5) rotate(-20deg);
 }
 
+
 /*10.10 image-sepia */
+
 .wt-img-effect.sepia img {
     -webkit-filter: sepia(100%);
     filter: sepia(100%);
 }
+
 .algo-image-hover.sepia:hover img {
     -webkit-filter: sepia(0);
     filter: sepia(0);
 }
 
+
 /*10.11 image-blurr */
+
 .wt-img-effect.blurr img {
     transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
 }
+
 .wt-img-effect.blurr:hover img {
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -4680,13 +5556,16 @@ ol.list-num-count.list-outline-none > li:before {
     -ms-filter: blur(3px);
 }
 
+
 /*10.12 image-blurr-invert */
+
 .wt-img-effect.blurr-invert img {
     transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
 }
+
 .wt-img-effect.blurr-invert img {
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -4694,6 +5573,7 @@ ol.list-num-count.list-outline-none > li:before {
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
 }
+
 .wt-img-effect.blurr-invert:hover img {
     filter: blur(0px);
     -webkit-filter: blur(0px);
@@ -4702,7 +5582,9 @@ ol.list-num-count.list-outline-none > li:before {
     -ms-filter: blur(0px);
 }
 
+
 /*10.13 image off color */
+
 .wt-img-effect.off-color img {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
@@ -4710,6 +5592,7 @@ ol.list-num-count.list-outline-none > li:before {
     -o-filter: grayscale(0);
     -ms-filter: grayscale(0);
 }
+
 .wt-img-effect.off-color:hover img {
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
@@ -4718,7 +5601,9 @@ ol.list-num-count.list-outline-none > li:before {
     -ms-filter: grayscale(1);
 }
 
+
 /*10.14 image on color */
+
 .wt-img-effect.on-color img {
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
@@ -4726,6 +5611,7 @@ ol.list-num-count.list-outline-none > li:before {
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
 }
+
 .wt-img-effect.on-color:hover img {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
@@ -4734,15 +5620,19 @@ ol.list-num-count.list-outline-none > li:before {
     -ms-filter: grayscale(0);
 }
 
+
 /*-------------------------------------
 	11. Modal pop 
 -------------------------------------*/
+
 .modal-xlg {
     width: 1000px;
 }
+
 .provider_registration .bootstrap-select div.dropdown-menu ul li a {
     font-weight: 600;
 }
+
 .provider_registration .bootstrap-select div.dropdown-menu ul li a span.childcat {
     font-weight: 400;
     color: #7c7c7c;
@@ -4756,19 +5646,23 @@ ol.list-num-count.list-outline-none > li:before {
     }
 }
 
+
 /*-------------------------------------
 	12. Social icons 
 -------------------------------------*/
+
 .social-icons {
     list-style: none;
     margin-left: -3px;
     margin-right: -3px;
     font-size: 12px;
 }
+
 .social-icons li {
     display: inline-block;
     text-align: center;
 }
+
 .social-icons li a {
     display: block;
     padding: 3px;
@@ -4777,21 +5671,27 @@ ol.list-num-count.list-outline-none > li:before {
 .social-icons.social-md {
     font-size: 18px;
 }
+
 .social-icons.social-lg li a {
     font-size: 24px;
 }
+
 .social-icons.has-bg li a:hover {
     color: #fff;
 }
+
 .social-icons.social-light a {
     color: #fff;
 }
+
 .social-icons.social-light.has-bg li a:hover {
     color: #777;
 }
+
 .social-icons.social-dark a {
     color: #777;
 }
+
 .social-icons.social-dark.has-bg li a:hover {
     color: #777;
 }
@@ -4804,6 +5704,7 @@ ol.list-num-count.list-outline-none > li:before {
     line-height: 24px;
     padding: 0;
 }
+
 .social-icons.social-square.social-md a,
 .social-icons.social-radius.social-md a {
     width: 36px;
@@ -4811,6 +5712,7 @@ ol.list-num-count.list-outline-none > li:before {
     line-height: 36px;
     padding: 0;
 }
+
 .social-icons.social-square.social-lg a,
 .social-icons.social-radius.social-lg a {
     width: 40px;
@@ -4825,10 +5727,12 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .social-icons.social-square.social-primary a:hover,
 .social-icons.social-radius.social-primary a:hover {
     background-color: #1a1a1a;
 }
+
 .social-icons.social-square.social-primary.has-bg a:hover,
 .social-icons.social-radius.social-primary.has-bg a:hover {
     border: 1px solid rgba(255, 255, 255, 1);
@@ -4844,6 +5748,7 @@ ol.list-num-count.list-outline-none > li:before {
     background-color: #1a1a1a;
     color: #fff;
 }
+
 .social-icons.social-square.social-dark.has-bg a:hover,
 .social-icons.social-radius.social-dark.has-bg a:hover {
     border: 1px solid #777;
@@ -4853,6 +5758,7 @@ ol.list-num-count.list-outline-none > li:before {
 .social-icons.social-radius.social-darkest a {
     border: 1px solid #4a4c4c;
 }
+
 .social-icons.social-darkest a {
     color: #454747;
 }
@@ -4875,31 +5781,40 @@ ol.list-num-count.list-outline-none > li:before {
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 1);
 }
+
+
 /*12.1 social icon default */
+
 .wt-social-icon {
     display: inline-block;
     margin: 0 -3px;
     padding: 0;
 }
+
 .wt-social-icon li {
     display: inline-block;
     padding: 0;
     font-size: 12px;
 }
+
 .wt-social-icon li a {
     display: inline-block;
     width: 24px;
     height: 24px;
     padding: 4px;
 }
+
 .wt-social-icon li .fa {
     vertical-align: middle;
 }
 
+
 /*12.2 social icon with border */
+
 .wt-social-icon.border li {
     padding: 0 3px;
 }
+
 .wt-social-icon.border li a {
     border: 1px solid #efeded;
     border-radius: 2px;
@@ -4907,10 +5822,13 @@ ol.list-num-count.list-outline-none > li:before {
     -moz-border-radius: 2px;
 }
 
+
 /*12.3 social icon dark */
+
 .wt-social-links.dark li {
     padding: 0 3px;
 }
+
 .wt-social-icon.dark li a {
     border: 1px solid #777777;
     color: #777777;
@@ -4919,7 +5837,9 @@ ol.list-num-count.list-outline-none > li:before {
     -moz-border-radius: 2px;
 }
 
+
 /*12.4 social share icon style 1 */
+
 .wt-share-icon li {
     border: none;
     width: 36px;
@@ -4948,46 +5868,60 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-share-icon li.fb {
     background: #354d89;
 }
+
 .wt-share-icon li.fb i {
     background: #3a5799;
 }
+
 .wt-share-icon li.gp {
     background: #d34b2b;
 }
+
 .wt-share-icon li.gp i {
     background: #e35736;
 }
+
 .wt-share-icon li.tw {
     background: #029fdf;
 }
+
 .wt-share-icon li.tw i {
     background: #00abf0;
 }
+
 .wt-share-icon li.dig {
     background: #1d61aa;
 }
+
 .wt-share-icon li.dig i {
     background: #2b6fb8;
 }
+
 .wt-share-icon li.lin {
     background: #0176be;
 }
+
 .wt-share-icon li.lin i {
     background: #0082ca;
 }
+
 .wt-share-icon li.pin {
     background: #ac0104;
 }
+
 .wt-share-icon li.pin i {
     background: #bd0e15;
 }
+
 .wt-share-icon li:hover {
     width: 90px;
 }
 
+
 /*-------------------------------------
 	13. Breadcrumb 
 -------------------------------------*/
+
 
 /*13.1 breadcrumb-row-1*/
 
@@ -4995,6 +5929,7 @@ ol.list-num-count.list-outline-none > li:before {
     margin: 0;
     list-style: none;
 }
+
 .wt-breadcrumb li {
     padding: 0;
     margin-right: 3px;
@@ -5003,24 +5938,31 @@ ol.list-num-count.list-outline-none > li:before {
     display: inline-block;
     font-size: 12px;
 }
+
 .wt-breadcrumb li a {
     color: #fff;
 }
+
 .wt-breadcrumb li a:hover {
     color: #000;
 }
+
 .wt-breadcrumb li:last-child {
     color: #fff;
 }
+
 .wt-breadcrumb li:first-child a i {
     font-size: 18px;
     vertical-align: text-top;
 }
+
 .wt-breadcrumb li:last-child:after {
     display: none;
 }
 
+
 /*13.2 Breadcrumb-1*/
+
 .breadcrumb-style-2 li:after {
     content: "\f101";
     margin-left: 7px;
@@ -5030,20 +5972,25 @@ ol.list-num-count.list-outline-none > li:before {
     font-weight: normal;
 }
 
+
 /*-------------------------------------
 	14. Google map 
 -------------------------------------*/
+
 .google-map {
     width: 100%;
     height: 460px;
 }
 
+
 /*-------------------------------------
 	16. Countdown clock 
 -------------------------------------*/
+
 .count-row {
     background: #333;
 }
+
 #countdown-clock {
     display: table;
     text-align: center;
@@ -5052,6 +5999,7 @@ ol.list-num-count.list-outline-none > li:before {
     border: 1px solid #3f3f3f;
     margin: 17px 0;
 }
+
 #countdown-clock span {
     display: table-cell;
     width: 1%;
@@ -5062,6 +6010,7 @@ ol.list-num-count.list-outline-none > li:before {
     color: #999;
     border-right: 1px solid #3f3f3f;
 }
+
 #countdown-clock span:last-child {
     border-right: none;
 }
@@ -5079,24 +6028,30 @@ ol.list-num-count.list-outline-none > li:before {
     }
 }
 
+
 /*-------------------------------------
 	17. Form elements 
 -------------------------------------*/
+
 label {
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .panel-default,
-.panel-default > .panel-heading {
+.panel-default>.panel-heading {
     border-color: #e7ecf1;
     color: inherit;
 }
-.panel-default > .panel-heading + .panel-collapse > .panel-body {
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
     border-top-color: #e7ecf1;
 }
+
 .form-group {
     margin-bottom: 25px;
 }
+
 .form-control {
     border-color: #e1e6eb;
     box-shadow: none;
@@ -5107,6 +6062,7 @@ label {
     line-height: 20px;
     padding: 9px 12px;
 }
+
 .form-control:focus {
     border-color: #e1e1e1;
     outline: 0;
@@ -5118,15 +6074,19 @@ label {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
 .form-control.kv-fileinput-caption {
     height: 39px;
 }
+
 .form-group.form-inline .radio,
 .form-group.form-inline .checkbox {
     margin-right: 15px;
 }
 
+
 /* 17.1 input group */
+
 .input-group {
     width: 100%;
 }
@@ -5136,41 +6096,51 @@ label {
 .input-group-btn {
     display: table-cell;
 }
+
 .input-group-addon {
     background: #fff;
     border-color: #e1e1e1;
     padding: 6px 14px;
     font-size: 16px;
 }
+
 .input-group-addon.font-size-20 {
     font-size: 20px;
 }
+
 .input-group-addon.fixed-w {
     text-align: center;
     padding: 6px 0;
     width: 40px;
 }
+
 .input-group-addon.v-align-t {
     line-height: 30px;
 }
+
+
 /* 17.3 radio & checkbox */
+
 input[type="checkbox"],
 input[type="radio"] {
     opacity: 0;
     margin-left: 1px !important;
 }
-input[type="checkbox"] + label,
-input[type="radio"] + label {
+
+input[type="checkbox"]+label,
+input[type="radio"]+label {
     display: block;
     padding-left: 20px !important;
     position: relative;
 }
-input[type="checkbox"] + label:hover:before,
-input[type="radio"] + label:hover:before {
+
+input[type="checkbox"]+label:hover:before,
+input[type="radio"]+label:hover:before {
     border-color: #3396d1;
 }
-input[type="checkbox"] + label:before,
-input[type="radio"] + label:before {
+
+input[type="checkbox"]+label:before,
+input[type="radio"]+label:before {
     background-color: #fff;
     border: 2px solid #b6b7b8;
     border-radius: 0px;
@@ -5184,7 +6154,8 @@ input[type="radio"] + label:before {
     transition: all linear 0.1s;
     width: 16px;
 }
-input[type="checkbox"] + label:after {
+
+input[type="checkbox"]+label:after {
     color: #fff;
     content: "\f00c";
     font-family: FontAwesome;
@@ -5195,26 +6166,30 @@ input[type="checkbox"] + label:after {
     top: 7px;
     transition: all linear 0.1s;
 }
-input[type="checkbox"]:checked + label:before {
+
+input[type="checkbox"]:checked+label:before {
     border-width: 7px;
     border-color: #3396d1;
 }
-input[type="checkbox"]:checked + label:after {
+
+input[type="checkbox"]:checked+label:after {
     font-size: 10px;
     left: 2px;
     top: 2px;
 }
-input[type="radio"] + label:before {
+
+input[type="radio"]+label:before {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     content: "";
 }
 
-input[type="radio"]:checked + label:before {
+input[type="radio"]:checked+label:before {
     border-color: #3396d1;
     border-width: 5px;
 }
+
 .form-inline .checkbox input[type="checkbox"],
 .form-inline .radio input[type="radio"] {
     position: absolute;
@@ -5222,11 +6197,14 @@ input[type="radio"]:checked + label:before {
     bottom: 0;
 }
 
+
 /*17.4 Browse Button css */
+
 .btn-file {
     overflow: hidden;
     position: relative;
 }
+
 .btn-file input[type="file"] {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     cursor: inherit;
@@ -5240,45 +6218,61 @@ input[type="radio"]:checked + label:before {
     top: 0;
 }
 
+
 /*17.8 validation symbol */
-.has-feedback label ~ .form-control-feedback {
+
+.has-feedback label~.form-control-feedback {
     top: 31px;
 }
 
+
 /*17.9 error for select box */
+
 .has-error .bootstrap-select .dropdown-toggle,
 .has-error .bootstrap-select .dropdown-toggle:hover,
 .has-error .bootstrap-select .dropdown-toggle:focus {
     border-color: #a94442 !important;
 }
 
+
 /*17.10 succes for select box */
+
 .has-success .bootstrap-select .dropdown-toggle,
 .has-success .bootstrap-select .dropdown-toggle:hover,
 .has-success .bootstrap-select .dropdown-toggle:focus {
     border-color: #3c763d !important;
 }
 
+
 /*17.11 textarea */
 
+
 /*17.11(1) resize-vertical*/
+
 .resize-vertical {
     resize: vertical;
 }
 
+
 /*17.11(2) resize-horizontal*/
+
 .resize-horizontal {
     resize: horizontal;
 }
 
+
 /*17.11(3) resize-none*/
+
 .resize-none {
     resize: none;
 }
 
+
 /*-------------------------------------
 	18. Loading 
 -------------------------------------*/
+
+
 /*18.1 loading - 1*/
 
 .loading-area {
@@ -5290,6 +6284,7 @@ input[type="radio"]:checked + label:before {
     z-index: 9999;
     overflow: hidden;
 }
+
 .loading-box {
     width: 100%;
     height: 100%;
@@ -5313,7 +6308,9 @@ input[type="radio"]:checked + label:before {
     transform: translateY(-50%);
 }
 
+
 /*18.2 loading - 2*/
+
 .loading-cover,
 .loading-srh-bar,
 .loading-map {
@@ -5325,6 +6322,7 @@ input[type="radio"]:checked + label:before {
     height: 100%;
     z-index: 2;
 }
+
 .loading-cover .fa-spinner,
 .loading-srh-bar .fa-spinner,
 .loading-map .fa-spinner {
@@ -5336,6 +6334,7 @@ input[type="radio"]:checked + label:before {
     color: #333;
 }
 
+
 /*-------------------------------------
 	19. Widgets 
 -------------------------------------*/
@@ -5343,9 +6342,11 @@ input[type="radio"]:checked + label:before {
 .widget {
     margin-bottom: 40px;
 }
+
 .widget-title {
     margin: 0 0 25px;
 }
+
 .widget-title {
     margin-bottom: 20px;
 }
@@ -5356,12 +6357,15 @@ input[type="radio"]:checked + label:before {
     padding: 0;
 }
 
+
 /* 19.1 widget listing*/
+
 .widget_services ul {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
 }
+
 .widget_services ul li {
     padding-bottom: 18px;
     margin-bottom: 13px;
@@ -5371,6 +6375,7 @@ input[type="radio"]:checked + label:before {
     margin-bottom: 0;
     line-height: 20px;
 }
+
 .widget_services ul li {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -5380,6 +6385,7 @@ input[type="radio"]:checked + label:before {
 .widget_services ul li a {
     color: #000;
 }
+
 .widget_services ul li a:hover {
     color: #ababab;
 }
@@ -5401,6 +6407,7 @@ input[type="radio"]:checked + label:before {
     padding-bottom: 0;
     line-height: 28px;
 }
+
 .widget_services li li:before {
     top: 0;
     left: 1px;
@@ -5411,26 +6418,34 @@ input[type="radio"]:checked + label:before {
     border-bottom: none;
     margin-right: 20px;
 }
+
+
 /*19.2 widget search custom*/
+
 .search-bx .btn {
     border-left-color: #fff;
     padding: 9px 10px;
     color: #3396d1;
 }
 
+
 /*19.3 widget search wp-default*/
+
 .widget_search .screen-reader-text {
     display: block;
 }
+
 .searchform {
     position: relative;
 }
+
 .searchform input[type="text"] {
     width: 100%;
     height: 40px;
     padding: 10px 90px 10px 15px;
     border: 1px solid #cccccc;
 }
+
 .searchform input[type="submit"] {
     height: 40px;
     padding: 10px 15px;
@@ -5444,6 +6459,7 @@ input[type="radio"]:checked + label:before {
     border-top: none;
     border-bottom: none;
 }
+
 .searchform input[type="submit"]:hover,
 .searchform input[type="submit"]:focus,
 .searchform input[type="submit"]:active {
@@ -5452,12 +6468,15 @@ input[type="radio"]:checked + label:before {
     border-bottom-color: #5a9e2f;
 }
 
+
 /*19.4 widget recent-posts*/
+
 .recent-posts-entry .post-date,
 .tweets-feed-entry .tweet-date {
     color: #3396d1;
     font-style: normal;
 }
+
 .widget .post-title {
     font-size: 11px;
     line-height: 16px;
@@ -5466,31 +6485,39 @@ input[type="radio"]:checked + label:before {
     margin-top: 0px;
     letter-spacing: 2px;
 }
+
 .recent-posts-entry .widget-post {
     margin-bottom: 5px;
     padding: 5px;
 }
+
 .recent-posts-entry .widget-post-bx:last-child {
     border-bottom: none;
 }
+
 .recent-posts-entry .widget-post:last-child {
     margin-bottom: 0px;
 }
+
 .recent-posts-entry .wt-post-media {
     float: left;
     width: 65px;
 }
+
 .recent-posts-entry .wt-post-info {
     background: transparent;
     padding: 0;
     margin-left: 80px;
     border: none;
 }
+
 .recent-posts-entry .post-meta span {
     margin-right: 10px;
 }
 
+
 /*19.8 widget tags-list*/
+
 .widget_tag_cloud a {
     padding: 8px 14px;
     background-color: #f6f7f8;
@@ -5501,67 +6528,85 @@ input[type="radio"]:checked + label:before {
     font-weight: 600;
     color: #000;
 }
+
 .widget_tag_cloud a:hover {
     background-color: #000;
     color: #fff;
 }
 
+
 /* 19.14 widget gallery */
+
 .widget_gallery ul {
     padding-left: 0;
 }
+
 .widget_gallery li {
     display: inline-block;
     margin-bottom: 5px;
     width: 23.9%;
     background-color: #000;
 }
+
 .widget_gallery li a {
     position: relative;
 }
+
 .widget_gallery li a:hover {
     cursor: crosshair;
 }
+
 .widget_gallery li:hover img {
     margin-bottom: 0;
     opacity: 0.3;
 }
+
 .widget_gallery li:hover a:after {
     opacity: 1;
 }
+
 .widget_gallery a {
     display: block;
 }
+
 @media only screen and (max-width: 991px) {
     .widget_gallery li {
         width: 24.333%;
     }
 }
+
 @media only screen and (max-width: 480px) {
     .widget_gallery li {
         width: 32.1%;
     }
 }
+
 .widget_newsletter-2 .newsletter-bx {
     background-color: #f6f7f8;
     position: relative;
     z-index: 9;
     overflow: hidden;
 }
+
 .widget_newsletter-2 .newsletter-bx .newsletter-icon {
     position: absolute;
     right: 5px;
     top: -5px;
 }
+
 .widget_newsletter-2 .newsletter-bx .newsletter-icon i {
     font-size: 75px;
     z-index: 0;
     color: rgba(0, 0, 0, 0.05);
 }
+
+
 /* 19.18 widget client slider */
+
 .widget-client {
     background-color: #f6f7f8;
 }
+
 .widget-client.owl-carousel .owl-dots {
     position: absolute;
     right: 15px;
@@ -5570,6 +6615,7 @@ input[type="radio"]:checked + label:before {
     width: 0px;
     transform: translateX(-50%) translateY(-50%);
 }
+
 .widget-client.owl-carousel .owl-dots .owl-dot span {
     width: 12px;
     height: 3px;
@@ -5578,6 +6624,7 @@ input[type="radio"]:checked + label:before {
     clear: both;
     position: relative;
 }
+
 .widget-client.owl-carousel .owl-dots .owl-dot span:after {
     content: "";
     position: absolute;
@@ -5596,15 +6643,19 @@ input[type="radio"]:checked + label:before {
 .widget-client.owl-carousel .owl-dots .owl-dot.active span:after {
     width: 50px;
 }
+
 .widget-client .ow-client-logo {
     background-color: #f6f7f8;
 }
+
 
 /*-------------------------------------
 	20. Table 
 -------------------------------------*/
 
+
 /* 20.1 Full-responsive */
+
 .wt-responsive-table td,
 .wt-responsive-table th {
     padding: 8px !important;
@@ -5625,7 +6676,6 @@ input[type="radio"]:checked + label:before {
         left: -9999px;
         display: none;
     }
-
     #no-more-tables tr {
         border: 1px solid #ccc;
     }
@@ -5652,6 +6702,7 @@ input[type="radio"]:checked + label:before {
     }
 }
 
+
 /*-------------------------------------
 	21. Video 
 -------------------------------------*/
@@ -5660,6 +6711,7 @@ input[type="radio"]:checked + label:before {
     margin: -9.5% 0%;
 }
 
+
 /*======================================
 12. WP DEFAULT  
 ======================================*/
@@ -5667,6 +6719,7 @@ input[type="radio"]:checked + label:before {
 .alignnone {
     margin: 0;
 }
+
 .aligncenter,
 div.aligncenter {
     display: block;
@@ -5677,42 +6730,53 @@ div.aligncenter {
     float: right;
     margin: 5px 0 25px 25px;
 }
+
 .alignleft {
     float: left;
     margin: 5px 25px 25px 0;
 }
+
 a img.alignright {
     float: right;
     margin: 5px 0 25px 25px;
 }
+
 a img.alignnone {
     margin: 5px 0 25px 0;
 }
+
 a img.alignleft {
     float: left;
     margin: 5px 25px 25px 0;
 }
+
 a img.aligncenter {
     display: block;
     margin: 5px auto 15px;
 }
+
 .wp-caption {
     max-width: 100%;
     text-align: center;
 }
+
 .wp-caption img[class*="wp-image-"] {
     display: block;
     margin: 0;
 }
+
 .wp-caption.alignnone {
     margin: 5px 0 25px 0;
 }
+
 .wp-caption.alignleft {
     margin: 5px 25px 25px 0;
 }
+
 .wp-caption.alignright {
     margin: 5px 0 25px 25px;
 }
+
 .wp-caption img {
     border: 0 none;
     height: auto;
@@ -5721,6 +6785,7 @@ a img.aligncenter {
     padding: 0;
     width: auto;
 }
+
 .wp-caption p.wp-caption-text {
     color: #9d9d9d;
     font-size: 13px;
@@ -5729,6 +6794,7 @@ a img.aligncenter {
     padding: 10px 0;
     text-align: left;
 }
+
 blockquote {
     padding: 30px 20px 30px 80px;
     font-size: 15px;
@@ -5752,6 +6818,7 @@ blockquote p {
     text-transform: uppercase;
     letter-spacing: 6px;
 }
+
 blockquote:before {
     content: "\f10d";
     font-family: "FontAwesome";
@@ -5772,6 +6839,7 @@ blockquote:before {
     height: auto;
 }
 
+
 /*======================================
 13. BLOG  
 ======================================*/
@@ -5780,9 +6848,11 @@ blockquote:before {
     position: relative;
     margin-bottom: 40px;
 }
+
 .wt-post-title {
     margin-bottom: 15px;
 }
+
 .wt-post-title .post-title {
     margin: 0;
     text-transform: uppercase;
@@ -5792,10 +6862,12 @@ blockquote:before {
 .wt-post-meta {
     margin-bottom: 10px;
 }
+
 .wt-post-meta ul {
     margin: 0px;
     list-style: none;
 }
+
 .wt-post-meta li {
     padding: 0;
     display: inline-block;
@@ -5804,9 +6876,11 @@ blockquote:before {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 .wt-post-meta i {
     margin: 0 5px;
 }
+
 .wt-post-meta li:after {
     content: "/";
     display: inline-block;
@@ -5814,19 +6888,24 @@ blockquote:before {
     margin-left: 5px;
     opacity: 0.5;
 }
+
 .wt-post-meta li:last-child:after {
     display: none;
 }
+
 .wt-post-text {
     margin-bottom: 15px;
     text-align: justify;
 }
+
 .wt-post-text p:last-child {
     margin: 0;
 }
+
 .wt-post-readmore {
     margin-bottom: 15px;
 }
+
 .wt-post-readmore a {
     font-family: "Crete Round", serif;
     font-size: 16px;
@@ -5850,18 +6929,23 @@ blockquote:before {
     }
 }
 
+
 /*-------------------------------------
 	3. if no image with blog post
 -------------------------------------*/
+
 .blog-md .wt-post-media {
     width: 650px;
 }
+
 .blog-md .wt-post-media img {
     width: 100%;
 }
+
 .blog-md .wt-post-info {
     border: none;
 }
+
 .blog-md .wt-post-tags {
     border: none;
     display: inline-block;
@@ -5872,6 +6956,7 @@ blockquote:before {
     float: left;
     margin-right: 30px;
 }
+
 .blog-md:nth-child(even) .wt-post-media {
     float: right;
     margin-left: 30px;
@@ -5887,7 +6972,6 @@ blockquote:before {
     .blog-md .wt-post-media {
         width: 100%;
     }
-
     .blog-md:nth-child(odd) .wt-post-info,
     .blog-md:nth-child(even) .wt-post-info {
         float: none;
@@ -5909,12 +6993,15 @@ blockquote:before {
     }
 }
 
+
 /*-------------------------------------
 	10. side bar
 -------------------------------------*/
+
 .side-bar .widget {
     margin-bottom: 30px;
 }
+
 .widget .widget-post img {
     width: 100%;
 }
@@ -5925,25 +7012,31 @@ blockquote:before {
     }
 }
 
+
 /*-------------------------------------
 	12. comment list
 -------------------------------------*/
+
 .comments-area {
     padding: 0;
 }
+
 .comments-area .comments-title {
     text-transform: uppercase;
     font-size: 20px;
 }
+
 ol.comment-list {
     list-style: none;
     margin-bottom: 0;
     padding-left: 0;
 }
+
 ol.comment-list li.comment {
     position: relative;
     padding: 0;
 }
+
 ol.comment-list li.comment .comment-body {
     position: relative;
     padding: 20px 30px 20px 50px;
@@ -5952,10 +7045,12 @@ ol.comment-list li.comment .comment-body {
     color: #000;
     position: relative;
 }
+
 ol.comment-list li.comment .comment-author {
     display: block;
     margin-bottom: 10px;
 }
+
 ol.comment-list li.comment .comment-author .avatar {
     position: absolute;
     top: 20px;
@@ -5968,6 +7063,7 @@ ol.comment-list li.comment .comment-author .avatar {
     padding: 5px;
     background-color: #fff;
 }
+
 ol.comment-list li.comment .comment-author .fn {
     display: inline-block;
     color: #000;
@@ -5976,11 +7072,13 @@ ol.comment-list li.comment .comment-author .fn {
     font-weight: 600;
     font-style: normal;
 }
+
 ol.comment-list li.comment .comment-author .says {
     display: none;
     color: #999999;
     font-weight: 600;
 }
+
 ol.comment-list li.comment .comment-meta {
     color: #000;
     margin-bottom: 15px;
@@ -5988,6 +7086,7 @@ ol.comment-list li.comment .comment-meta {
     text-transform: uppercase;
     font-weight: 600;
 }
+
 ol.comment-list li.comment .comment-meta a {
     color: #000;
 }
@@ -6005,6 +7104,7 @@ ol.comment-list li.comment p {
     font-weight: 400;
     font-size: 12px;
 }
+
 ol.comment-list li.comment .reply a {
     position: absolute;
     top: 50px;
@@ -6013,10 +7113,12 @@ ol.comment-list li.comment .reply a {
     font-size: 11px;
     color: #000;
 }
+
 ol.comment-list li .children {
     list-style: none;
     margin-left: 80px;
 }
+
 ol.comment-list li .children li {
     padding: 0;
 }
@@ -6041,6 +7143,7 @@ ol.comment-list li .children li {
         position: static;
     }
 }
+
 @media only screen and (max-width: 480px) {
     ol.comment-list li.comment .comment-body {
         margin-left: 26px;
@@ -6055,19 +7158,25 @@ ol.comment-list li .children li {
         padding-left: 55px;
     }
 }
+
+
 /*-------------------------------------
 	13. comment form
 -------------------------------------*/
+
 .comment-respond .comment-reply-title {
     text-transform: uppercase;
     font-size: 20px;
 }
+
 .comments-area .comment-form {
     margin: 0 -15px;
 }
+
 .comments-area .comment-form .comment-notes {
     display: none;
 }
+
 .comments-area .comment-form p {
     width: 33.333%;
     float: left;
@@ -6076,12 +7185,15 @@ ol.comment-list li .children li {
     position: relative;
     font-weight: 600;
 }
+
 .comments-area .comment-form p.form-allowed-tags {
     width: 100%;
 }
+
 ol.comment-list li.comment .comment-respond .comment-form p {
     padding: 0 15px !important;
 }
+
 .comments-area .comment-form p label {
     display: none;
     line-height: 18px;
@@ -6097,21 +7209,25 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     background-color: transparent;
     border-bottom: 4px solid #cccccc;
 }
+
 .comments-area .comment-form p.comment-form-comment {
     width: 100%;
     display: block;
     clear: both;
 }
+
 .comments-area .comment-form p textarea {
     height: 120px;
     resize: none;
 }
+
 .comments-area .comment-form p.form-submit {
     clear: both;
     float: none;
     width: 100%;
     margin: 0;
 }
+
 .comments-area .comment-form p input[type="submit"] {
     background-color: #77c04b;
     border-radius: 3px;
@@ -6124,6 +7240,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     padding: 10px 20px;
     text-transform: uppercase;
 }
+
 .comments-area .comment-form p input[type="submit"]:hover,
 .comments-area .comment-form p input[type="submit"]:focus,
 .comments-area .comment-form p input[type="submit"]:active {
@@ -6131,6 +7248,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border-color: #6ab33e;
     color: #fff;
 }
+
 .comment-respond .form-submit .site-button {
     font-weight: 300;
     padding: 15px 30px;
@@ -6142,24 +7260,28 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     font-size: 12px;
     text-transform: uppercase;
 }
+
 .comment-form .form-control::-moz-placeholder {
     /* Firefox 19+ */
     color: #000;
     font-size: 12px;
     text-transform: uppercase;
 }
+
 .comment-form .form-control:-ms-input-placeholder {
     /* IE 10+ */
     color: #000;
     font-size: 12px;
     text-transform: uppercase;
 }
+
 .comment-form .form-control:-moz-placeholder {
     /* Firefox 18- */
     color: #000;
     font-size: 12px;
     text-transform: uppercase;
 }
+
 @media only screen and (max-width: 767px) {
     .comments-area .comment-form p {
         width: 100%;
@@ -6176,16 +7298,20 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         padding: 20px;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .wt-post-info-inner {
         height: auto;
     }
 }
+
+
 /*-------------------------------------
 	15. blog grid-post
 -------------------------------------*/
-.blog-post .grid-post {
-}
+
+.blog-post .grid-post {}
+
 .blog-post .grid-post li {
     float: left;
     width: 50%;
@@ -6197,6 +7323,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .blog-post .grid-post li .portfolio-item {
     width: 100%;
 }
+
 .portfolio-item {
     width: 100%;
     position: relative;
@@ -6206,48 +7333,62 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border: 0;
     position: relative;
 }
+
 .blog-post .grid-post li img {
     width: 100%;
 }
 
+
 /*======================================
 14. HEADER (top part of page)
 ======================================*/
+
 .site-header {
     position: relative;
     z-index: 999;
 }
+
 @media only screen and (max-width: 1200px) {
     .site-header .container {
         width: auto;
     }
 }
+
 .site-header ul,
 .site-header ol {
     margin-bottom: 0;
 }
+
 @media only screen and (max-width: 991px) {
     .sticky-wrapper {
         height: auto !important;
     }
 }
+
+
 /*-------------------------------------
 	1. header full screen
 -------------------------------------*/
+
 .nav-wide .container {
     width: 100%;
 }
+
 .nav-wide .container {
     padding: 0px 80px;
 }
+
 @media only screen and (max-width: 991px) {
     .nav-wide .container {
         padding: 0px 15px;
     }
 }
+
+
 /*-------------------------------------
 	2. without top bar
 -------------------------------------*/
+
 .extra-nav {
     display: table;
     float: right;
@@ -6255,18 +7396,22 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     position: relative;
     z-index: 9;
 }
+
 .extra-nav .extra-cell {
     display: table-cell;
     padding-left: 10px;
     vertical-align: middle;
 }
 
+
 /*-------------------------------------
 	3. map page header
 -------------------------------------*/
+
 #header-part.fix-map-header {
     height: 90px;
 }
+
 #header-part.fix-map-header .main-bar {
     position: fixed;
     top: 0;
@@ -6280,13 +7425,16 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     }
 }
 
+
 /*======================================
 16. LOGO ( company identify  symbol )
 ======================================*/
 
+
 /*-------------------------------------
 	1. logo for header 
 -------------------------------------*/
+
 .logo-header {
     display: table;
     float: left;
@@ -6303,11 +7451,13 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     position: relative;
     z-index: 9;
 }
+
 .logo-header-inner {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
 }
+
 .logo-header-inner img {
     max-width: 100%;
     max-height: 100%;
@@ -6318,6 +7468,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         width: 120px;
     }
 }
+
 @media only screen and (max-width: 480px) {
     .logo-header {
         width: 100px;
@@ -6339,30 +7490,38 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     position: relative;
     z-index: 9;
 }
+
 .logo-footer-inner {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
 }
+
 .logo-footer-inner img {
     max-width: 100%;
     max-height: 100%;
 }
+
+
 /*-------------------------------------
 	2. when header is sticky 
 -------------------------------------*/
+
 .is-fixed .logo-header {
     height: 70px;
 }
 
+
 /*======================================
 17. MAIN BAR ( place logo & main-navigation )
 ======================================*/
+
 .top-bar {
     color: #000;
     padding: 0px;
     /*background-color:#212427;*/
 }
+
 .top-bar .fa {
     vertical-align: middle;
     border: 1px solid rgba(0, 0, 0, 0.01);
@@ -6381,12 +7540,15 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .wt-topbar-left {
     float: left;
 }
+
 .wt-topbar-right {
     float: right;
 }
+
 .wt-topbar-center {
     text-align: center;
 }
@@ -6399,30 +7561,38 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         padding-bottom: 5px;
     }
 }
+
+
 /*-------------------------------------
 	1. eamil-phone (left) 
 -------------------------------------*/
+
 .e-p-bx li {
     display: inline;
     font-size: 14px;
     padding-right: 10px;
 }
+
 .e-p-bx li a {
     color: #fff;
 }
+
 .e-p-bx li i {
     margin-right: 5px;
     vertical-align: middle;
 }
 
+
 /*-------------------------------------
 	2. social-links (right) 
 -------------------------------------*/
+
 .social-bx,
 .login-bx {
     margin: 0 0 0 15px;
     float: right;
 }
+
 @media only screen and (max-width: 480px) {
     .social-bx,
     .e-p-bx,
@@ -6431,32 +7601,38 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         margin-bottom: 5px !important;
     }
 }
+
 .social-bx li,
 .login-bx li {
     font-size: 12px;
     margin: 0;
     position: relative;
 }
+
 .social-bx li {
     padding-left: 2px;
     padding-right: 2px;
 }
+
 .social-bx li a,
 .login-bx li a {
     color: #000;
     font-size: 14px;
 }
+
 .social-bx li i,
 .login-bx li i {
     vertical-align: baseline;
     margin: 0 5px 0 0;
 }
+
 .social-bx li span,
 .login-bx li span {
     vertical-align: baseline;
     margin: 0 2px 0;
     font-size: 8px;
 }
+
 .login-bx li ul {
     top: 25px;
     left: auto;
@@ -6464,19 +7640,23 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border: none;
     padding: 0;
 }
+
 .login-bx li ul li {
     border-bottom: 1px solid #f7f7f7;
 }
+
 .login-bx li ul li a {
     color: #767676;
     padding: 9px 15px;
 }
+
 .arrow-up-border:before,
 .arrow-up:after {
     position: absolute;
     display: inline-block;
     content: "";
 }
+
 .arrow-up-border:before {
     top: -7px;
     right: 19px;
@@ -6485,6 +7665,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border-left: 7px solid transparent;
     border-bottom-color: rgba(0, 0, 0, 0.2);
 }
+
 .arrow-up:after {
     top: -6px;
     right: 20px;
@@ -6515,6 +7696,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border-left: 6px solid transparent;
     content: "";
 }
+
+
 /*------------- top share icon block ----------------------*/
 
 .share-icon-btn .dropdown-menu {
@@ -6523,12 +7706,14 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     top: 53px;
     left: -10px;
 }
+
 .share-icon-btn .social-bx {
     clear: both;
     float: none;
     margin-left: 0px;
 }
-.share-icon-btn .social-bx.list-inline > li {
+
+.share-icon-btn .social-bx.list-inline>li {
     display: block;
     margin: 10px 0px;
 }
@@ -6539,15 +7724,18 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     top: 53px;
     left: -10px;
 }
+
 .share-icon-btn2 .social-bx {
     clear: both;
     float: none;
     margin-left: 0px;
 }
-.share-icon-btn2 .social-bx.list-inline > li {
+
+.share-icon-btn2 .social-bx.list-inline>li {
     display: block;
     margin: 10px 0px;
 }
+
 .share-icon-btn2 {
     display: none;
 }
@@ -6573,6 +7761,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         display: none;
     }
 }
+
+
 /*-----------------------------------*/
 
 .main-bar {
@@ -6585,12 +7775,15 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
 .main-bar::after,
 .main-bar::after {
     clear: both;
     content: "";
     display: table;
 }
+
+
 /*main bar with box view*/
 
 @media only screen and (max-width: 480px) {
@@ -6599,72 +7792,89 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         padding-right: 0px;
     }
 }
+
+
 /*header info css*/
+
 .header-info {
     float: right;
     padding: 10px 0;
 }
-.header-info > ul {
+
+.header-info>ul {
     list-style: none;
     display: table;
 }
-.header-info > ul li {
+
+.header-info>ul li {
     display: table-cell;
     padding: 15px 10px;
     vertical-align: middle;
 }
-.header-info > ul li .icon-sm {
+
+.header-info>ul li .icon-sm {
     float: left;
     margin-right: 15px;
 }
-.header-info > ul li strong {
+
+.header-info>ul li strong {
     display: block;
     font-size: 16px;
     text-transform: uppercase;
     color: #1a1a1a;
 }
+
 @media only screen and (max-width: 991px) {
-    .header-info > ul li {
+    .header-info>ul li {
         display: none;
     }
-    .header-info > ul li.btn-col-last {
+    .header-info>ul li.btn-col-last {
         display: block;
         padding-left: 0;
         padding-right: 0;
     }
 }
+
 @media only screen and (max-width: 767px) {
-    .header-info > ul li.btn-col-last,
+    .header-info>ul li.btn-col-last,
     .header-info {
         display: none;
     }
 }
+
 .header-botton {
     background-color: #1a1a1a;
 }
+
 .header-botton .header-nav .nav {
     float: none;
 }
-.header-botton .header-nav .nav > li > a {
+
+.header-botton .header-nav .nav>li>a {
     padding: 20px 12px;
     color: #fff;
 }
+
 .header-botton .extra-nav {
     padding: 13px 0;
 }
+
 .header-botton .extra-nav .site-search-btn {
     color: #fff;
     padding: 7px 15px;
 }
+
 .header-botton .extra-nav .wt-cart .woo-cart-count {
     border: 2px solid #fff;
     color: #fff;
     min-width: 36px;
     padding: 5px 5px 5px;
 }
+
 .header-botton .extra-nav .wt-cart .woo-cart-count::before {
     border-color: #fff;
 }
+
 @media only screen and (max-width: 991px) {
     .header-botton .navbar-toggle {
         float: left;
@@ -6673,11 +7883,12 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     .header-botton .navbar-toggle span {
         background-color: #fff;
     }
-    .header-botton .header-nav .nav > li > a {
+    .header-botton .header-nav .nav>li>a {
         padding: 12px 12px;
         color: #777;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .header-middle .logo-header {
         float: none;
@@ -6685,9 +7896,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     }
 }
 
+
 /*-------------------------------------
 	1. Top Part Search Bar
 -------------------------------------*/
+
 .site-search-btn {
     background: none;
     border: none;
@@ -6706,6 +7919,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         padding: 0px 15px;
     }
 }
+
 #search {
     position: fixed;
     top: 0px;
@@ -6754,20 +7968,24 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     padding: 10px;
     border-radius: 0px;
 }
+
 #search input[type="search"] {
     width: 100%;
     background: none;
     border: none;
     padding: 0px 30px;
 }
+
 #search .search-btn {
     border: none;
     background: none;
     padding: 0px 30px;
 }
+
 #search .search-btn i {
     font-size: 36px;
 }
+
 #search .close {
     position: fixed;
     top: 15px;
@@ -6778,6 +7996,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     width: 30px;
     height: 30px;
 }
+
 #search .close:after,
 #search .close:before {
     content: "";
@@ -6788,16 +8007,23 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     right: 20px;
     top: 0px;
 }
+
 #search .close:after {
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Safari */
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari */
     transform: rotate(45deg);
 }
+
 #search .close:before {
-    -ms-transform: rotate(-45deg); /* IE 9 */
-    -webkit-transform: rotate(-45deg); /* Safari */
+    -ms-transform: rotate(-45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+    /* Safari */
     transform: rotate(-45deg);
 }
+
 #search .close:hover:after,
 #search .close:hover:before {
     cursor: pointer;
@@ -6834,18 +8060,23 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         font-size: 18px;
     }
 }
+
 .wt-quik-search .form-control::-moz-placeholder {
     color: #fff;
 }
+
 .wt-quik-search .form-control:-moz-placeholder {
     color: #fff;
 }
+
 .wt-quik-search .form-control:-ms-input-placeholder {
     color: #fff;
 }
+
 .wt-quik-search .form-control::-webkit-input-placeholder {
     color: #fff;
 }
+
 @media only screen and (max-width: 767px) {
     .site-search {
         width: 100%;
@@ -6857,13 +8088,17 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         padding-left: 0;
     }
 }
+
+
 /*======================================
 18. NAVIGATIONS 
 ======================================*/
 
+
 /*-------------------------------------
 	1. mega-menu
 -------------------------------------*/
+
 .navbar-toggle {
     border: none;
     margin-top: 24px;
@@ -6872,12 +8107,14 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     margin-right: -10px;
     padding: 12px 10px;
 }
+
 .navbar-toggle .icon-bar {
     background: #000;
     height: 3px;
     border-radius: 0;
     -webkit-border-radius: 0;
 }
+
 @media only screen and (max-width: 480px) {
     .navbar-toggle {
         margin-left: 10px;
@@ -6886,17 +8123,21 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         margin-left: 0;
     }
 }
+
 .is-fixed .navbar-toggle {
     margin-top: 14px;
     margin-bottom: 14px;
 }
+
 .header-nav {
     position: relative;
     padding: 0;
 }
+
 .header-nav .nav {
     float: right;
 }
+
 .header-nav .nav i {
     font-size: 9px;
     margin-left: 3px;
@@ -6904,14 +8145,16 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     vertical-align: middle;
     opacity: 0.7;
 }
-.header-nav .nav > li {
+
+.header-nav .nav>li {
     font-weight: 400;
     position: relative;
     text-transform: uppercase;
     margin: -10px 0;
     padding: 10px 0;
 }
-.header-nav .nav > li > a {
+
+.header-nav .nav>li>a {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -6922,28 +8165,29 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     letter-spacing: 2px;
     margin: -10px 0;
 }
-.header-nav .nav > li > a:hover {
+
+.header-nav .nav>li>a:hover {
     background-color: transparent;
     color: #212427;
 }
 
-.header-nav .nav > li > a:active,
-.header-nav .nav > li > a:focus {
+.header-nav .nav>li>a:active,
+.header-nav .nav>li>a:focus {
     background-color: transparent;
 }
 
-.header-nav .nav > li.active > a,
-.header-nav .nav > li.current-menu-item > a {
+.header-nav .nav>li.active>a,
+.header-nav .nav>li.current-menu-item>a {
     background-color: transparent;
     color: #ababab;
 }
 
-.header-nav .nav > li:hover > a {
+.header-nav .nav>li:hover>a {
     color: #ababab;
 }
 
-.header-nav .nav > li:hover > .sub-menu,
-.header-nav .nav > li:hover > .mega-menu {
+.header-nav .nav>li:hover>.sub-menu,
+.header-nav .nav>li:hover>.mega-menu {
     opacity: 1;
     visibility: visible;
     margin-top: 0;
@@ -6954,7 +8198,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     transition: all 0.3s ease;
 }
 
-.header-nav .nav > li .sub-menu {
+.header-nav .nav>li .sub-menu {
     background-color: #ffffff;
     border: 1px solid #f4f4f4;
     display: block;
@@ -6970,30 +8214,34 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     z-index: 10;
 }
 
-.header-nav .nav > li .sub-menu li {
+.header-nav .nav>li .sub-menu li {
     border-bottom: 1px solid #f4f4f4;
     position: relative;
     text-transform: none;
 }
 
-.header-nav .nav > li .sub-menu li a {
+.header-nav .nav>li .sub-menu li a {
     color: #000;
     display: block;
     font-size: 12px;
     padding: 10px 20px;
 }
-.header-nav .nav > li .sub-menu li a:hover {
+
+.header-nav .nav>li .sub-menu li a:hover {
     background-color: #f2f2f2;
     color: #000;
     text-decoration: none;
 }
-.header-nav .nav > li .sub-menu li:hover > a {
+
+.header-nav .nav>li .sub-menu li:hover>a {
     color: #000;
 }
-.header-nav .nav > li .sub-menu li:last-child {
+
+.header-nav .nav>li .sub-menu li:last-child {
     border-bottom: 0px;
 }
-.header-nav .nav > li .sub-menu li .fa {
+
+.header-nav .nav>li .sub-menu li .fa {
     color: #363636;
     display: block;
     float: right;
@@ -7002,7 +8250,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     top: 12px;
 }
 
-.header-nav .nav > li .sub-menu li > .sub-menu {
+.header-nav .nav>li .sub-menu li>.sub-menu {
     left: 220px;
     margin: 0 0 0 20px;
     -webkit-transition: all 0.3s ease;
@@ -7012,7 +8260,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     transition: all 0.3s ease;
 }
 
-.header-nav .nav > li .sub-menu li:hover > .sub-menu {
+.header-nav .nav>li .sub-menu li:hover>.sub-menu {
     left: 220px;
     margin: 0px;
     opacity: 1;
@@ -7020,7 +8268,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     visibility: visible;
 }
 
-.header-nav .nav > li .sub-menu li:hover > .sub-menu:before {
+.header-nav .nav>li .sub-menu li:hover>.sub-menu:before {
     background-color: transparent;
     bottom: 0px;
     content: "";
@@ -7031,15 +8279,18 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     top: 0px;
     width: 6px;
 }
-.header-nav .nav > li.has-mega-menu {
+
+.header-nav .nav>li.has-mega-menu {
     position: inherit;
 }
-.header-nav .nav > li .mega-menu li a > i {
+
+.header-nav .nav>li .mega-menu li a>i {
     font-size: 13px;
     margin-right: 5px;
     min-width: 20px;
 }
-.header-nav .nav > li .mega-menu {
+
+.header-nav .nav>li .mega-menu {
     background-color: #ffffff;
     border: 1px solid #e9e9e9;
     display: table;
@@ -7053,7 +8304,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     margin-top: 20px;
     z-index: 10;
 }
-.header-nav .nav > li .mega-menu > li {
+
+.header-nav .nav>li .mega-menu>li {
     display: table-cell;
     padding: 10px 0;
     position: relative;
@@ -7061,7 +8313,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     width: 25%;
     text-transform: none;
 }
-.header-nav .nav > li .mega-menu > li:after {
+
+.header-nav .nav>li .mega-menu>li:after {
     content: "";
     background-color: rgba(204, 204, 204, 0.4);
     position: absolute;
@@ -7071,33 +8324,38 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     width: 1px;
     height: 100%;
 }
-.header-nav .nav > li .mega-menu > li:last-child:after {
+
+.header-nav .nav>li .mega-menu>li:last-child:after {
     display: none;
 }
-.header-nav .nav > li .mega-menu > li > a {
+
+.header-nav .nav>li .mega-menu>li>a {
     color: #555555;
     display: block;
     font-size: 14px;
     padding: 0 20px;
 }
-.header-nav .nav > li .mega-menu > li ul {
+
+.header-nav .nav>li .mega-menu>li ul {
     list-style: none;
     margin: 10px 0px 0px 0px;
     padding: 0px;
 }
 
-.header-nav .nav > li .mega-menu > li ul a {
+.header-nav .nav>li .mega-menu>li ul a {
     color: #474747;
     display: block;
     font-size: 13px;
     line-height: 34px;
     padding: 2px 20px;
 }
-.header-nav .nav > li .mega-menu > li ul a:hover {
+
+.header-nav .nav>li .mega-menu>li ul a:hover {
     color: #1bbce8;
     background-color: #f2f2f2;
 }
-.header-nav .nav > li.menu-item-has-children:before {
+
+.header-nav .nav>li.menu-item-has-children:before {
     content: "\f078";
     display: block;
     font-family: "FontAwesome";
@@ -7108,21 +8366,27 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     margin-top: -8px;
     font-size: 8px;
 }
+
+
 /*-- Submenu direction---*/
-.header-nav .nav > li.submenu-direction .sub-menu {
+
+.header-nav .nav>li.submenu-direction .sub-menu {
     left: auto;
     right: 0;
 }
-.header-nav .nav > li.submenu-direction .sub-menu li > .sub-menu {
+
+.header-nav .nav>li.submenu-direction .sub-menu li>.sub-menu {
     left: auto;
     right: 220px;
     margin: 0 20px 0 0;
 }
-.header-nav .nav > li.submenu-direction .sub-menu li:hover > .sub-menu {
+
+.header-nav .nav>li.submenu-direction .sub-menu li:hover>.sub-menu {
     left: auto;
     right: 220px;
     margin: 0 0 0 0;
 }
+
 .has-child .submenu-toogle {
     position: absolute;
     right: 4px;
@@ -7135,14 +8399,18 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     font-size: 14px;
     display: none;
 }
+
 .header-nav .has-child li .submenu-toogle {
     opacity: 0.9;
 }
 
-.header-nav .has-child.nav-active > a + .submenu-toogle.glyphicon-chevron-right:before {
+.header-nav .has-child.nav-active>a+.submenu-toogle.glyphicon-chevron-right:before {
     content: "\e114";
 }
+
+
 /*.header-nav .nav > li:last-child{display:none;}*/
+
 @media only screen and (max-width: 991px) {
     header .logo {
         display: block;
@@ -7151,7 +8419,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     .header-nav .nav i {
         margin-top: 6px;
     }
-    .header-nav .nav li.has-child.nav-active > a {
+    .header-nav .nav li.has-child.nav-active>a {
         color: #000;
     }
 }
@@ -7170,7 +8438,6 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     .navbar-collapse.collapse.in {
         display: block !important;
     }
-
     /* Responsive strat when medai screen [991px] css END*/
     .header-nav {
         clear: both;
@@ -7185,55 +8452,52 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     .header-nav .nav li {
         float: none;
     }
-
-    .header-nav .nav > li .sub-menu > li,
-    .header-nav .nav > li .mega-menu > li {
+    .header-nav .nav>li .sub-menu>li,
+    .header-nav .nav>li .mega-menu>li {
         float: none;
         display: block;
         width: auto;
     }
-    .header-nav .nav li .sub-menu > li a {
+    .header-nav .nav li .sub-menu>li a {
         padding-left: 30px;
     }
-    .header-nav .nav > li > a {
+    .header-nav .nav>li>a {
         padding: 12px 15px;
         border-top: 1px solid #e9e9e9;
         color: #777;
     }
-
-    .header-nav .nav > li.active > a,
-    .header-nav .nav > li.current-menu-item > a {
+    .header-nav .nav>li.active>a,
+    .header-nav .nav>li.current-menu-item>a {
         color: #000;
     }
     .header-nav .nav i {
         float: right;
     }
-
-    .header-nav .nav > li > a:hover,
-    .header-nav .nav > li > a:active,
-    .header-nav .nav > li > a:focus {
+    .header-nav .nav>li>a:hover,
+    .header-nav .nav>li>a:active,
+    .header-nav .nav>li>a:focus {
         background-color: #f0f0f0;
         text-decoration: none;
     }
-    .header-nav .nav > li .mega-menu > li:after {
+    .header-nav .nav>li .mega-menu>li:after {
         display: none;
     }
-    .header-nav .nav > li ul,
-    .header-nav .nav > li .sub-menu,
-    .header-nav .nav > li .mega-menu {
+    .header-nav .nav>li ul,
+    .header-nav .nav>li .sub-menu,
+    .header-nav .nav>li .mega-menu {
         display: none;
         position: static;
         visibility: visible;
         width: auto;
         background: #f9f9f9;
     }
-    .header-nav .nav > li ul.mega-menu ul {
+    .header-nav .nav>li ul.mega-menu ul {
         display: block;
     }
-    .header-nav .nav > li .mega-menu > li {
+    .header-nav .nav>li .mega-menu>li {
         padding: 0px;
     }
-    .header-nav .nav > li ul.mega-menu li:hover ul {
+    .header-nav .nav>li ul.mega-menu li:hover ul {
         display: block;
     }
     .header-nav .nav li.has-child {
@@ -7249,7 +8513,9 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     }
 }
 
+
 /* Vertical Nav */
+
 .nav-sidebar {
     position: fixed;
     right: -500px;
@@ -7264,6 +8530,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     -moz-box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
     -o-box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
 }
+
 .nav-siderbar-scroll {
     padding: 50px 40px;
     height: 100%;
@@ -7271,6 +8538,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     width: 100%;
     overflow: auto;
 }
+
 .nav-sidebar .vnav-btn {
     position: absolute;
     right: -40px;
@@ -7280,6 +8548,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     -moz-box-shadow: 7px 0 5px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 7px 0 5px rgba(0, 0, 0, 0.1);
 }
+
 .vnav-btn {
     background: #fff none repeat scroll 0 0;
     color: #333;
@@ -7292,6 +8561,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     width: 40px;
     border: none;
 }
+
 .vnav-close {
     background: none;
     border: none;
@@ -7321,6 +8591,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     -ms-transform: rotate(135deg);
     transform: rotate(135deg);
 }
+
 .vnav-close:before {
     background-color: #000;
     -moz-transform: rotate(45deg);
@@ -7330,7 +8601,9 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     transform: rotate(45deg);
 }
 
+
 /*--vertcal navigation start--*/
+
 .vertical-nav .has-child .submenu-toogle {
     position: absolute;
     right: 0px;
@@ -7343,10 +8616,12 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     display: none;
     background: none;
 }
+
 .vertical-nav .has-child li .submenu-toogle {
     opacity: 0.9;
 }
-.vertical-nav .has-child.nav-active > a + .submenu-toogle.glyphicon-chevron-right:before {
+
+.vertical-nav .has-child.nav-active>a+.submenu-toogle.glyphicon-chevron-right:before {
     content: "\e114";
 }
 
@@ -7356,6 +8631,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     height: 100%;
     overflow: auto;
 }
+
 .vertical-content-area {
     display: table-cell;
 }
@@ -7367,18 +8643,22 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .vertical-nav {
     font-family: "Roboto Condensed", sans-serif;
 }
+
 .vertical-nav ul {
     list-style: none;
     float: none;
 }
+
 .vertical-nav ul li {
     float: none;
 }
-.vertical-nav ul li a > i {
+
+.vertical-nav ul li a>i {
     font-size: 18px;
     margin-right: 25px;
 }
-.vertical-nav ul > li > a {
+
+.vertical-nav ul>li>a {
     padding: 20px 10px;
     color: #999;
     display: block;
@@ -7386,26 +8666,29 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     font-weight: 600;
     text-transform: uppercase;
 }
-.vertical-nav ul li a > i {
+
+.vertical-nav ul li a>i {
     font-size: 18px;
     margin-right: 20px;
 }
-.vertical-nav ul > li.active > a {
+
+.vertical-nav ul>li.active>a {
     color: #000;
 }
 
-.vertical-nav ul > li > a:hover,
-.vertical-nav ul > li > a:active,
-.vertical-nav ul > li > a:focus {
+.vertical-nav ul>li>a:hover,
+.vertical-nav ul>li>a:active,
+.vertical-nav ul>li>a:focus {
     background: none;
     text-decoration: none;
     color: #000;
 }
-.vertical-nav ul > li .mega-menu > li:after {
+
+.vertical-nav ul>li .mega-menu>li:after {
     display: none;
 }
 
-.vertical-nav ul > li:after {
+.vertical-nav ul>li:after {
     content: "";
     position: absolute;
     left: 15px;
@@ -7420,21 +8703,23 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
 }
-.vertical-nav ul > li:hover:after {
+
+.vertical-nav ul>li:hover:after {
     width: 90%;
 }
 
-.vertical-nav ul li .sub-menu > li a {
+.vertical-nav ul li .sub-menu>li a {
     font-size: 14px;
     padding: 5px 30px;
     text-transform: capitalize;
 }
-.vertical-nav ul li .sub-menu > li a > i {
+
+.vertical-nav ul li .sub-menu>li a>i {
     font-size: 20px;
 }
 
-.vertical-nav ul > li ul,
-.vertical-nav ul > li .sub-menu {
+.vertical-nav ul>li ul,
+.vertical-nav ul>li .sub-menu {
     display: none;
     position: static;
     visibility: visible;
@@ -7444,13 +8729,16 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .vertical-nav ul li.has-child {
     position: relative;
 }
+
 .vertical-nav ul li .sub-menu {
     opacity: 1;
     margin: 0 !important;
 }
+
 .vertical-nav .has-child .submenu-toogle {
     display: block;
 }
+
 .vertical-nav .has-child .submenu-toogle:hover {
     text-shadow: 0px 0px 8px rgb(0, 0, 0, 0.5);
 }
@@ -7466,33 +8754,42 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     cursor: pointer;
     z-index: 998;
 }
+
+
 /*-------------------------------------
 	2. nav dark version
 -------------------------------------*/
-.nav-dark.header-nav .nav > li .sub-menu,
-.nav-dark.header-nav .nav > li .mega-menu {
+
+.nav-dark.header-nav .nav>li .sub-menu,
+.nav-dark.header-nav .nav>li .mega-menu {
     background-color: #000;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
-.nav-dark.header-nav .nav > li .sub-menu li {
+
+.nav-dark.header-nav .nav>li .sub-menu li {
     border-bottom: 1px solid #23282f;
 }
-.nav-dark.header-nav .nav > li .sub-menu li:last-child {
+
+.nav-dark.header-nav .nav>li .sub-menu li:last-child {
     border-bottom: 0px;
 }
-.nav-dark.header-nav .nav > li .sub-menu li a,
-.nav-dark.header-nav .nav > li .mega-menu > li ul a,
-.nav-dark.header-nav .nav > li .mega-menu > li > a {
+
+.nav-dark.header-nav .nav>li .sub-menu li a,
+.nav-dark.header-nav .nav>li .mega-menu>li ul a,
+.nav-dark.header-nav .nav>li .mega-menu>li>a {
     color: #cccccc;
 }
-.nav-dark.header-nav .nav > li .sub-menu li a:hover {
+
+.nav-dark.header-nav .nav>li .sub-menu li a:hover {
     background-color: #222;
 }
-.nav-dark.header-nav .nav > li .mega-menu > li ul a:hover {
+
+.nav-dark.header-nav .nav>li .mega-menu>li ul a:hover {
     background-color: #23282f;
     color: #ffbc13;
 }
-.nav-dark.header-nav .nav > li .mega-menu > li:after {
+
+.nav-dark.header-nav .nav>li .mega-menu>li:after {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -7503,50 +8800,59 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     .nav-dark.header-nav .nav {
         background-color: #2d3239;
     }
-    .nav-dark.header-nav .nav > li > a {
+    .nav-dark.header-nav .nav>li>a {
         border-top: 1px solid rgba(0, 0, 0, 0.2);
     }
-    .nav-dark.header-nav .nav > li > a {
+    .nav-dark.header-nav .nav>li>a {
         color: #999;
     }
-
-    .nav-dark.header-nav .nav > li > a:hover,
-    .nav-dark.header-nav .nav > li > a:active,
-    .nav-dark.header-nav .nav > li > a:focus {
+    .nav-dark.header-nav .nav>li>a:hover,
+    .nav-dark.header-nav .nav>li>a:active,
+    .nav-dark.header-nav .nav>li>a:focus {
         background-color: #23282f;
         color: #ffbc13;
     }
-    .nav-dark.header-nav .nav > li ul,
-    .nav-dark.header-nav .nav > li .sub-menu,
-    .nav-dark.header-nav .nav > li .mega-menu {
+    .nav-dark.header-nav .nav>li ul,
+    .nav-dark.header-nav .nav>li .sub-menu,
+    .nav-dark.header-nav .nav>li .mega-menu {
         background-color: #23282f;
     }
 }
+
+
 /*-------------------------------------
 	3. when header is sticky
 -------------------------------------*/
+
 .sticky-no .main-bar {
     position: static !important;
 }
 
+
 /*-------------------------------------
 	4. when header is sticky
 -------------------------------------*/
+
 .is-fixed .main-bar {
     position: fixed;
     top: 0;
     left: 0;
 }
 
+
 /*-------------------------------------
  5. header id Fixed
 -------------------------------------*/
+
+
 /*.is-fixed.color-fill .main-bar {    padding:0px 64px;}*/
-.is-fixed.color-fill .header-nav .nav > li {
+
+.is-fixed.color-fill .header-nav .nav>li {
     margin: 0;
     padding: 0;
 }
-.is-fixed.color-fill .header-nav .nav > li > a {
+
+.is-fixed.color-fill .header-nav .nav>li>a {
     margin: 0;
     padding: 25px 12px;
 }
@@ -7564,33 +8870,38 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         overflow: auto;
         height: 275px;
     }
-    .is-fixed .header-nav .nav > li > a {
+    .is-fixed .header-nav .nav>li>a {
         padding: 12px 15px;
     }
     .is-fixed#header-part .navbar-toggle {
         margin: 15px 0;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .is-fixed .extra-nav {
         padding: 13px 7px;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .is-fixed .extra-nav {
         padding: 13px 0px;
     }
 }
+
+
 /*-------------------------------------
 	6. header with bg primary color 1
 -------------------------------------*/
-.bg-primary .header-nav .nav > li > a {
+
+.bg-primary .header-nav .nav>li>a {
     color: #fff;
 }
 
-.bg-primary .header-nav .nav > li:hover > a,
-.bg-primary .header-nav .nav > li.active > a,
-.bg-primary .header-nav .nav > li.current-menu-item > a {
+.bg-primary .header-nav .nav>li:hover>a,
+.bg-primary .header-nav .nav>li.active>a,
+.bg-primary .header-nav .nav>li.current-menu-item>a {
     color: #1a1a1a;
 }
 
@@ -7608,42 +8919,45 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .bg-primary .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+
 @media only screen and (max-width: 991px) {
-    .bg-primary .header-nav .nav > li > a {
+    .bg-primary .header-nav .nav>li>a {
         color: #777;
     }
-
-    .bg-primary .header-nav .nav > li:hover > a,
-    .bg-primary .header-nav .nav > li.active > a,
-    .bg-primary .header-nav .nav > li.current-menu-item > a {
+    .bg-primary .header-nav .nav>li:hover>a,
+    .bg-primary .header-nav .nav>li.active>a,
+    .bg-primary .header-nav .nav>li.current-menu-item>a {
         color: #ffbc13;
     }
-
-    .header-nav .nav > li {
+    .header-nav .nav>li {
         margin: 0;
         padding: 0;
     }
-    .header-nav .nav > li > a {
+    .header-nav .nav>li>a {
         margin: 0;
         padding: 10px 12px;
         font-weight: 600;
     }
-    .is-fixed.color-fill .header-nav .nav > li {
+    .is-fixed.color-fill .header-nav .nav>li {
         margin: 0;
         padding: 0;
     }
-    .is-fixed.color-fill .header-nav .nav > li > a {
+    .is-fixed.color-fill .header-nav .nav>li>a {
         margin: 0;
         padding: 10px 12px;
     }
 }
+
+
 /*======================================
 19. BANNER
 ======================================*/
 
+
 /*-------------------------------------
 	1. inner page banner 
 -------------------------------------*/
+
 .wt-bnr-inr {
     height: 500px;
     background-size: cover;
@@ -7651,10 +8965,12 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     display: table;
     width: 100%;
 }
+
 .wt-bnr-inr .container {
     display: table;
     height: 100%;
 }
+
 .wt-bnr-inr-entry {
     display: table-cell;
     vertical-align: middle;
@@ -7677,9 +8993,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     height: 50px;
     background-color: #fff;
 }
+
 .wt-bnr-inr-entry .banner-title-outer:after {
     top: 0px;
 }
+
 .wt-bnr-inr-entry .banner-title-outer:before {
     bottom: 0px;
     right: 0px;
@@ -7688,6 +9006,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .wt-bnr-inr-entry .banner-title-name {
     width: 640px;
 }
+
 @media only screen and (max-width: 991px) {
     .wt-bnr-inr {
         height: 330px;
@@ -7710,17 +9029,21 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     color: #fff;
 }
 
+
 /*======================================
 20. SLIDER
 ======================================*/
+
 
 /*-------------------------------------
 	1. owl slider 
 -------------------------------------*/
 
+
 /*-------------------------------------
 	1.1  next pre btn
 -------------------------------------*/
+
 .owl-carousel .owl-nav {
     margin-top: 40px;
     text-align: center;
@@ -7731,16 +9054,20 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     cursor: default;
 }
 
+
 /*-------------------------------------
 	1.2 owl dots button
 -------------------------------------*/
+
 .owl-carousel .owl-dots {
     text-align: center;
     margin-top: 20px;
 }
+
 .owl-carousel .owl-dots .owl-dot {
     display: inline-block;
 }
+
 .owl-carousel .owl-dots .owl-dot span {
     width: 12px;
     height: 12px;
@@ -7755,14 +9082,17 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     -o-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
 }
+
 .owl-carousel .owl-dots .owl-dot.active span,
 .owl-carousel .owl-dots .owl-dot:hover span {
     background: #979797;
 }
 
+
 /*-------------------------------------
 	1.3 owl button top to center
 -------------------------------------*/
+
 .owl-btn-top-center .owl-nav,
 .owl-btn-top-left .owl-nav,
 .owl-btn-top-right .owl-nav {
@@ -7772,53 +9102,67 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     width: 100%;
     margin: 0;
 }
+
 .owl-btn-top-center .owl-stage-outer,
 .owl-btn-top-left .owl-stage-outer,
 .owl-btn-top-right .owl-stage-outer {
     padding-top: 60px;
 }
+
 .owl-btn-top-center .owl-nav {
     text-align: center;
 }
 
+
 /*-------------------------------------
 	1.4 owl button top to left
 -------------------------------------*/
+
 .owl-btn-top-left .owl-nav {
     text-align: left;
 }
 
+
 /*-------------------------------------
 	1.5 owl button top to right
 -------------------------------------*/
+
 .owl-btn-top-right .owl-nav {
     text-align: right;
 }
 
+
 /*-------------------------------------
 	1.6 owl button bottom to center [it is default position ]
 -------------------------------------*/
+
 .owl-btn-bottom-center .owl-nav {
     text-align: center;
 }
 
+
 /*-------------------------------------
 	1.7 owl button bottom to left
 -------------------------------------*/
+
 .owl-btn-bottom-left .owl-nav {
     text-align: left;
 }
 
+
 /*-------------------------------------
 	1.8 owl button bottom to right
 -------------------------------------*/
+
 .owl-btn-bottom-right .owl-nav {
     text-align: right;
 }
 
+
 /*-------------------------------------
 	1.9 owl button vertical to center
 -------------------------------------*/
+
 .owl-btn-vertical-center .owl-nav {
     margin: 0px;
 }
@@ -7829,19 +9173,24 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     top: 50%;
     margin: -15px 0;
 }
+
 .owl-btn-vertical-center .owl-nav .owl-prev {
     left: 0;
 }
+
 .owl-btn-vertical-center .owl-nav .owl-next {
     right: 0;
 }
 
+
 /*-------------------------------------
 	1.10 owl button show on hover
 -------------------------------------*/
+
 .owl-btn-hover .owl-nav {
     opacity: 0;
 }
+
 .owl-btn-hover:hover .owl-nav {
     opacity: 1;
 }
@@ -7850,9 +9199,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     transform-style: inherit;
 }
 
+
 /*-------------------------------------
     1.11 owl slider button
 -------------------------------------*/
+
 .owl-prev,
 .owl-next {
     background-color: #000;
@@ -7865,9 +9216,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     display: inline-block;
     cursor: pointer;
 }
+
 .owl-prev {
     margin-right: 5px;
 }
+
 .owl-next {
     margin-left: 5px;
 }
@@ -7884,6 +9237,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     opacity: 0.9;
 }
 
+
 /*-------------------------------------
 	1.12 owl dots nav position
 -------------------------------------*/
@@ -7896,82 +9250,102 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     position: absolute;
     width: 100%;
 }
+
 .owl-dots-bottom-left .owl-dots {
     text-align: left;
 }
+
 .owl-dots-bottom-right .owl-dots {
     text-align: right;
 }
+
 
 /*======================================
 21. PAGINATION 
 ======================================*/
 
+
 /*1. pagination style-1 */
+
 .pagination-bx .pagination,
 .cvf-universal-pagination .pagination {
     margin: 0;
 }
+
 .pagination {
     padding: 10px 0;
 }
-.pagination > li:first-child > a,
-.pagination > li:first-child > span {
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     margin-left: 0;
 }
-.pagination > li:last-child > a,
-.pagination > li:last-child > span {
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
 }
-.pagination > li > a,
-.pagination > li > span {
+
+.pagination>li>a,
+.pagination>li>span {
     background-color: #fff;
     border: 1px solid #e0e0e0;
     color: #767676;
     font-weight: 600;
     font-size: 12px;
 }
-.pagination > li > a:hover,
-.pagination > li > span:hover,
-.pagination > li > a:focus,
-.pagination > li > span:focus {
+
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus {
     background-color: #000;
     border-color: transparent;
     color: #fff;
 }
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus {
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
     background-color: #000;
     border-color: transparent;
 }
-.pagination > .previous > a,
-.pagination > .next > a {
+
+.pagination>.previous>a,
+.pagination>.next>a {
     font-size: 12px;
 }
+
 
 /*======================================
 22. FOOTER 
 ======================================*/
+
+
 /*-------------------------------------
 	0. footer Large css
 -------------------------------------*/
+
 .footer-large .footer-bottom {
     padding: 20px 0px;
     color: #787878;
     font-size: 13px;
 }
 
+
 /*-------------------------------------
 	1. footer fixed on bottom css
 -------------------------------------*/
+
+
 /*1.1 footer fixed with fullscreen view*/
+
 .footer-fixed .site-footer {
     position: fixed;
     width: 100%;
@@ -7979,11 +9353,13 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border: none;
     z-index: 0;
 }
+
 .footer-fixed .page-content {
     position: relative;
     z-index: 1;
     background-color: #fff;
 }
+
 @media only screen and (max-width: 1200px) {
     .footer-fixed .site-footer {
         position: static;
@@ -7993,11 +9369,13 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     }
 }
 
+
 /*1.2 footer fixed with boxed view*/
 
-.site-footer .widget > .widget-title {
+.site-footer .widget>.widget-title {
     text-transform: uppercase;
 }
+
 .site-footer p,
 .site-footer li {
     line-height: 20px;
@@ -8008,6 +9386,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     background-size: cover;
     border-top: 1px solid #dadada;
 }
+
 .site-footer p {
     line-height: 20px;
 }
@@ -8022,36 +9401,45 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     color: #b7b7b7;
     font-size: 13px;
 }
+
 .footer-dark .footer-bottom .copyrights-text {
     color: #b7b7b7;
 }
+
 .footer-dark .footer-bottom .copyrights-nav {
     list-style: none;
     display: inline-block;
     margin-bottom: 0px;
 }
+
 .footer-dark .footer-bottom .copyrights-nav li {
     display: inline-block;
     margin-left: 8px;
     margin-right: 8px;
 }
+
 .footer-dark .footer-bottom .copyrights-nav li:first-child {
     margin-left: 0;
 }
+
 .footer-dark .footer-bottom .copyrights-nav li:last-child {
     margin-right: 0;
 }
+
 .footer-dark .footer-bottom .copyrights-nav li:last-child:after {
     display: none;
 }
+
 .footer-dark .footer-bottom .copyrights-nav li:after {
     content: "/";
     position: relative;
     right: -8px;
 }
+
 .footer-dark .footer-bottom .copyrights-nav li a {
     color: #b7b7b7;
 }
+
 .footer-dark .footer-bottom .copyrights-nav li a:hover,
 .footer-dark .footer-bottom .copyrights-nav li a:active,
 .footer-dark .footer-bottom .copyrights-nav li a:focus,
@@ -8064,35 +9452,44 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     color: #787878;
     font-size: 13px;
 }
+
 .footer-bottom .copyrights-text {
     color: #000;
 }
+
 .footer-bottom .copyrights-nav {
     list-style: none;
     display: inline-block;
 }
+
 .footer-bottom .copyrights-nav li {
     display: inline-block;
     margin-left: 8px;
     margin-right: 8px;
 }
+
 .footer-bottom .copyrights-nav li:first-child {
     margin-left: 0;
 }
+
 .footer-bottom .copyrights-nav li:last-child {
     margin-right: 0;
 }
+
 .footer-bottom .copyrights-nav li:last-child:after {
     display: none;
 }
+
 .footer-bottom .copyrights-nav li:after {
     content: "/";
     position: relative;
     right: -8px;
 }
+
 .footer-bottom .copyrights-nav li a {
     color: #000;
 }
+
 .footer-bottom .copyrights-nav li a:hover,
 .footer-bottom .copyrights-nav li a:active,
 .footer-bottom .copyrights-nav li a:focus,
@@ -8108,9 +9505,12 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         padding-top: 5px;
     }
 }
+
+
 /*-------------------------------------
 	2. Footer dark version css
 -------------------------------------*/
+
 .footer-dark.site-footer {
     border-top: 1px solid #212121;
 }
@@ -8118,9 +9518,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .footer-dark .footer-top {
     background-color: #000;
 }
+
 .footer-dark .footer-bottom {
     background-color: #000;
 }
+
 .footer-dark .footer-top h1,
 .footer-dark .footer-top h2,
 .footer-dark .footer-top h3,
@@ -8135,9 +9537,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .footer-dark .footer-top h6 a {
     color: #fff;
 }
+
 .footer-dark .footer-top .widget-title::before {
     border-color: #fff;
 }
+
 .footer-dark .footer-top p,
 .footer-dark .footer-top strong,
 .footer-dark .footer-top b,
@@ -8150,9 +9554,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .footer-dark .footer-top a:hover {
     color: #ffbc13;
 }
+
 .footer-dark .footer-top p a {
     color: #3396d1;
 }
+
 .footer-dark .footer-top .widget_newsletter .form-control {
     background-color: #0e0e0e;
     border-color: #2d2d2d;
@@ -8161,6 +9567,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .footer-light .footer-top {
     background-color: #eee;
 }
+
 .footer-light .footer-bottom {
     background-color: #f6f7f8;
 }
@@ -8180,6 +9587,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     }
 }
 
+
 /*-------------------------------------
 	5. widget Getintuch
 -------------------------------------*/
@@ -8187,18 +9595,22 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .footer-bottom ul {
     margin: 0;
 }
+
 .wt-footer-bot-left,
 .wt-footer-bot-right,
 .wt-footer-bot-center {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .wt-footer-bot-left {
     float: left;
 }
+
 .wt-footer-bot-right {
     float: right;
 }
+
 .wt-footer-bot-center {
     float: right;
 }
@@ -8210,7 +9622,6 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     .col-md-3.col-sm-6.footer-col-4:nth-child(3) {
         clear: both;
     }
-
     .wt-footer-bot-left,
     .wt-footer-bot-right {
         float: none;
@@ -8236,9 +9647,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     }
 }
 
+
 /*-------------------------------------
 	6. scroll top btn css
 -------------------------------------*/
+
 button.scroltop {
     height: 40px;
     width: 40px;
@@ -8256,6 +9669,7 @@ button.scroltop {
     z-index: 999;
     color: #fff;
 }
+
 button.scroltop span {
     display: block;
     font-size: 24px;
@@ -8265,6 +9679,7 @@ button.scroltop span {
 .string {
     position: relative;
 }
+
 #btn-vibrate {
     animation: vibrate 2s linear 0s infinite;
     -moz-animation: vibrate 2s linear 0s infinite;
@@ -8274,6 +9689,7 @@ button.scroltop span {
     -o-animation: vibrate 2s linear 0s infinite;
     /* Opera */
 }
+
 @keyframes vibrate {
     0% {
         top: 0px;
@@ -8291,7 +9707,10 @@ button.scroltop span {
         top: 0px;
     }
 }
+
+
 /* Firefox */
+
 @-moz-keyframes vibrate {
     0% {
         top: 0px;
@@ -8309,7 +9728,10 @@ button.scroltop span {
         top: 0px;
     }
 }
+
+
 /* Safari and Chrome */
+
 @-webkit-keyframes vibrate {
     0% {
         top: 0px;
@@ -8327,7 +9749,10 @@ button.scroltop span {
         top: 0px;
     }
 }
+
+
 /* Opera */
+
 @-o-keyframes vibrate {
     0% {
         top: 0px;
@@ -8359,9 +9784,11 @@ button.scroltop span {
     }
 }
 
+
 /*======================================
 23. PAGE-CONTENT
 ======================================*/
+
 #bg {
     background-attachment: fixed;
     background-size: cover;
@@ -8370,18 +9797,24 @@ button.scroltop span {
 .page-wraper {
     background: #fff;
 }
+
 .page-content {
     position: relative;
 }
+
 .section-full {
     position: relative;
 }
+
+
 /*-------------------------------------
 	1. Section Head Part 
 -------------------------------------*/
+
 .section-head {
     margin-bottom: 40px;
 }
+
 .section-head.no-margin {
     margin-bottom: 0;
 }
@@ -8391,18 +9824,22 @@ button.scroltop span {
 .section-head h3 {
     margin-top: 0;
 }
+
 .title-small {
     display: block;
     color: #7a959d;
     margin-bottom: 15px;
 }
+
 .section-head p {
     padding-top: 10px;
     font-size: 14px;
 }
+
 .section-head p:last-child {
     margin-bottom: 0;
 }
+
 .text-center.section-head p {
     max-width: 800px;
     margin-left: auto;
@@ -8412,6 +9849,7 @@ button.scroltop span {
 .text-white {
     color: #fff;
 }
+
 .text-white h1,
 .text-white h2,
 .text-white h3,
@@ -8423,6 +9861,7 @@ button.scroltop span {
     color: #fff;
 }
 
+
 /*-------------------------------------
 	2. Section Content Part 
 -------------------------------------*/
@@ -8433,13 +9872,16 @@ button.scroltop span {
     }
 }
 
+
 /*======================================
 24. AFTER-LOGIN-CONTENT
 ======================================*/
 
+
 /*-------------------------------------
 	2. Contact us page 
 -------------------------------------*/
+
 ul.contact-info li {
     padding: 0 0 15px 25px;
     margin-bottom: 15px;
@@ -8458,10 +9900,12 @@ ul.contact-info li h4 ul.contact-info li h5,
 ul.contact-info li h6 {
     margin: 0 0 10px;
 }
+
 ul.contact-info li p {
     line-height: 20px;
     margin: 0;
 }
+
 ul.contact-info li .fa {
     position: absolute;
     left: 0;
@@ -8470,22 +9914,28 @@ ul.contact-info li .fa {
     font-size: 16px;
 }
 
+
 /*======================================
 25. THEMEFOREST REQUIRED CLASSES
 ======================================*/
+
 .sticky {
     clear: both;
 }
+
 .gallery-caption {
     clear: both;
 }
+
 .bypostauthor {
     clear: both;
 }
 
+
 /*-------------------------------------
 	1. Text meant only for screen readers
 -------------------------------------*/
+
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
@@ -8516,55 +9966,72 @@ ul.contact-info li .fa {
     z-index: 100000;
 }
 
+
 /*======================================
 27. BOX MAX-WIDTH css (  )
 ======================================*/
+
 .max-w100 {
     max-width: 100px;
 }
+
 .max-w200 {
     max-width: 200px;
 }
+
 .max-w300 {
     max-width: 300px;
 }
+
 .max-w400 {
     max-width: 400px;
 }
+
 .max-w500 {
     max-width: 500px;
 }
+
 .max-w600 {
     max-width: 600px;
 }
+
 .max-w700 {
     max-width: 700px;
 }
+
 .max-w800 {
     max-width: 800px;
 }
+
 .max-w900 {
     max-width: 900px;
 }
+
 .max-w1000 {
     max-width: 1000px;
 }
 
+
 /*======================================
 28. SHOP & PRODUCT DETAIL (Woocommerce)
 ======================================*/
+
+
 /*-------------------------------------
 	1. Product Box 
 -------------------------------------*/
+
 .wt-product-box .price {
     margin-bottom: 10px;
 }
+
 .wt-product-box .price del {
     font-size: 16px;
     color: #999999;
     margin: 4px 4px;
     font-weight: 600;
 }
+
 .wt-product-box .price ins {
     font-size: 16px;
     color: #111111;
@@ -8572,76 +10039,96 @@ ul.contact-info li .fa {
     margin: 4px 4px;
     font-weight: 600;
 }
+
 .wt-product-box .rating-bx {
     padding-top: 10px;
     color: #ffa000;
 }
+
 .comment-reply-title {
     margin-top: 0;
 }
+
 .comment-form [class*="comment-form"] {
     width: 50%;
 }
+
 @media only screen and (max-width: 767px) {
     .comment-form [class*="comment-form"] {
         width: 100%;
     }
 }
+
 .comment-form [class*="-form-author"],
 .comment-form [class*="-form-email"] {
     float: left;
 }
+
 .comment-form [class*="-form-comment"] {
     width: 100%;
 }
+
 .comment-form label {
     display: block;
 }
+
 .star-Rating-input i {
     font-size: 18px;
 }
+
 .star-Rating-input .fa-star {
     color: #ffbc13;
 }
+
 .star-Rating-input i:hover {
     color: #ffbc13;
 }
+
 .comment-form [class*="comment-form"] input,
 .comment-form [class*="comment-form"] textarea {
     border: 1px solid #ccc;
     padding: 8px 10px;
     width: 100%;
 }
+
 .comment-form {
     margin: 0 -15px;
 }
+
 .comment-form [class*="comment-form"],
 .comment-form .form-submit {
     margin-bottom: 20px;
     padding: 0 15px;
 }
+
 .comment-form .form-submit input:active,
 .comment-form .form-submit input:focus,
 .comment-form .form-submit input:hover {
     background: #037a85;
 }
+
+
 /*======================================
 29. content show on image box () 
 ======================================*/
+
 @media only screen and (max-width: 768px) {
-    .wt-media > img,
-    .wt-media a > img {
+    .wt-media>img,
+    .wt-media a>img {
         width: 100%;
     }
 }
+
 
 /*======================================
 30. Customize  Grouping css 
 ======================================*/
 
+
 /*-------------------------------------
 	1.set-radius 
 -------------------------------------*/
+
 .btn,
 .panel,
 .form-control,
@@ -8649,20 +10136,20 @@ ul.contact-info li .fa {
 .panel-head ing,
 .dropdown-menu,
 .panel-group .panel,
-.nav-tabs > li > a,
+.nav-tabs>li>a,
 .modal-content,
 .navbar-toggle,
-.nav-pills > li > a,
-.pager li > a,
-.pager li > span,
+.nav-pills>li>a,
+.pager li>a,
+.pager li>span,
 .well,
 .alert,
 .list-group-item:first-child,
 .list-group-item:last-child,
 .input-group-addon,
-.btn-group-divides > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle),
-.btn-group-divides > .btn:last-child:not(:first-child),
-.btn-group > .dropdown-toggle:not(:first-child),
+.btn-group-divides>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle),
+.btn-group-divides>.btn:last-child:not(:first-child),
+.btn-group>.dropdown-toggle:not(:first-child),
 .wt-booking-form .wt-extra-services li .wt-icon-box-lg,
 .wt-booking-form .wt-extra-services li.active .wt-icon-box-lg:after,
 .searchform input[type="text"],
@@ -8673,9 +10160,11 @@ ol.comment-list li.comment .comment-body {
     border-radius: 0px;
 }
 
+
 /*------------------------------------- 
 	2. transition 
 -------------------------------------*/
+
 a,
 .btn,
 .form-control,
@@ -8697,7 +10186,7 @@ a,
 .wt-we-find .wt-box,
 .navbar-toggle,
 .logo-header,
-.header-nav .nav > li > a,
+.header-nav .nav>li>a,
 .extra-nav,
 .acod-head .indicator .fa {
     -webkit-transition: all 0.2s linear;
@@ -8714,6 +10203,7 @@ a,
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+
 .animate-mid {
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
@@ -8721,6 +10211,7 @@ a,
     -ms-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
 }
+
 .animate-fast {
     -webkit-transition: all 0.8s ease-out;
     -moz-transition: all 0.8s ease-out;
@@ -8729,9 +10220,11 @@ a,
     transition: all 0.8s ease-out;
 }
 
+
 /*------------------------------------- 
 	3. float-clearfix 
 -------------------------------------*/
+
 .clearfix::after,
 .filter-wrap::after,
 .filter-wrap::after,
@@ -8742,18 +10235,23 @@ ol.commentlist li::after {
     clear: both;
 }
 
+
 /*======================================
 32. Inner pages 
 ======================================*/
+
 
 /*------------------------------------- 
 	2. Out Team
 -------------------------------------*/
 
+
 /*2.6. Out Team six*/
+
 .team-outer {
     margin-top: 198px;
 }
+
 @media only screen and (max-width: 767px) {
     .team-outer {
         margin-top: 0px;
@@ -8782,24 +10280,30 @@ ol.commentlist li::after {
     width: 4px;
     height: 40px;
 }
+
 .wt-team-six .wt-team-info:before {
     width: 40px;
     height: 4px;
 }
+
 .wt-team-six:hover .overlay-bx {
     opacity: 1;
 }
 
+
 /*------------------------------------- 
 	4. Product block
 -------------------------------------*/
+
 .product-block p {
     margin-bottom: 0px;
 }
 
+
 /*======================================
 33. Background Effects
 ======================================*/
+
 .bg-center {
     background-position: center;
 }
@@ -8807,9 +10311,11 @@ ol.commentlist li::after {
 .bg-top-left {
     background-position: top left;
 }
+
 .bg-top-right {
     background-position: top right;
 }
+
 .bg-top-center {
     background-position: top center;
 }
@@ -8817,9 +10323,11 @@ ol.commentlist li::after {
 .bg-bottom-left {
     background-position: bottom left;
 }
+
 .bg-bottom-right {
     background-position: bottom right;
 }
+
 .bg-bottom-center {
     background-position: bottom center;
 }
@@ -8827,6 +10335,7 @@ ol.commentlist li::after {
 .bg-left-center {
     background-position: left;
 }
+
 .bg-right-center {
     background-position: left;
 }
@@ -8834,15 +10343,19 @@ ol.commentlist li::after {
 .bg-auto {
     background-size: auto;
 }
+
 .bg-contain {
     background-size: contain;
 }
+
 .bg-cover {
     background-size: cover;
 }
+
 .bg-full-width {
     background-size: 100% auto;
 }
+
 .bg-full-height {
     background-size: auto 100%;
 }
@@ -8850,12 +10363,15 @@ ol.commentlist li::after {
 .bg-repeat {
     background-repeat: repeat;
 }
+
 .bg-no-repeat {
     background-repeat: no-repeat;
 }
+
 .bg-repeat-x {
     background-repeat: repeat-x;
 }
+
 .bg-repeat-y {
     background-repeat: repeat-y;
 }
@@ -8863,9 +10379,11 @@ ol.commentlist li::after {
 .bg-fixed {
     background-attachment: fixed;
 }
+
 .bg-scroll {
     background-attachment: scroll;
 }
+
 
 /*======================================
 34. Home Page
@@ -8874,6 +10392,7 @@ ol.commentlist li::after {
 .m-carousel-1 {
     position: relative;
 }
+
 .m-carousel-1:after {
     content: "";
     position: absolute;
@@ -8893,6 +10412,7 @@ ol.commentlist li::after {
     width: 0px;
     transform: translateX(-50%) translateY(-50%);
 }
+
 .m-carousel-1 .owl-carousel .owl-dots .owl-dot span {
     width: 12px;
     height: 3px;
@@ -8901,6 +10421,7 @@ ol.commentlist li::after {
     clear: both;
     position: relative;
 }
+
 .m-carousel-1 .owl-carousel .owl-dots .owl-dot span:after {
     content: "";
     position: absolute;
@@ -8919,11 +10440,13 @@ ol.commentlist li::after {
 .m-carousel-1 .owl-carousel .owl-dots .owl-dot.active span:after {
     width: 50px;
 }
+
 @media only screen and (max-width: 991px) {
     .m-carousel-1 {
         margin-bottom: 100px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .m-carousel-1 {
         margin-top: 50px;
@@ -8948,6 +10471,7 @@ ol.commentlist li::after {
 .hilite-title {
     border: 0px;
 }
+
 .hilite-title strong {
     display: block;
     font-size: 80px;
@@ -8967,6 +10491,7 @@ ol.commentlist li::after {
     border-left: 10px;
     border-style: solid;
 }
+
 .hilite-title.bdr-right {
     border-right: 10px;
     border-style: solid;
@@ -8977,11 +10502,13 @@ ol.commentlist li::after {
     margin-bottom: 50px;
     position: relative;
 }
+
 .m-carousel-2 .home-carousel-2 {
     border: 15px solid #fff;
     border-bottom: 0px;
     border-left: 0px;
 }
+
 .m-carousel-2 .home-carousel-2 .owl-nav {
     margin: 0px;
     position: absolute;
@@ -8992,6 +10519,7 @@ ol.commentlist li::after {
 .m-carousel-2 .home-carousel-2 .owl-nav .owl-prev {
     left: -30px;
 }
+
 .m-carousel-2 .home-carousel-2 .owl-nav .owl-next {
     right: -44px;
 }
@@ -9002,6 +10530,7 @@ ol.commentlist li::after {
     top: -50px;
     width: 100%;
 }
+
 @media only screen and (max-width: 1024px) {
     .m-carousel-2 {
         margin-top: 100px;
@@ -9013,6 +10542,7 @@ ol.commentlist li::after {
         margin-right: 65px;
     }
 }
+
 @media only screen and (max-width: 620px) {
     .m-carousel-2 .home-carousel-2 {
         border: none;
@@ -9043,16 +10573,17 @@ ol.commentlist li::after {
         overflow: hidden;
         white-space: nowrap;
     }
-
     .m-carousel-2 .wt-carousel-info {
         width: 100%;
         padding: 25px;
     }
 }
 
+
 /*======================================
 35. Carousel overlay content
 ======================================*/
+
 .wt-carousel-block {
     position: relative;
 }
@@ -9073,21 +10604,25 @@ ol.commentlist li::after {
     content: "";
     background-color: #fff;
 }
+
 .carousel-line:after {
     width: 100px;
     height: 6px;
     left: -40px;
     bottom: -20px;
 }
+
 .carousel-line:before {
     width: 6px;
     height: 100px;
     left: -20px;
     bottom: -40px;
 }
+
 .carousel-hover .owl-item .gradi-black:before {
     opacity: 0;
 }
+
 .carousel-hover .owl-item.active .gradi-black:before {
     opacity: 1;
     -webkit-transition: all 1s linear;
@@ -9101,6 +10636,7 @@ ol.commentlist li::after {
     bottom: -300px;
     opacity: 0px;
 }
+
 .carousel-hover .owl-item.active .wt-carousel-info {
     bottom: 0px;
     opacity: 1px;
@@ -9125,9 +10661,12 @@ ol.commentlist li::after {
         bottom: -16px;
     }
 }
+
+
 /*===========================
 36. Overlay Box 2
 ===========================*/
+
 .overlay-bx-2 {
     position: absolute;
     left: 0;
@@ -9148,14 +10687,18 @@ ol.commentlist li::after {
     opacity: 0.9;
     bottom: 0px;
 }
+
+
 /*===========================
 37. line-amiation-block
 ===========================*/
+
 .line-amiation {
     position: relative;
     width: 100%;
     height: 100%;
 }
+
 .line-amiation:after,
 .line-amiation:before {
     content: "";
@@ -9170,19 +10713,23 @@ ol.commentlist li::after {
     transition: all 0.7s linear;
     opacity: 0;
 }
+
 .line-amiation:after {
     width: 0%;
     height: 1px;
 }
+
 .line-amiation:before {
     width: 1px;
     height: 0px;
 }
+
 .line-amiation:hover:after {
     width: 100%;
     opacity: 1;
     left: -20px;
 }
+
 .line-amiation:hover:before {
     height: 100%;
     top: -20px;
@@ -9208,12 +10755,16 @@ ol.commentlist li::after {
         bottom: 70px;
     }
 }
+
+
 /*===========================
 38. latest-blog-dark
 ===========================*/
+
 .latest-blog-dark-outer {
     height: 250px;
 }
+
 .latest-blog-dark {
     position: absolute;
     left: -20px;
@@ -9223,6 +10774,7 @@ ol.commentlist li::after {
     background-color: #000;
     padding-left: 40px;
 }
+
 .latest-blog-dark .v-date {
     position: absolute;
     left: -25px;
@@ -9233,11 +10785,17 @@ ol.commentlist li::after {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
+
+
 /*latest-blog-dark2*/
+
+
 /*=========================*/
+
 .latest-blog-dark-outer2 {
     height: 530px;
 }
+
 .latest-blog-square {
     position: absolute;
     right: -60px;
@@ -9247,6 +10805,7 @@ ol.commentlist li::after {
     padding: 25px 70px 25px 25px;
     border: 15px solid #000;
 }
+
 .latest-blog-square .v-date {
     position: absolute;
     left: -90px;
@@ -9275,7 +10834,9 @@ ol.commentlist li::after {
     }
 }
 
+
 /*=========================*/
+
 .some-facts {
     position: relative;
     padding: 60px 30px 60px 50px;
@@ -9292,12 +10853,15 @@ ol.commentlist li::after {
     width: 15px;
     height: 140px;
 }
+
 .some-facts:after {
     bottom: -15px;
 }
+
 .some-facts:before {
     top: -15px;
 }
+
 .some-facts-counter {
     padding-top: 130px;
 }
@@ -9330,12 +10894,13 @@ ol.commentlist li::after {
         font-size: 24px;
         line-height: inherit;
     }
-
     .some-facts p {
         font-size: 14px;
         line-height: inherit;
     }
 }
+
+
 /*=========================*/
 
 .home-client-carousel.owl-btn-center-v.owl-carousel .owl-nav {
@@ -9344,12 +10909,14 @@ ol.commentlist li::after {
     top: -10px;
     left: -80px;
 }
+
 .home-client-carousel.owl-btn-center-v.owl-carousel .owl-nav .owl-prev {
     left: 40px;
     position: relative;
     background-color: #1a1a1a;
     margin: 0px;
 }
+
 .home-client-carousel.owl-btn-center-v.owl-carousel .owl-nav .owl-next {
     left: 5px;
     position: relative;
@@ -9357,6 +10924,7 @@ ol.commentlist li::after {
     background-color: #1a1a1a;
     margin: 0px;
 }
+
 @media only screen and (max-width: 800px) {
     .home-client-carousel.owl-btn-center-v.owl-carousel .owl-nav {
         left: auto;
@@ -9372,10 +10940,15 @@ ol.commentlist li::after {
         top: 0px;
     }
 }
+
+
 /*=========================
 39. background Square block
 =========================*/
+
+
 /*shape1*/
+
 .square_shape1,
 .square_shape2,
 .square_shape3,
@@ -9384,6 +10957,7 @@ ol.commentlist li::after {
     overflow: hidden;
     z-index: 0;
 }
+
 .square_shape1:after,
 .square_shape2:before,
 .square_shape3:before,
@@ -9393,7 +10967,6 @@ ol.commentlist li::after {
     position: absolute;
     content: "";
     border: 40px solid rgba(191, 191, 191, 0.1);
-
     -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -9401,34 +10974,49 @@ ol.commentlist li::after {
     transform: rotate(45deg);
     z-index: -1;
 }
+
+
 /*shape1*/
+
 .square_shape1:after {
     left: -700px;
     top: 50px;
 }
+
+
 /*shape2*/
+
 .square_shape2:before {
     right: -700px;
     bottom: -340px;
 }
+
+
 /*shape3*/
+
 .square_shape3:before {
     right: -700px;
     bottom: -300px;
 }
+
+
 /*shape4*/
+
 .square_shape4:after {
     left: -820px;
     top: -260px;
 }
 
+
 /*=========================
 40. About us
 =========================*/
+
 .m-about {
     position: relative;
     z-index: 2;
 }
+
 .m-about:after {
     content: "";
     position: absolute;
@@ -9439,17 +11027,20 @@ ol.commentlist li::after {
     bottom: -50px;
     z-index: -1;
 }
+
 .about-us-carousel.owl-carousel .owl-nav {
     margin-top: 0px;
     position: absolute;
     right: -15px;
     bottom: 15px;
 }
+
 .about-us-carousel.owl-carousel .owl-nav .owl-prev,
 .about-us-carousel.owl-carousel .owl-nav .owl-next {
     display: block;
     margin: 0px;
 }
+
 @media only screen and (max-width: 767px) {
     .m-about {
         margin: 0px 0px 0px 50px;
@@ -9461,9 +11052,12 @@ ol.commentlist li::after {
         right: 15px;
     }
 }
+
+
 /*======================================
 41. Our Services
 ======================================*/
+
 .circle-block-outer .wt-icon-box-wraper {
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
@@ -9472,6 +11066,7 @@ ol.commentlist li::after {
     transition: all 0.5s ease-out;
     border: 2px solid #fff;
 }
+
 .circle-block-outer .wt-icon-box-wraper:hover {
     background-color: #fff;
     cursor: pointer;
@@ -9488,54 +11083,64 @@ ol.commentlist li::after {
 .circle-block-outer .wt-icon-box-wraper:hover .icon-content p {
     color: #000;
 }
+
 @media only screen and (max-width: 991px) {
     .circle-content-pic {
         text-align: center;
     }
 }
 
+
 /*======================================
 42. Contact Us
 ======================================*/
+
 .contact-one {
     border: 6px solid #000;
     position: relative;
     max-width: 945px;
 }
+
 .contact-one .form-control {
     border: 0px;
     border-bottom: 1px solid #000;
 }
+
 .contact-one .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #000;
     font-size: 12px;
     text-transform: uppercase;
 }
+
 .contact-one .form-control::-moz-placeholder {
     /* Firefox 19+ */
     color: #000;
     font-size: 12px;
     text-transform: uppercase;
 }
+
 .contact-one .form-control:-ms-input-placeholder {
     /* IE 10+ */
     color: #000;
     font-size: 12px;
     text-transform: uppercase;
 }
+
 .contact-one .form-control:-moz-placeholder {
     /* Firefox 18- */
     color: #000;
     font-size: 12px;
     text-transform: uppercase;
 }
+
 .contact-info {
     position: absolute;
     right: -200px;
     top: 30px;
     width: 310px;
 }
+
 .contact-info .icon-content p {
     word-break: normal;
 }
@@ -9545,6 +11150,7 @@ ol.commentlist li::after {
         max-width: 745px;
     }
 }
+
 @media only screen and (max-width: 991px) {
     .contact-one {
         padding-right: 375px;
@@ -9555,6 +11161,7 @@ ol.commentlist li::after {
         top: 21px;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .contact-one {
         padding-right: 40px;
@@ -9567,29 +11174,38 @@ ol.commentlist li::after {
         margin-top: 40px;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .contact-one {
         padding: 15px;
     }
 }
 
+
 /*======================================
 43. Work carousal
 ======================================*/
+
+
 /*====preview inner pages ====*/
+
 .work-carousel .owl-stage {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .work-carousel .owl-item {
     background-color: #fff;
 }
-.work-carousel .owl-item > .item {
+
+.work-carousel .owl-item>.item {
     opacity: 0.6;
 }
-.work-carousel .owl-item.active.center > .item {
+
+.work-carousel .owl-item.active.center>.item {
     opacity: 1;
 }
+
 .work-carousel .owl-item.active.center {
     opacity: 1;
     z-index: 1;
@@ -9598,7 +11214,6 @@ ol.commentlist li::after {
     -ms-transition: all 1s linear;
     -o-transition: all 1s linear;
     transition: all 1s linear;
-
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -9609,11 +11224,12 @@ ol.commentlist li::after {
 .work-carousel .owl-item.active.center {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
+
 @media only screen and (max-width: 1200px) {
-    .work-carousel .owl-item > .item h2 {
+    .work-carousel .owl-item>.item h2 {
         margin-bottom: 10px;
     }
-    .work-carousel .owl-item > .item h2 a {
+    .work-carousel .owl-item>.item h2 a {
         font-size: 24px;
         line-height: 24px;
     }
@@ -9621,11 +11237,13 @@ ol.commentlist li::after {
         padding: 10px 40px;
     }
 }
+
 @media only screen and (max-width: 991px) {
     .project-detail-containt.bg-black {
         background-color: transparent;
     }
 }
+
 @media only screen and (max-width: 854px) {
     .work-carousel .owl-item.active.center {
         -moz-transform: scale(1);
@@ -9635,18 +11253,21 @@ ol.commentlist li::after {
         transform: scale(1);
     }
 }
+
 @media only screen and (max-width: 768px) {
     .latest_project-outer {
         padding-left: 30px;
         padding-right: 30px;
     }
 }
+
 @media only screen and (max-width: 600px) {
     .latest_project-outer {
         padding-left: 15px;
         padding-right: 15px;
     }
 }
+
 @media only screen and (max-width: 480px) {
     .work-carousel .owl-item p {
         text-overflow: ellipsis;
@@ -9654,18 +11275,23 @@ ol.commentlist li::after {
         white-space: nowrap;
     }
 }
+
 @media only screen and (max-width: 360px) {
-    .work-carousel .owl-item > .item h2 a {
+    .work-carousel .owl-item>.item h2 a {
         font-size: 14px;
         line-height: 14px;
     }
 }
+
+
 /*======================================
 44. Work Masonry
 ======================================*/
+
 .work-masonry .line-amiation h2 {
     margin-top: 0px;
 }
+
 @media only screen and (max-width: 960px) {
     .work-masonry .line-amiation h2 {
         margin-bottom: 10px;
@@ -9676,6 +11302,7 @@ ol.commentlist li::after {
         line-height: inherit;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .work-masonry .line-amiation h2 {
         line-height: normal;
@@ -9685,6 +11312,7 @@ ol.commentlist li::after {
         line-height: inherit;
     }
 }
+
 @media only screen and (max-width: 540px) {
     .work-masonry .line-amiation h2 {
         line-height: 24px;
@@ -9694,6 +11322,7 @@ ol.commentlist li::after {
         line-height: inherit;
     }
 }
+
 @media only screen and (max-width: 420px) {
     .work-masonry .line-amiation h2 {
         line-height: 18px;
@@ -9703,6 +11332,7 @@ ol.commentlist li::after {
         line-height: inherit;
     }
 }
+
 @media only screen and (max-width: 360px) {
     .work-masonry .line-amiation h2 {
         line-height: 16px;
@@ -9717,32 +11347,40 @@ ol.commentlist li::after {
     }
 }
 
+
 /*=========================
 45. our-story
 =========================*/
+
 .our-story .our-story-detail {
     padding: 15px 30px;
     margin: 62px 0px;
 }
+
 .our-story .our-story-detail p {
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
 }
+
 .our-story {
     background-image: url(../images/background/ptn-1.png);
 }
+
 .our-story .row {
     margin-top: 62px;
     margin-bottom: 62px;
     position: relative;
 }
+
 .our-story .row:nth-child(odd) {
     text-align: left;
 }
+
 .our-story .row:nth-child(even) {
     text-align: right;
 }
+
 .our-story .row:nth-child(odd) .our-story-detail {
     position: absolute;
     left: -50px;
@@ -9750,6 +11388,7 @@ ol.commentlist li::after {
     background-color: #fff;
     right: 15px;
 }
+
 .our-story .row:nth-child(even) .our-story-detail {
     position: absolute;
     right: -50px;
@@ -9757,6 +11396,7 @@ ol.commentlist li::after {
     background-color: #000;
     left: 15px;
 }
+
 .our-story .row:nth-child(even) .our-story-detail h3,
 .our-story .row:nth-child(even) .our-story-detail h2,
 .our-story .row:nth-child(even) .our-story-detail p {
@@ -9769,6 +11409,7 @@ ol.commentlist li::after {
         margin: 15px 0px;
     }
 }
+
 @media only screen and (max-width: 991px) {
     .our-story .row:nth-child(odd) .our-story-detail {
         position: inherit;
@@ -9781,48 +11422,53 @@ ol.commentlist li::after {
     }
 }
 
+
 /*---some responsive device font size---*/
+
 @media only screen and (max-width: 360px) {
     h2.font-40 {
         font-size: 30px;
         line-height: 36px;
     }
-
     h2.font-36 {
         font-size: 26px;
         line-height: 32px;
     }
-
     span.font-30 {
         font-size: 18px;
         line-height: 24px;
     }
-
     .wt-team-six.large-pic h2 a.font-32 {
         font-size: 22px;
         line-height: 28px;
     }
 }
 
+
 /*=========================================================
 
 =============================================================*/
 
+
 /* 
  *  Owl Carousel - Animate Plugin
  */
+
 .owl-carousel-filter .animated {
     -webkit-animation-duration: 1000ms;
     animation-duration: 1000ms;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+
 .owl-carousel-filter .owl-animated-in {
     z-index: 0;
 }
+
 .owl-carousel-filter .owl-animated-out {
     z-index: 1;
 }
+
 .owl-carousel-filter .fadeOut {
     -webkit-animation-name: fadeOut;
     animation-name: fadeOut;
@@ -9832,24 +11478,25 @@ ol.commentlist li::after {
     0% {
         opacity: 1;
     }
-
     100% {
         opacity: 0;
     }
 }
+
 @keyframes fadeOut {
     0% {
         opacity: 1;
     }
-
     100% {
         opacity: 0;
     }
 }
 
+
 /* 
  *  Core Owl Carousel CSS File
  */
+
 .owl-carousel-filter {
     display: none;
     width: 100%;
@@ -9858,10 +11505,12 @@ ol.commentlist li::after {
     position: relative;
     z-index: 1;
 }
+
 .owl-carousel-filter .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
 }
+
 .owl-carousel-filter .owl-stage:after {
     content: ".";
     display: block;
@@ -9870,12 +11519,14 @@ ol.commentlist li::after {
     line-height: 0;
     height: 0;
 }
+
 .owl-carousel-filter .owl-stage-outer {
     position: relative;
     overflow: hidden;
     /* fix for flashing background */
     -webkit-transform: translate3d(0px, 0px, 0px);
 }
+
 .owl-carousel-filter .owl-controls .owl-nav .owl-prev,
 .owl-carousel-filter .owl-controls .owl-nav .owl-next,
 .owl-carousel-filter .owl-controls .owl-dot {
@@ -9887,19 +11538,24 @@ ol.commentlist li::after {
     -ms-user-select: none;
     user-select: none;
 }
+
 .owl-carousel-filter.owl-loaded {
     display: block;
 }
+
 .owl-carousel-filter.owl-loading {
     opacity: 0;
     display: block;
 }
+
 .owl-carousel-filter.owl-hidden {
     opacity: 0;
 }
+
 .owl-carousel-filter .owl-refresh .owl-item {
     display: none;
 }
+
 .owl-carousel-filter .owl-item {
     position: relative;
     min-height: 1px;
@@ -9912,17 +11568,20 @@ ol.commentlist li::after {
     -ms-user-select: none;
     user-select: none;
 }
+
 .owl-carousel-filter .owl-item img {
     display: block;
     width: 100%;
     -webkit-transform-style: preserve-3d;
 }
+
 .owl-carousel-filter.owl-text-select-on .owl-item {
     -webkit-user-select: auto;
     -moz-user-select: auto;
     -ms-user-select: auto;
     user-select: auto;
 }
+
 .owl-carousel-filter .owl-grab {
     cursor: move;
     cursor: -webkit-grab;
@@ -9930,24 +11589,31 @@ ol.commentlist li::after {
     cursor: -ms-grab;
     cursor: grab;
 }
+
 .owl-carousel-filter.owl-rtl {
     direction: rtl;
 }
+
 .owl-carousel-filter.owl-rtl .owl-item {
     float: right;
 }
 
+
 /* No Js */
+
 .no-js .owl-carousel-filter {
     display: block;
 }
 
+
 /*===============================*/
+
 .btn-filter-wrap {
     list-style: none;
     margin: 64px 0 0;
     float: right;
 }
+
 .btn-filter-wrap li {
     position: relative;
     display: inline-block;
@@ -9957,12 +11623,15 @@ ol.commentlist li::after {
     padding: 0 20px;
     cursor: pointer;
 }
+
 .btn-filter-wrap li:last-child {
     padding-right: 0;
 }
+
 .btn-filter-wrap li.btn-active {
     color: #d5dd02;
 }
+
 .btn-filter-wrap li:after {
     content: "/";
     position: absolute;
@@ -9972,6 +11641,7 @@ ol.commentlist li::after {
     opacity: 0.2;
     color: #000;
 }
+
 .btn-filter-wrap li:first-child:after {
     display: none;
 }
@@ -9984,16 +11654,20 @@ ol.commentlist li::after {
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
+
 .owl-carousel-filter .owl-item.active {
     opacity: 1;
 }
-.owl-carousel-filter .owl-item > .owl-item {
+
+.owl-carousel-filter .owl-item>.owl-item {
     opacity: 1;
 }
+
 
 /*===============
 	PARTICLE CANVAS
 =================*/
+
 .particles-canvas {
     position: absolute;
     width: 100%;
@@ -10012,6 +11686,7 @@ ol.commentlist li::after {
     background-size: cover;
     background-position: 50% 50%;
 }
+
 #particles-js2 {
     position: absolute;
     right: 0px;
@@ -10024,16 +11699,19 @@ ol.commentlist li::after {
     background-position: 50% 50%;
 }
 
+
 /*=======================
 	after before slider
 ========================*/
+
 .rs-addon-beforeafter-btn i {
     color: #000;
 }
 
+
 /* cursor blink animation*/
 
-.typewrite > .wrap:after {
+.typewrite>.wrap:after {
     content: "|";
     -webkit-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
@@ -10057,7 +11735,6 @@ ol.commentlist li::after {
     0% {
         opacity: 1;
     }
-
     50% {
         opacity: 0;
     }
@@ -10066,7 +11743,9 @@ ol.commentlist li::after {
     }
 }
 
+
 /* Variables end */
+
 
 /* .landin-page {
     background-image: url("../images/computer-01.jpg");
@@ -10075,6 +11754,7 @@ ol.commentlist li::after {
 html {
     scroll-behavior: smooth;
 }
+
 
 /* CSS Resets */
 
@@ -10409,6 +12089,7 @@ h1 {
     nav {
         background-color: #1495cc;
         padding: 1.5rem 1rem;
+        height: 100px;
     }
     .hero {
         background-image: url("../images/computer-03.jpg");
@@ -10477,6 +12158,9 @@ h1 {
 @media screen and (max-width: 420px) {
     * {
         padding: 0;
+    }
+    nav {
+        height: 100px;
     }
     .hero {
         background-image: url("../images/computer-03.jpg");
